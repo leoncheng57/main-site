@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="css/blog.css" rel="stylesheet">
     <link href="css/ieee.css" rel="stylesheet">
-    <link href='fonts/clearsans' rel='stylesheet' type='text/css'>
     <script src="js/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 

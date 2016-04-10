@@ -43,7 +43,7 @@ nav.navbar-inverse {
 	background-color: #993333;
 	text-align: center;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Clear Sans', sans-serif;
 	height: 60px;
 	padding: 20px;
 }
@@ -55,7 +55,7 @@ nav.navbar-inverse {
 	padding: 10px;
 	position: relative;
 	color: #fff;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Clear Sans', sans-serif;
 }
 
 .student a:link,

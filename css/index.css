@@ -1,5 +1,5 @@
 body {
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Clear Sans', sans-serif;
 	background: #993333;
 }
 
@@ -12,7 +12,6 @@ body {
 	text-align: center;
 	padding-top: 70px;
 	color: #fff;
-	font-family: 'Pontano Sans', sans-serif;
 	min-height: 400px;
 	font-size: 1.25em;
 	position: relative;
@@ -21,7 +20,6 @@ body {
 }
 
 .welcome-header {
-	font-family: 'Pontano Sans', sans-serif;
 	text-align: center;
 	letter-spacing:0.2em;
 	color:#fff;
@@ -33,7 +31,6 @@ body {
 }
 
 .s-mailing a {
-	font-family: 'Roboto', sans-serif;
 	font-size: 1.75em;
 }
 
@@ -101,14 +98,9 @@ body {
 }
 
 #programs h1 {
-	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	padding: 10px 0px;
 	position: relative;
-}
-
-#programs h2 {
-	font-family: 'Roboto', sans-serif;
 }
 
 #programs a {
@@ -124,7 +116,6 @@ body {
 .full-programs {
 	color: #fff;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
     margin-top: 10px;
 }
 
@@ -141,7 +132,6 @@ body {
 }
 
 .calendar-section h1 {
-	font-family: 'Roboto', sans-serif;
 	color: #993333;
 	margin-top: 0px;
 }
@@ -189,7 +179,6 @@ body {
 
 #blog-post .blog-header {
 	text-align: center;
-	font-family: "Roboto", sans-serif;
 	color: #fff;
 	padding: 10px 0px;
 	margin-top: 0px;
@@ -223,7 +212,6 @@ body {
 
 .post h1 a {
   color: #fff;
-  font-family: 'Pontano Sans', sans-serif;
   text-align: center;
 }
 
@@ -262,7 +250,6 @@ body {
 
 #blog-post .blog-link a {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
 	background-color: #993333;
 }
 
@@ -309,7 +296,6 @@ body {
 #exec h3,
 #exec h5 {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
 }
 
 .exec-row {

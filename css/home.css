@@ -2,11 +2,11 @@ body {
 	font-family: 'Clear Sans', sans-serif;
 }
 
-a {
+.container a {
 	color: #c1272d !important;
 }
 
-a:hover {
+.containter a:hover {
 	text-decoration: underline;
 }
 

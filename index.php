@@ -108,145 +108,145 @@
 
     <div id="exec" class="row">
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="hlee">
           <div class="card-image">
             <img src='images/exec/hlee.jpg' width="195px">
           </div>
           <div class="card-content">
-            <h3>Harlin Lee</h3>
+            <p>Harlin Lee</p>
             <p>President</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="kng">
           <div class="card-image">
             <img src='images/exec/kng.jpg' width="195px">
           </div>
           <div class="card-content">
-            <h5>Kevin Ng</h5>
+            <p>Kevin Ng</p>
             <p>Vice President</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="igarza">
           <div class="card-image">
             <img src="images/exec/igarza.jpg" width="195px">
           </div>
           <div class="card-content">
-            <h5>Isaac Garza</h5>
+            <p>Isaac Garza</p>
             <p>Co-Treasurer</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="pzhao">
           <div class="card-image">
             <img src="images/exec/pzhao.jpg">
           </div>
           <div class="card-content">
-            <h5>Parker Zhao</h5>
+            <p>Parker Zhao</p>
             <p>External Relations</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="clao">
           <div class="card-image">
             <img src="images/exec/clao.jpg">
           </div>
           <div class="card-content">
-            <h5>Czarina Lao</h5>
+            <p>Czarina Lao</p>
             <p>Secretary</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="schen">
           <div class="card-image">
             <img src="images/exec/schen.jpg">
           </div>
           <div class="card-content">
-            <h5>Shirley Chen</h5>
+            <p>Shirley Chen</p>
             <p>Social Chair</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="makengin">
           <div class="card-image">
             <img src="images/exec/makengin.jpg">
           </div>
           <div class="card-content">
-            <h5>Efe Akenging</h5>
+            <p>Efe Akenging</p>
             <p>Social Chair</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="mlao">
           <div class="card-image">
             <img src="images/exec/mlao.jpg">
           </div>
           <div class="card-content">
-            <h5>Natalie Manting Lao</h5>
+            <p>Natalie Manting Lao</p>
             <p>Chairwoman</p>
           </div>
         </div>
       </div>
       
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="hmoncivais">
           <div class="card-image">
             <img src="images/exec/hmoncivais.png">
           </div>
           <div class="card-content">
-            <h5>Hiram Moncivais</h5>
+            <p>Hiram Moncivais</p>
             <p>Historian</p>
           </div>
         </div>
       </div>
       
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="kikhofua">
           <div class="card-image">
             <img src="images/exec/kikhofua.jpg">
           </div>
           <div class="card-content">
-            <h5>Kamoya Ikhofua</h5>
+            <p>Kamoya Ikhofua</p>
             <p>Publicity Chair</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="lchen">
           <div class="card-image">
             <img src="images/exec/lchen.jpg">
           </div>
           <div class="card-content">
-            <h5>Lucy Chen</h5>
+            <p>Lucy Chen</p>
             <p>Publicity Chair</p>
           </div>
         </div>
       </div>
 
-      <div class="col l3 m6 s12">
+      <div class="col l3 m6 s6">
         <div class="card" id="cwomack">
           <div class="card-image">
             <img src="images/exec/cwomack.jpg">
           </div>
           <div class="card-content">
-            <h5>Chris Womack</h5>
+            <p>Chris Womack</p>
             <p>Webmaster</p>
           </div>
         </div>

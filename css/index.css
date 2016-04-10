@@ -1,6 +1,6 @@
 body {
 	font-family: 'Clear Sans', sans-serif;
-	background: #993333;
+	background: #c1272d;
 }
 
 .welcome {
@@ -39,7 +39,7 @@ body {
 }
 
 .mobile-welcome {
-	background: #993333;
+	background: #c1272d;
 }
 
 .welcome.mobile-welcome .welcome-header {
@@ -60,7 +60,7 @@ body {
 
 .welcome-text a:hover {
 	text-decoration: none;
-	color: #993333;
+	color: #c1272d;
 } 
 
 .welcome.mobile-welcome .welcome-text a:hover {
@@ -132,7 +132,7 @@ body {
 }
 
 .calendar-section h1 {
-	color: #993333;
+	color: #c1272d;
 	margin-top: 0px;
 }
 
@@ -153,12 +153,12 @@ body {
 .calendar-section .subscribe-link a:hover {
 	font-weight: bold;
 	cursor: pointer;
-	color: #993333;
+	color: #c1272d;
 }
 
 .calendar-section .subscribe-link:after {
 	content: "";
-	background: #993333;
+	background: #c1272d;
 	position: absolute;
 	left: 25%;
 	right: 25%;
@@ -242,15 +242,15 @@ body {
 
 #blog-post .blog-link {
 	text-align: center;
-	color: #993333;
+	color: #c1272d;
 	margin-top: -20px;
-	background-color: #993333;
+	background-color: #c1272d;
 	margin-bottom: 0px;
 }
 
 #blog-post .blog-link a {
 	color: #fff;
-	background-color: #993333;
+	background-color: #c1272d;
 }
 
 #blog-post .blog-link a:hover,

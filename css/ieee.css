@@ -13,7 +13,7 @@ body {
 }
 
 nav.navbar-inverse {
-	background-color: #993333;
+	background-color: #c1272d;
 	border: none;
 	font-size: 1.5em;
 	text-align: center;
@@ -27,7 +27,6 @@ nav.navbar-inverse {
 
 .navbar-inverse .navbar-nav li > a {
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	padding: 25px;
 }
@@ -40,7 +39,7 @@ nav.navbar-inverse {
 }
 
 .copyright {
-	background-color: #993333;
+	background-color: #c1272d;
 	text-align: center;
 	color: #fff;
 	font-family: 'Clear Sans', sans-serif;

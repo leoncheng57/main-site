@@ -21,7 +21,7 @@
 }
 
 .post h1 a {
-	color: #993333;
+	color: #c1272d;
   font-family: 'Clear Sans', sans-serif;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .post a {
-  color: #993333;
+  color: #c1272d;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  color: #993333;
+  color: #c1272d;
 }
 
 .pagination a:hover,

@@ -39,9 +39,9 @@
         </div> 
         <div class="collapse navbar-collapse" id="navbar-collapse">   
           <ul class="nav navbar-nav">
-            <li><a href="/" class="active-header-link">HOME</a></li>
-            <li><a href="posts" class="blog-header-link">BLOG</a></li>
-            <li><a href="programs">PROGRAMS</a></li>
+            <li><a href="/club/" class="active-header-link">HOME</a></li>
+            <li><a href="blog.php" class="blog-header-link">BLOG</a></li>
+            <li><a href="programs.html">PROGRAMS</a></li>
           </ul>
         </div>
       </div>
@@ -263,7 +263,7 @@
   
   <footer>
     <div class="copyright">
-      <p>&copy; 2015 MIT IEEE/ACM Club</p>
+      <p>&copy; 2016 MIT IEEE/ACM Club</p>
     </div>
   </footer>
 

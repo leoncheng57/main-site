@@ -31,7 +31,7 @@
         </div> 
         <div class="collapse navbar-collapse" id="navbar-collapse">   
           <ul class="nav navbar-nav">
-            <li><a href="/">HOME</a></li>
+            <li><a href="/club/">HOME</a></li>
             <li><a href="blog.php" class="active-header-link">BLOG</a></li>
             <li><a href="programs.html">PROGRAMS</a></li>
           </ul>
@@ -68,24 +68,12 @@
 
 ?>
 
-
-<!-- TEMPLATE
-      <div class="post">
-        <h1><a>Header</a></h1>
-		
-    		<span class="post-details">30 Jul 2013 | By: Admin</span>
-		
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc enim, sodales vitae justo et, sagittis scelerisque orci. Phasellus eros diam, rhoncus at sodales a, posuere viverra mauris. Etiam et dignissim justo. Nullam in tincidunt dolor, eget pretium velit. Nam non purus lorem. Cras convallis nulla nibh, in iaculis sem tempor a. Quisque luctus arcu vitae consequat blandit. In sit amet tellus pretium, sodales nibh quis, suscipit mi. Maecenas at nisi lacus.</p>
-      </div>
-
-      <hr />
--->
   
     </div> 
     
   <footer>
     <div class="copyright">
-      <p>&copy; 2015 MIT IEEE/ACM Club</p>
+      <p>&copy; 2016 MIT IEEE/ACM Club</p>
     </div>
   </footer>
 

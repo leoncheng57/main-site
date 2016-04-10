@@ -50,8 +50,8 @@
       <h1 class="welcome-header">MIT IEEE/ACM</h1>
       <div class="welcome-text">
 
-        <p>The MIT IEEE/ACM Club represents the student branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM). 
-          Our mission is to create and support a tight-knit community among the students, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
+        <p>The MIT IEEE/ACM Club represents the card branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM). 
+          Our mission is to create and support a tight-knit community among the cards, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
         </p>
 
 
@@ -133,7 +133,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="igarza">
+        <div class="card" id="igarza">
           <div class="card-image">
             <img src="images/exec/igarza.jpg" width="195px">
           </div>
@@ -145,7 +145,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="pzhao">
+        <div class="card" id="pzhao">
           <div class="card-image">
             <img src="images/exec/pzhao.jpg">
           </div>
@@ -157,7 +157,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="clao">
+        <div class="card" id="clao">
           <div class="card-image">
             <img src="images/exec/clao.jpg">
           </div>
@@ -169,7 +169,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="schen">
+        <div class="card" id="schen">
           <div class="card-image">
             <img src="images/exec/schen.jpg">
           </div>
@@ -181,7 +181,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="eakengin">
+        <div class="card" id="eakengin">
           <div class="card-image">
             <img src="images/exec/eakengin.jpg">
           </div>
@@ -193,7 +193,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="mlao">
+        <div class="card" id="mlao">
           <div class="card-image">
             <img src="images/exec/mlao.jpg">
           </div>
@@ -205,7 +205,7 @@
       </div>
       
       <div class="col l3 m6 s12">
-        <div class="student" id="hmoncivais">
+        <div class="card" id="hmoncivais">
           <div class="card-image">
             <img src="images/exec/hmoncivais.png">
           </div>
@@ -217,7 +217,7 @@
       </div>
       
       <div class="col l3 m6 s12">
-        <div class="student" id="kikhofua">
+        <div class="card" id="kikhofua">
           <div class="card-image">
             <img src="images/exec/kikhofua.jpg">
           </div>
@@ -229,7 +229,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="lchen">
+        <div class="card" id="lchen">
           <div class="card-image">
             <img src="images/exec/lchen.jpg">
           </div>
@@ -241,7 +241,7 @@
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="cwomack">
+        <div class="card" id="cwomack">
           <div class="card-image">
             <img src="images/exec/cwomack.jpg">
           </div>
@@ -253,7 +253,7 @@
       </div>
 
     </div>
-    
+
   </div>
 
 
@@ -270,7 +270,7 @@
               </div>
               <div class="modal-body">
 
-                <p>MIT ACM/IEEE membership is free for all MIT undergraduate and graduate students.  Becoming a member of the MIT ACM/IEEE chapter is a great way to stay informed on upcoming club activities, and we're always looking for more help with our many programs.</p>
+                <p>MIT ACM/IEEE membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT ACM/IEEE chapter is a great way to stay informed on upcoming club activities, and we're always looking for more help with our many programs.</p>
 
                 <p>Please note that membership in our club is not the same as membership in the international <A href=http://www.acm.org>ACM</A> or <A href=http://www.ieee.org>IEEE</A> organizations. However, we do have access to resources that wouldn't be available without membership to the IEEE branch such as access to certain publications, contacts in IEEE and industry, and ability to coordinate events with the National organization.</p>
 

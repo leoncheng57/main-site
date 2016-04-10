@@ -3,6 +3,25 @@
 	src: url(fonts/clearsans/ClearSans-Regular.ttf);
 }
 
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Bold.ttf);
+	font-weight: bold;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Italic.ttf);
+	font-style: italic;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
 body {
 	-webkit-animation-duration: 0.1s;
 	-webkit-animation-name: fontfix;
@@ -19,6 +38,10 @@ body {
 
 .nav-wrapper {
 	background: #c1272d;
+}
+
+.logo {
+	height: 64px;
 }
 
 /*---- Exec BOXES ----*/

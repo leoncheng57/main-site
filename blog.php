@@ -9,7 +9,7 @@
     <title>MIT IEEE/ACM</title>
 
     <link href="css/blog.css" rel="stylesheet">
-    <link href="css/ieee.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->

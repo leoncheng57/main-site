@@ -11,8 +11,8 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   
-  <link href="css/index.css" rel="stylesheet">
-  <link href="css/ieee.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->

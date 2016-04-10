@@ -54,7 +54,7 @@
         </p>
 
 
-        <p class="s-mailing"><a data-toggle="modal" data-target="#joinUs" data-backdrop="true">JOIN US</a></p>
+        <p class="join"><a data-toggle="modal" data-target="#joinUs" data-backdrop="true">Join our mailing list</a></p>
       </div>
     </div>
 
@@ -105,9 +105,8 @@
       <h3 class="blog-link"><a href="blog.php">Check out the full blog!</a></h3>
     </div>
 
-    <div id="exec">
-      <h1 class="exec-header">The Team</h1>
-      <div class="exec-row">
+    <div id="exec" class="row">
+      <div class="col l3 m6 s12">
         <div class="student" id="hlee">
           <img src='images/exec/hlee.jpg' width="195px">
           <div class="info">
@@ -115,7 +114,9 @@
             <p class="name">Harlin Lee</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="kng">
           <img src='images/exec/kng.jpg' width="195px">
           <div class="info">
@@ -123,7 +124,9 @@
             <p class="name">Kevin Ng</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="igarza">
           <img src="images/exec/igarza.jpg" width="195px">
           <div class="info">
@@ -131,18 +134,19 @@
             <p class="name">Isaac Garza</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="pzhao">
           <img src='images/exec/pzhao.jpg' width="195px">
           <div class="info">
             <p class="position">External Relations</p>
             <p class="name">Parker Zhao</p>
           </div>
-        </div>              
+        </div>
       </div>
 
-      <div class="exec-row">
-
+      <div class="col l3 m6 s12">
         <div class="student" id="clao">
           <img src='images/exec/clao.jpg' width="195px">
           <div class="info">
@@ -150,7 +154,9 @@
             <p class="name">Czarina Lao</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="eakengin">
           <img src='images/exec/makengin.jpg' width="195px">
           <div class="info">
@@ -158,7 +164,9 @@
             <p class="name">Efe Akengin</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="schen">
           <img src='images/exec/schen.jpg' width="195px">
           <div class="info">
@@ -166,7 +174,9 @@
             <p class="name">Shirley Chen</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="mlao">
           <img src='images/exec/mlao.jpg' width="195px">
           <div class="info">
@@ -174,11 +184,9 @@
             <p class="name">Natalie Manting Lao</p>
           </div>
         </div>
-
       </div>
       
-      <div class="exec-row">
-
+      <div class="col l3 m6 s12">
         <div class="student" id="hmoncivais">
           <img src='images/exec/hmoncivais.png' width="195px">
           <div class="info">
@@ -186,7 +194,9 @@
             <p class="name">Hiram Moncivais</p>
           </div>
         </div>
+      </div>  
 
+      <div class="col l3 m6 s12">
         <div class="student" id="kikhofua">
           <img src='images/exec/kikhofua.jpg' width="195px">
           <div class="info">
@@ -194,7 +204,9 @@
             <p class="name">Kamoya Ikhofua</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="lchen">
           <img src='images/exec/lchen.jpg' width="195px">
           <div class="info">
@@ -202,7 +214,9 @@
             <p class="name">Lucy Chen</p>
           </div>
         </div>
+      </div>
 
+      <div class="col l3 m6 s12">
         <div class="student" id="cwomack">
           <img src='images/exec/cwomack.jpg' width="195px">
           <div class="info">
@@ -210,8 +224,7 @@
             <p class="name">Chris Womack</p>
           </div>
         </div>
-
-      </div> 
+      </div>
     </div>
   </div>
 

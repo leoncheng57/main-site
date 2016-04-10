@@ -22,11 +22,11 @@ body {
 	font-size: 3.75em;
 }
 
-.s-mailing a {
+.join a {
 	font-size: 1.75em;
 }
 
-.s-mailing a:hover {
+.join a:hover {
 	cursor: pointer;
 }
 
@@ -214,7 +214,6 @@ body {
 	text-align: center;
 	color: #c1272d;
 	margin-top: -20px;
-	background-color: #c1272d;
 	margin-bottom: 0px;
 }
 

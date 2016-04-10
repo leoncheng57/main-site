@@ -30,19 +30,6 @@ $(document).ready(function() {
     	adjustToWidth();
     });
 
-    $(function() {
-    	$('.nav-list div').bind('click', function() {
-    		var $anchor = $(this);
-    		$('html, body').stop().animate({
-    			scrollTop: $($anchor.attr('data-id')).offset().top
-    		}, 500, 'swing');            
-    	});
-    });
-
-    $('body').scrollspy({
-    	target: '.bs-docs-sidebar',
-    	offset: 40
-    });
 });
 $(function() {
 	$(".student").hover(function(){

@@ -17,39 +17,8 @@ body {
 	to{	opacity: 1; }
 }
 
-nav.navbar-inverse {
-	background-color: #c1272d;
-	border: none;
-	font-size: 1.5em;
-	text-align: center;
-}
-
-.navbar-inverse .navbar-nav {
-	float: none;
-	display: inline-block;
-	margin-bottom: -8px;
-}
-
-.navbar-inverse .navbar-nav li > a {
-	color: #fff;
-	font-weight: 100;
-	padding: 25px;
-}
-
-.navbar-inverse .navbar-nav li > a:hover,
-.navbar-inverse .navbar-nav li > a:focus,
-.navbar-inverse .navbar-nav li > a.active-header-link {
-	text-decoration: none;
-	color: #333333;
-}
-
-.copyright {
-	background-color: #c1272d;
-	text-align: center;
-	color: #fff;
-	font-family: 'Clear Sans', sans-serif;
-	height: 60px;
-	padding: 20px;
+.nav-wrapper {
+	background: #c1272d;
 }
 
 /*---- Exec BOXES ----*/

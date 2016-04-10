@@ -19,22 +19,20 @@
   <body>
 	
     <!-- Header -->
-    <nav class="navbar navbar-inverse navbar-fixed-top"> 
-      <div class="container"> 
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div> 
-        <div class="collapse navbar-collapse" id="navbar-collapse">   
-          <ul class="nav navbar-nav">
-            <li><a href="/club/">HOME</a></li>
-            <li><a href="blog.php" class="active-header-link">BLOG</a></li>
-            <li><a href="programs.html">PROGRAMS</a></li>
-          </ul>
-        </div>
+    <nav class="z-depth-0">
+      <div class="nav-wrapper">
+        <a href="/club/" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/club/">Home</a></li>
+          <li><a href="blog.php" class="blog-header-link">Blog</a></li>
+          <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li><a href="/club/">Home</a></li>
+          <li><a href="blog.php" class="blog-header-link">Blog</a></li>
+          <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+        </ul>
       </div>
     </nav>
 
@@ -69,12 +67,6 @@
 
   
     </div> 
-    
-  <footer>
-    <div class="copyright">
-      <p>&copy; 2016 MIT IEEE/ACM Club</p>
-    </div>
-  </footer>
 
 </body>
 </html>

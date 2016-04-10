@@ -14,6 +14,11 @@
     <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
     <link href="css/index.css" rel="stylesheet">
     <link href="css/ieee.css" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
     <script src="js/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src='fullcalendar/lib/moment.min.js'></script>
@@ -27,22 +32,20 @@
   <body>
 	
 	<!-- Header -->
-    <nav class="navbar navbar-inverse navbar-fixed-top"> 
-      <div class="container"> 
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div> 
-        <div class="collapse navbar-collapse" id="navbar-collapse">   
-          <ul class="nav navbar-nav">
-            <li><a href="/club/" class="active-header-link">HOME</a></li>
-            <li><a href="blog.php" class="blog-header-link">BLOG</a></li>
-            <li><a href="programs.html">PROGRAMS</a></li>
-          </ul>
-        </div>
+    <nav class="z-depth-0">
+      <div class="nav-wrapper">
+        <a href="/club/" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/club/">Home</a></li>
+          <li><a href="blog.php" class="blog-header-link">Blog</a></li>
+          <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li><a href="/club/">Home</a></li>
+          <li><a href="blog.php" class="blog-header-link">Blog</a></li>
+          <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+        </ul>
       </div>
     </nav>
     
@@ -62,11 +65,11 @@
 	  </div>
 
       <div class="content">
-        <div class="calendar-section">
+        <!-- <div class="calendar-section">
           <h1>What We're Up To</h1>
           <p class="subscribe-link"><a href="https://www.google.com/calendar/embed?src=ncvkteq0hm7cgr5bhi00bgbaik%40group.calendar.google.com" target="_blank">subscribe</a></p>
           <div id="calendar"></div>
-        </div>
+        </div> -->
 
         <div id="programs">
           <h1>Programs</h1>
@@ -259,22 +262,16 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-  
-  <footer>
-    <div class="copyright">
-      <p>&copy; 2016 MIT IEEE/ACM Club</p>
-    </div>
-  </footer>
 
   <script type='text/javascript'>
     $(document).ready(function() {
-        $('#calendar').fullCalendar({
-            googleCalendarApiKey: 'AIzaSyAfIu2iaqycS3gfXYl1aMjBNQ4CyHvSlqo',
-            events: {
-                googleCalendarId: 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com'
-            },
-            eventBackgroundColor: "#993333"
-        });
+        // $('#calendar').fullCalendar({
+        //     googleCalendarApiKey: 'AIzaSyAfIu2iaqycS3gfXYl1aMjBNQ4CyHvSlqo',
+        //     events: {
+        //         googleCalendarId: 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com'
+        //     },
+        //     eventBackgroundColor: "#993333"
+        // });
 
         function adjustToWidth() {
           if ($(window).width() < 700) {

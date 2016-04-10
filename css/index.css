@@ -1,0 +1,318 @@
+body {
+	font-family: 'Pontano Sans', sans-serif;
+	background: #993333;
+}
+
+.welcome {
+	
+	background-image: url('../images/mit-background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 70px;
+	color: #fff;
+	font-family: 'Pontano Sans', sans-serif;
+	min-height: 400px;
+	font-size: 1.25em;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+}
+
+.welcome-header {
+	font-family: 'Pontano Sans', sans-serif;
+	text-align: center;
+	letter-spacing:0.2em;
+	color:#fff;
+	margin-bottom: 20px;
+	padding-top:10px;
+	font-weight:600;
+	z-index: 0;
+	font-size: 3.75em;
+}
+
+.s-mailing a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.75em;
+}
+
+.s-mailing a:hover {
+	cursor: pointer;
+}
+
+.mobile-welcome {
+	background: #993333;
+}
+
+.welcome.mobile-welcome .welcome-header {
+	font-size: 3em;
+}
+
+.welcome-text {
+	background-color: transparent;
+	padding: 0px 50px 50px 50px;
+	z-index: 0;
+}
+
+.welcome-text a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}		
+
+.welcome-text a:hover {
+	text-decoration: none;
+	color: #993333;
+} 
+
+.welcome.mobile-welcome .welcome-text a:hover {
+	color: #333333;
+}
+
+.mask {
+	/*background-color: #515151;*/
+	background-color: rgba(70, 70, 70, 0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+#programs {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding: 10vh 0px;
+	min-height: 100vh;
+}
+
+#programs h1:after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	bottom: 0;
+	width: 50%;
+	height: 1px;
+}
+
+#programs h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 10px 0px;
+	position: relative;
+}
+
+#programs h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+#programs a {
+	color: #fff;
+}
+
+#programs a:hover, a:focus {
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+
+.full-programs {
+	color: #fff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.full-programs:hover, :focus {
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.calendar-section {
+	padding-top: 30px;
+	text-align: center;
+	background: #fff;
+}
+
+.calendar-section h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #993333;
+	margin-top: 0px;
+}
+
+.calendar-section .subscribe-link {
+	text-align: center;
+	position: relative;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+.calendar-section .subscribe-link a {
+	color: #333333;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+.calendar-section .subscribe-link a:hover {
+	font-weight: bold;
+	cursor: pointer;
+	color: #993333;
+}
+
+.calendar-section .subscribe-link:after {
+	content: "";
+	background: #993333;
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	bottom: 0;
+	width: 50%;
+	height: 1px;
+}
+
+#calendar {
+	text-align: center;
+	background: #fff;
+}
+
+#blog-post {
+	color: #fff;
+	min-height: 100vh;
+}
+
+#blog-post .blog-header {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+	padding: 10px 0px;
+	margin-top: 0px;
+	position: relative;
+}
+
+#blog-post .blog-header:after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	bottom: 0;
+	width: 50%;
+	height: 1px;
+}
+
+.post {
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+.post p,
+.post span {
+  font-size: 16px;
+  color: #fff;
+}
+
+.post h1 a {
+  color: #fff;
+  font-family: 'Pontano Sans', sans-serif;
+  text-align: center;
+}
+
+.post a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.post a:hover {
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.post h1 a:hover {
+	text-decoration: none;
+}
+
+.post-details {
+  display: block;
+  margin: -8px 0 10px;
+  font-size: 12px;
+}
+
+#blog-post .pagination {
+	display: none;
+}
+
+#blog-post .blog-link {
+	text-align: center;
+	color: #993333;
+	margin-top: -20px;
+	background-color: #993333;
+	margin-bottom: 0px;
+}
+
+#blog-post .blog-link a {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	background-color: #993333;
+}
+
+#blog-post .blog-link a:hover,
+#blog-post .blog-link a:focus {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#exec {
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 20vh;
+	min-height: 100vh;
+}
+
+.exec-header {
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.exec-header:after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	bottom: 0;
+	width: 50%;
+	height: 1px;
+}
+
+#exec a {
+	font-weight: bold;
+	color: #fff;
+}
+
+#exec a:hover {
+	text-decoration: none;
+}
+
+#exec h1,
+#exec h3,
+#exec h5 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.exec-row {
+	max-width: 100%;
+	/*margin: 20px 50px 0px 50px;*/
+}

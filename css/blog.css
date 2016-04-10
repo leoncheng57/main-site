@@ -1,0 +1,75 @@
+.main {
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.post {
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-family: 'Merriweather', sans-serif;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post p,
+.post span {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.post h1 a {
+	color: #993333;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.post h1 a:hover {
+	text-decoration: none;
+}
+
+.post a {
+  color: #993333;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333333;
+}
+
+.post-details {
+  display: block;
+  margin: -10px 0 10px;
+  color: #666;
+  font-size: 12px;
+}
+
+.pagination {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #993333;
+}
+
+.pagination a:hover,
+.pagination a:focus {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}

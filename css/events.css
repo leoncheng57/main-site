@@ -1,0 +1,39 @@
+body {
+	font-family: 'Pontano Sans', sans-serif;
+	background: #993333;
+	color: #fff;
+}
+
+.main {
+    margin-top: 75px;
+    /*height: 750px;*/
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 10px 0px;
+	position: relative;
+}
+
+
+h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+h1 a:hover, h1 a:focus {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+
+.program-section {
+	min-height: 70vh;
+	max-width: 80vw;
+	padding-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 1.25em;
+}

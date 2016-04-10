@@ -126,7 +126,7 @@
             <img src='images/exec/kng.jpg' width="195px">
           </div>
           <div class="card-content">
-            <h3>Kevin Ng</h3>
+            <h5>Kevin Ng</h5>
             <p>Vice President</p>
           </div>
         </div>
@@ -138,7 +138,7 @@
             <img src="images/exec/igarza.jpg" width="195px">
           </div>
           <div class="card-content">
-            <h3>Isaac Garza</h3>
+            <h5>Isaac Garza</h5>
             <p>Co-Treasurer</p>
           </div>
         </div>
@@ -150,7 +150,7 @@
             <img src="images/exec/pzhao.jpg">
           </div>
           <div class="card-content">
-            <h3>Parker Zhao</h3>
+            <h5>Parker Zhao</h5>
             <p>External Relations</p>
           </div>
         </div>
@@ -162,7 +162,7 @@
             <img src="images/exec/clao.jpg">
           </div>
           <div class="card-content">
-            <h3>Czarina Lao</h3>
+            <h5>Czarina Lao</h5>
             <p>Secretary</p>
           </div>
         </div>
@@ -174,19 +174,19 @@
             <img src="images/exec/schen.jpg">
           </div>
           <div class="card-content">
-            <h3>Shirley Chen</h3>
+            <h5>Shirley Chen</h5>
             <p>Social Chair</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="card" id="eakengin">
+        <div class="card" id="makengin">
           <div class="card-image">
-            <img src="images/exec/eakengin.jpg">
+            <img src="images/exec/makengin.jpg">
           </div>
           <div class="card-content">
-            <h3>Efe Akenging</h3>
+            <h5>Efe Akenging</h5>
             <p>Social Chair</p>
           </div>
         </div>
@@ -198,7 +198,7 @@
             <img src="images/exec/mlao.jpg">
           </div>
           <div class="card-content">
-            <h3>Natalie Manting Lao</h3>
+            <h5>Natalie Manting Lao</h5>
             <p>Chairwoman</p>
           </div>
         </div>
@@ -210,7 +210,7 @@
             <img src="images/exec/hmoncivais.png">
           </div>
           <div class="card-content">
-            <h3>Hiram Moncivais</h3>
+            <h5>Hiram Moncivais</h5>
             <p>Historian</p>
           </div>
         </div>
@@ -222,7 +222,7 @@
             <img src="images/exec/kikhofua.jpg">
           </div>
           <div class="card-content">
-            <h3>Kamoya Ikhofua</h3>
+            <h5>Kamoya Ikhofua</h5>
             <p>Publicity Chair</p>
           </div>
         </div>
@@ -234,7 +234,7 @@
             <img src="images/exec/lchen.jpg">
           </div>
           <div class="card-content">
-            <h3>Lucy Chen</h3>
+            <h5>Lucy Chen</h5>
             <p>Publicity Chair</p>
           </div>
         </div>
@@ -246,7 +246,7 @@
             <img src="images/exec/cwomack.jpg">
           </div>
           <div class="card-content">
-            <h3>Chris Womack</h3>
+            <h5>Chris Womack</h5>
             <p>Webmaster</p>
           </div>
         </div>

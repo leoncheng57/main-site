@@ -3,7 +3,7 @@ body {
 }
 
 a {
-	color: #c1272d;
+	color: #c1272d !important;
 }
 
 a:hover {
@@ -188,6 +188,7 @@ a:hover {
 #blog-post .blog-link {
 	text-align: center;
 	color: #c1272d;
+	background-color: #fff;
 	margin-top: -20px;
 	margin-bottom: 0px;
 }
@@ -213,24 +214,4 @@ a:hover {
 	bottom: 0;
 	width: 50%;
 	height: 1px;
-}
-
-#exec a {
-	font-weight: bold;
-	color: #fff;
-}
-
-#exec a:hover {
-	text-decoration: none;
-}
-
-#exec h1,
-#exec h3,
-#exec h5 {
-	color: #fff;
-}
-
-.exec-row {
-	max-width: 100%;
-	/*margin: 20px 50px 0px 50px;*/
 }

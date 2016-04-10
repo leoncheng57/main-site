@@ -2,6 +2,14 @@ body {
 	font-family: 'Clear Sans', sans-serif;
 }
 
+a {
+	color: #c1272d;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .welcome {
 	text-align: center;
 	padding-top: 70px;
@@ -42,21 +50,7 @@ body {
 	background-color: transparent;
 	padding: 0px 50px 50px 50px;
 	z-index: 0;
-}
-
-.welcome-text a {
-	font-weight: bold;
-	text-decoration: none;
-}		
-
-.welcome-text a:hover {
-	text-decoration: none;
-	color: #c1272d;
-} 
-
-.welcome.mobile-welcome .welcome-text a:hover {
-	color: #333333;
-}
+}	
 
 #programs {
 	font-size: 20px;
@@ -80,12 +74,6 @@ body {
 	text-align: center;
 	padding: 10px 0px;
 	position: relative;
-}
-
-#programs a:hover, a:focus {
-	font-weight: bold;
-	color: #333333;
-	text-decoration: none;
 }
 
 .full-programs {
@@ -119,13 +107,10 @@ body {
 }
 
 .calendar-section .subscribe-link a {
-	color: #333333;
-	text-decoration: none;
 	font-size: 1.25em;
 }
 
 .calendar-section .subscribe-link a:hover {
-	font-weight: bold;
 	cursor: pointer;
 	color: #c1272d;
 }
@@ -186,18 +171,8 @@ body {
   text-align: center;
 }
 
-.post a {
-	color: #333333;
-	text-decoration: none;
-}
-
 .post a:hover {
-	font-weight: bold;
 	cursor: pointer;
-}
-
-.post h1 a:hover {
-	text-decoration: none;
 }
 
 .post-details {
@@ -215,17 +190,6 @@ body {
 	color: #c1272d;
 	margin-top: -20px;
 	margin-bottom: 0px;
-}
-
-#blog-post .blog-link a {
-	background-color: #c1272d;
-}
-
-#blog-post .blog-link a:hover,
-#blog-post .blog-link a:focus {
-	color: #333333;
-	text-decoration: none;
-	font-weight: bold;
 }
 
 #exec {

@@ -45,6 +45,7 @@
   </nav>
 
   <div class="container">
+
     <div class="welcome">
       <h1 class="welcome-header">MIT IEEE/ACM</h1>
       <div class="welcome-text">
@@ -106,126 +107,153 @@
     </div>
 
     <div id="exec" class="row">
+
       <div class="col l3 m6 s12">
-        <div class="student" id="hlee">
-          <img src='images/exec/hlee.jpg' width="195px">
-          <div class="info">
-            <p class="position">President</p>
-            <p class="name">Harlin Lee</p>
+        <div class="card" id="hlee">
+          <div class="card-image">
+            <img src='images/exec/hlee.jpg' width="195px">
+          </div>
+          <div class="card-content">
+            <h3>Harlin Lee</h3>
+            <p>President</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
-        <div class="student" id="kng">
-          <img src='images/exec/kng.jpg' width="195px">
-          <div class="info">
-            <p class="position">Vice President</p>
-            <p class="name">Kevin Ng</p>
+        <div class="card" id="kng">
+          <div class="card-image">
+            <img src='images/exec/kng.jpg' width="195px">
+          </div>
+          <div class="card-content">
+            <h3>Kevin Ng</h3>
+            <p>Vice President</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="igarza">
-          <img src="images/exec/igarza.jpg" width="195px">
-          <div class="info">
-            <p class="position">Co-Treasurer</p>
-            <p class="name">Isaac Garza</p>
+          <div class="card-image">
+            <img src="images/exec/igarza.jpg" width="195px">
+          </div>
+          <div class="card-content">
+            <h3>Isaac Garza</h3>
+            <p>Co-Treasurer</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="pzhao">
-          <img src='images/exec/pzhao.jpg' width="195px">
-          <div class="info">
-            <p class="position">External Relations</p>
-            <p class="name">Parker Zhao</p>
+          <div class="card-image">
+            <img src="images/exec/pzhao.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Parker Zhao</h3>
+            <p>External Relations</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="clao">
-          <img src='images/exec/clao.jpg' width="195px">
-          <div class="info">
-            <p class="position">Secretary</p>
-            <p class="name">Czarina Lao</p>
+          <div class="card-image">
+            <img src="images/exec/clao.jpg">
           </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s12">
-        <div class="student" id="eakengin">
-          <img src='images/exec/makengin.jpg' width="195px">
-          <div class="info">
-            <p class="position">Social Chair</p>
-            <p class="name">Efe Akengin</p>
+          <div class="card-content">
+            <h3>Czarina Lao</h3>
+            <p>Secretary</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="schen">
-          <img src='images/exec/schen.jpg' width="195px">
-          <div class="info">
-            <p class="position">Social Chair</p>
-            <p class="name">Shirley Chen</p>
+          <div class="card-image">
+            <img src="images/exec/schen.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Shirley Chen</h3>
+            <p>Social Chair</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col l3 m6 s12">
+        <div class="student" id="eakengin">
+          <div class="card-image">
+            <img src="images/exec/eakengin.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Efe Akenging</h3>
+            <p>Social Chair</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="mlao">
-          <img src='images/exec/mlao.jpg' width="195px">
-          <div class="info">
-            <p class="position">Chairwoman</p>
-            <p class="name">Natalie Manting Lao</p>
+          <div class="card-image">
+            <img src="images/exec/mlao.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Natalie Manting Lao</h3>
+            <p>Chairwoman</p>
           </div>
         </div>
       </div>
       
       <div class="col l3 m6 s12">
         <div class="student" id="hmoncivais">
-          <img src='images/exec/hmoncivais.png' width="195px">
-          <div class="info">
-            <p class="position">Historian</p>
-            <p class="name">Hiram Moncivais</p>
+          <div class="card-image">
+            <img src="images/exec/hmoncivais.png">
+          </div>
+          <div class="card-content">
+            <h3>Hiram Moncivais</h3>
+            <p>Historian</p>
           </div>
         </div>
-      </div>  
-
+      </div>
+      
       <div class="col l3 m6 s12">
         <div class="student" id="kikhofua">
-          <img src='images/exec/kikhofua.jpg' width="195px">
-          <div class="info">
-            <p class="position">Publicity Chair</p>
-            <p class="name">Kamoya Ikhofua</p>
+          <div class="card-image">
+            <img src="images/exec/kikhofua.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Kamoya Ikhofua</h3>
+            <p>Publicity Chair</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="lchen">
-          <img src='images/exec/lchen.jpg' width="195px">
-          <div class="info">
-            <p class="position">Publicity Chair</p>
-            <p class="name">Lucy Chen</p>
+          <div class="card-image">
+            <img src="images/exec/lchen.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Lucy Chen</h3>
+            <p>Publicity Chair</p>
           </div>
         </div>
       </div>
 
       <div class="col l3 m6 s12">
         <div class="student" id="cwomack">
-          <img src='images/exec/cwomack.jpg' width="195px">
-          <div class="info">
-            <p class="position">Webmaster</p>
-            <p class="name">Chris Womack</p>
+          <div class="card-image">
+            <img src="images/exec/cwomack.jpg">
+          </div>
+          <div class="card-content">
+            <h3>Chris Womack</h3>
+            <p>Webmaster</p>
           </div>
         </div>
       </div>
+
     </div>
+    
   </div>
 
 

@@ -31,11 +31,3 @@ $(document).ready(function() {
     });
 
 });
-$(function() {
-	$(".student").hover(function(){
-		$(this).find(".info").fadeIn('fast');
-	},
-	function(){
-		$(this).find(".info").fadeOut('fast');
-	});
-});

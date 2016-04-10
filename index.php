@@ -10,8 +10,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+  
     <link href="css/index.css" rel="stylesheet">
     <link href="css/ieee.css" rel="stylesheet">
     <!--Import Google Icon Font-->
@@ -20,11 +19,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
     <script src="js/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src='fullcalendar/lib/moment.min.js'></script>
-    <script src='fullcalendar/fullcalendar.js'></script>
-    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
-    <script src="js/viewport.js" type="text/javascript"></script>
+    <script type='text/javascript' src='js/materialize.min.js'></script>
     <script src="js/ieee.js" type="text/javascript"></script>
 
   </head>
@@ -262,66 +257,6 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-  <script type='text/javascript'>
-    $(document).ready(function() {
-        // $('#calendar').fullCalendar({
-        //     googleCalendarApiKey: 'AIzaSyAfIu2iaqycS3gfXYl1aMjBNQ4CyHvSlqo',
-        //     events: {
-        //         googleCalendarId: 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com'
-        //     },
-        //     eventBackgroundColor: "#993333"
-        // });
-
-        function adjustToWidth() {
-          if ($(window).width() < 700) {
-            $('#blog-post').hide();
-            $('.blog-header-link').hide();
-            if($(window).width() < 450) {
-              $('.welcome').addClass('mobile-welcome');
-              $('.mask').hide();
-            }
-          } else {
-            $('.welcome').removeClass('mobile-welcome');
-            $('.mask').show();
-            $('#blog-post').show();
-            $('.blog-header-link').show();
-          }
-        };
-
-        adjustToWidth();
-
-        $(window).resize(function() {
-          adjustToWidth();
-        });
-
-        $(function() {
-          $('.nav-list div').bind('click', function() {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-              scrollTop: $($anchor.attr('data-id')).offset().top
-            }, 500, 'swing');            
-            });
-        });
-
-        $('body').scrollspy({
-          target: '.bs-docs-sidebar',
-          offset: 40
-        });
-
-
-    });
-  </script>
-  <script type="text/javascript">
-    $(function() {
-      $(".student").hover(function(){
-        $(this).find(".info").fadeIn('fast');
-      },
-      function(){
-          $(this).find(".info").fadeOut('fast');
-      });
-    });
-  </script>
 
   </body>
 </html>

@@ -3,11 +3,24 @@ body {
 	background: #f5f5f5;
 }
 
-.container a {
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.container .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.welcome a {
 	color: #c1272d;
 }
 
-.container a:hover {
+.welcome a:hover {
 	text-decoration: underline;
 }
 
@@ -20,7 +33,7 @@ body {
 	background: #c1272d !important;
 }
 
-.join:hover {
+a.join:hover {
 	text-decoration: none;
 }
 

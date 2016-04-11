@@ -47,13 +47,13 @@
   <div class="container">
 
     <div class="row">
-      <h1>MIT IEEE/ACM</h1>
-      <div>
-        <p>The MIT IEEE/ACM Club represents the card branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM). 
-          Our mission is to create and support a tight-knit community among the cards, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
-        </p>
+      <div class="col s12 welcome">
+        <h1>MIT IEEE/ACM</h1>
+          <p>The MIT IEEE/ACM Club represents the card branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM). 
+            Our mission is to create and support a tight-knit community among the cards, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
+          </p>
 
-        <a class="btn waves-effect waves-light join">Join our mailing list</a>
+          <a class="btn waves-effect waves-light join">Join our mailing list</a>
       </div>
     </div>
 
@@ -65,7 +65,7 @@
 
     <div class="row">
       <div class="col offset-l8 l4 offset-m6 m6 s12 programs">
-        <h3>Programs</h3>
+        <h6>PROGRAMS</h6>
         <ul>
           <li><a href="programs.html#codeforgood">Code for Good</a></li>
           <li><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></li>

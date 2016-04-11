@@ -67,16 +67,16 @@
 
     <div class="row">
       <div class="col offset-l8 l4 offset-m6 m6 s12" id="programs">
-        <h1>Programs</h1>
-        <h2><a href="programs.html#codeforgood">Code for Good</a></h2>
-        <h2><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></h2>
-        <h2><a href="programs.html#faculty">Faculty Dinners</a></h2>
-        <h2><a href="programs.html#mitos">MIT Open Source Club</a></h2>
-        <h2><a href="programs.html#counseling">Peer Counseling</a></h2>
-        <h2><a href="programs.html#sixsharp">6#</a></h2>
-        <h2><a href="programs.html#social">Social Hours</a></h2>
-        <h2><a href="programs.html#urge">URGE</a></h2>
-        <h2><a href="programs.html#voltage">Voltage</a></h2>
+        <h3>Programs</h3>
+        <a href="programs.html#codeforgood">Code for Good</a>
+        <a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a>
+        <a href="programs.html#faculty">Faculty Dinners</a>
+        <a href="programs.html#mitos">MIT Open Source Club</a>
+        <a href="programs.html#counseling">Peer Counseling</a>
+        <a href="programs.html#sixsharp">6#</a>
+        <a href="programs.html#social">Social Hours</a>
+        <a href="programs.html#urge">URGE</a>
+        <a href="programs.html#voltage">Voltage</a>
       </div>
     </div>
 

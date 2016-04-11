@@ -47,41 +47,6 @@ body {
 	background-color: transparent;
 	padding: 0px 50px 50px 50px;
 	z-index: 0;
-}	
-
-#programs {
-	font-size: 20px;
-	text-align: center;
-	padding: 10vh 0px;
-	min-height: 100vh;
-}
-
-#programs h1:after {
-	content: "";
-	background: #fff;
-	position: absolute;
-	left: 25%;
-	right: 25%;
-	bottom: 0;
-	width: 50%;
-	height: 1px;
-}
-
-#programs h1 {
-	text-align: center;
-	padding: 10px 0px;
-	position: relative;
-}
-
-.full-programs {
-	text-align: center;
-    margin-top: 10px;
-}
-
-.full-programs:hover, :focus {
-	color: #333333;
-	font-weight: bold;
-	text-decoration: none;
 }
 
 .calendar-section {
@@ -128,10 +93,6 @@ body {
 	background: #fff;
 }
 
-#blog-post {
-	min-height: 100vh;
-}
-
 #blog-post .blog-header {
 	text-align: center;
 	padding: 10px 0px;
@@ -139,37 +100,9 @@ body {
 	position: relative;
 }
 
-#blog-post .blog-header:after {
-	content: "";
-	background: #fff;
-	position: absolute;
-	left: 25%;
-	right: 25%;
-	bottom: 0;
-	width: 50%;
-	height: 1px;
-}
-
 .post {
-  margin-bottom: 20px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
-}
-
-.post p,
-.post span {
-  font-size: 16px;
-  color: #fff;
-}
-
-.post h1 a {
-  text-align: center;
-}
-
-.post a:hover {
-	cursor: pointer;
+	color: #000 !important;
+	font-family: 'Clear Sans' !important;
 }
 
 .post-details {
@@ -198,20 +131,4 @@ body {
 	padding-bottom: 40px;
 	padding-top: 20vh;
 	min-height: 100vh;
-}
-
-.exec-header {
-	position: relative;
-	padding-bottom: 10px;
-}
-
-.exec-header:after {
-	content: "";
-	background: #fff;
-	position: absolute;
-	left: 25%;
-	right: 25%;
-	bottom: 0;
-	width: 50%;
-	height: 1px;
 }

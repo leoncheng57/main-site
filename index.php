@@ -64,7 +64,7 @@
     </div> -->
 
     <div class="row">
-      <div class="col offset-l8 l4 offset-m6 m6 s12 programs">
+      <div class="col offset-l8 l4 offset-m6 m6 s12 programs z-depth-1">
         <h6>PROGRAMS</h6>
         <ul>
           <li><a href="programs.html#codeforgood">Code for Good</a></li>

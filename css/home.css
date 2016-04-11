@@ -7,7 +7,7 @@ body {
 }
 
 .containter a:hover {
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 
 .welcome {
@@ -31,7 +31,7 @@ body {
 }
 
 .join {
-	color: #fff;
+	color: #fff !important;
 	background: #c1272d !important;
 }
 

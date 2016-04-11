@@ -20,6 +20,6 @@ $(document).ready(function() {
     $('#blog-post span[style]').removeAttr('style');
     $('#blog-post a[style]').removeAttr('style');
 
-    $(a[href="http://cutephp.com/"]).parent().hide();
+    $('a[href="http://cutephp.com/"]').parent().hide();
 
 });

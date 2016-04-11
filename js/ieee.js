@@ -18,5 +18,8 @@ $(document).ready(function() {
     $('#blog-post span b').contents().unwrap();
     $('#blog-post span font').contents().unwrap();
     $('#blog-post span[style]').removeAttr('style');
+    $('#blog-post a[style]').removeAttr('style');
+
+    $(a[href="http://cutephp.com/"]).parent().hide();
 
 });

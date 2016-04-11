@@ -22,6 +22,54 @@
 	font-style: italic;
 }
 
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Regular.eot);
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Bold.eot);
+	font-weight: bold;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Italic.eot);
+	font-style: italic;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-BoldItalic.eot);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Regular.woff);
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Bold.woff);
+	font-weight: bold;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-Italic.woff);
+	font-style: italic;
+}
+
+@fontface {
+	font-family: 'Clear Sans';
+	src: url(fonts/clearsans/ClearSans-BoldItalic.woff);
+	font-weight: bold;
+	font-style: italic;
+}
+
 body {
 	-webkit-animation-duration: 0.1s;
 	-webkit-animation-name: fontfix;

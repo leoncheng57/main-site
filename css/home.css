@@ -102,17 +102,17 @@ body {
 
 .post {
 	color: #000 !important;
-	font-family: 'Clear Sans' !important;
+	font-family: 'Clear Sans', sans-serif !important;
 }
 
 .post div[style] {
 	color: #000 !important;
-	font-family: 'Clear Sans' !important;
+	font-family: 'Clear Sans', sans-serif !important;
 }
 
 .post span[style] {
 	color: #000 !important;
-	font-family: 'Clear Sans' !important;
+	font-family: 'Clear Sans', sans-serif !important;
 }
 
 .post-title {

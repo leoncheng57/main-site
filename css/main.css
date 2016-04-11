@@ -91,3 +91,7 @@ body {
 .logo {
 	height: 64px;
 }
+
+.blog-image-padding {
+	padding: 0.75rem 0;
+}

@@ -1,10 +1,10 @@
 @fontface {
 	font-family: 'Clear Sans';
-	src: url('/club/fonts/clearsans/ClearSans-Regular.eot');
-  	src: url('/club/fonts/clearsans/ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
-         url('/club/fonts/clearsans/ClearSans-Regular.woff') format('woff'),
-         url('/club/fonts/clearsans/ClearSans-Regular.ttf')  format('truetype'),
-         url('/club/fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular') format('svg');
+	src: url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.eot');
+  	src: url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.woff') format('woff'),
+         url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.ttf')  format('truetype'),
+         url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular') format('svg');
 	font-weight: 400;
 }
 

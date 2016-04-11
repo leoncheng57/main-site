@@ -3,7 +3,7 @@ body {
 }
 
 .container a {
-	color: #c1272d !important;
+	color: #c1272d;
 }
 
 .containter a:hover {
@@ -31,9 +31,8 @@ body {
 }
 
 .join {
-	font-size: 1.75em;
 	color: #fff;
-	background: #c1272d;
+	background: #c1272d !important;
 }
 
 .mobile-welcome {

@@ -73,7 +73,12 @@ a.join:hover {
 
 .programs-list li a {
 	color: #000;
-	font-weight: 500;
+	font-family: 'Clear Sans Medium';
+	font-size: 1.64rem;
+}
+
+.programs-list li a:hover {
+	text-decoration: underline;
 }
 
 .post-title {

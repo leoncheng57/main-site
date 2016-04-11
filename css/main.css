@@ -84,7 +84,7 @@ span.source {
 }
 
 .sp {
-	font-weight: 400;
+	font-weight: 400 !important;
 }
 
 .font-test {

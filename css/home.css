@@ -121,7 +121,12 @@ body {
 
 #blog-post div img {
 	max-width: 100%;
-	height: auto;
+	height: auto !important;
+}
+
+#blog-post div img[style] {
+	max-width: 100%;
+	height: auto !important;
 }
 
 #blog-post .pagination {

@@ -19,8 +19,8 @@ $(document).ready(function() {
     $('#blog-post span font').contents().unwrap();
     $('#blog-post span[style]').removeAttr('style');
     $('#blog-post a[style]').removeAttr('style');
-
-    $('#blog-post div img').addClass('center-align z-depth-1');
+    
+    $('#blog-post div img').addClass('center-align center-block z-depth-1');
 
     //Hide CuteNews accreditation (may be sliiiiiightly illegal)
     $('a[href="http://cutephp.com/"]').parent().hide();

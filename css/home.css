@@ -6,7 +6,7 @@ body {
 	color: #c1272d;
 }
 
-.containter a:hover {
+.container a:hover {
 	text-decoration: underline !important;
 }
 
@@ -113,10 +113,6 @@ body {
 .post span[style] {
 	color: #000 !important;
 	font-family: 'Clear Sans', sans-serif !important;
-}
-
-.post-title {
-	font-size: 2.92rem;
 }
 
 #blog-post div img {

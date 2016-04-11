@@ -1,4 +1,4 @@
-@fontface {
+@font-face {
 	font-family: 'Clear Sans';
 	src: url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.eot');
   	src: url('http://ieee.scripts.mit.edu/club/fonts/clearsans/ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
@@ -8,31 +8,31 @@
 	font-weight: 400;
 }
 
-@fontface {
+@font-face {
 	font-family: 'Clear Sans';
 	src: url('fonts/clearsans/ClearSans-Bold.ttf');
 	font-weight: 700;
 }
 
-@fontface {
+@font-face {
 	font-family: 'Clear Sans Light';
 	src: url('fonts/clearsans/ClearSans-Light.ttf');
 	font-weight: 300;
 }
 
-@fontface {
+@font-face {
 	font-family: 'Clear Sans Medium';
 	src: url('fonts/clearsans/ClearSans-Medium.ttf');
 	font-weight: 500;
 }
 
-@fontface {
+@font-face {
 	font-family: 'Clear Sans';
 	src: url('fonts/clearsans/ClearSans-Italic.ttf');
 	font-style: italic;
 }
 
-@fontface {
+@font-face {
 	font-family: 'Clear Sans';
 	src: url('fonts/clearsans/ClearSans-BoldItalic.ttf');
 	font-weight: 700;

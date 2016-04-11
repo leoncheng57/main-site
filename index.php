@@ -63,7 +63,7 @@
       <div id="calendar"></div>
     </div> -->
 
-    <div class="row">
+    <div class="row section">
       <div class="col offset-l8 l4 offset-m6 m6 s12 programs z-depth-1">
         <h6>PROGRAMS</h6>
         <ul class="programs-list">
@@ -82,7 +82,7 @@
 
     <div class="divider"></div>
 
-    <div class="row">
+    <div class="row section">
       <div class="col s12" id="blog-post">
         <?php 
         $template = "Prototype";

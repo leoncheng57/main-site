@@ -76,6 +76,10 @@ a.join:hover {
 	font-weight: 500;
 }
 
+.post-title {
+	font-family: 'Clear Sans Medium';
+}
+
 .post {
 	color: #000 !important;
 	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif !important;
@@ -89,6 +93,10 @@ a.join:hover {
 .post span[style] {
 	color: #000 !important;
 	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif !important;
+}
+
+.post-details {
+	opacity: .54;
 }
 
 #blog-post {
@@ -107,11 +115,4 @@ a.join:hover {
 
 #blog-post .pagination {
 	display: none;
-}
-
-#exec {
-	text-align: center;
-	padding-bottom: 40px;
-	padding-top: 20vh;
-	min-height: 100vh;
 }

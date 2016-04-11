@@ -29,26 +29,9 @@ body {
 }
 
 .test-head {
-	font-weight: 700;
+	font-family: 'Clear Sans Medium'
 }
 
 .clear-lite {
 	font-family: 'Clear Sans Light';
-}
-
-.source-lite {
-	font-family: 'Source Sans Pro';
-	font-weight: 300;
-}
-
-.source {
-	font-family: 'Source Sans Pro';
-}
-
-span.source {
-	margin-left: 50px;
-}
-
-.sp {
-	font-weight: 400 !important;
 }

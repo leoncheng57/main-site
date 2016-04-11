@@ -29,7 +29,7 @@
 	<!-- Header -->
   <nav class="z-depth-0">
     <div class="nav-wrapper">
-      <a href="/club/" class="brand-logo">Logo</a>
+      <a href="/club/" class="brand-logo"><img class="logo" src="images/logo-white.png"></a>
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/club/">Home</a></li>
@@ -84,13 +84,13 @@
 
     <div class="row">
       <div class="col s12" id="blog-post">
-        <h1 class="blog-header">Last Blog Post</h1>
+        <h1 class="blog-header">Latest Blog Post</h1>
         <?php 
         $template = "Prototype";
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h3 class="blog-link"><a href="blog.php">Check out the full blog!</a></h3>
+        <h6 class="blog-link"><a href="blog.php">Check out the full blog!</a></h6>
       </div>
     </div>
 

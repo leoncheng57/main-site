@@ -20,6 +20,7 @@ $(document).ready(function() {
     $('#blog-post span[style]').removeAttr('style');
     $('#blog-post a[style]').removeAttr('style');
 
+    //Hide CuteNews accreditation (may be sliiiiiightly illegal)
     $('a[href="http://cutephp.com/"]').parent().hide();
 
 });

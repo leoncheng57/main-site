@@ -26,7 +26,7 @@
     <!-- Header -->
     <nav class="z-depth-0">
       <div class="nav-wrapper">
-        <a href="/club/" class="brand-logo">Logo</a>
+        <a href="/club/" class="brand-logo"><img class="logo" src="images/logo-white.png"></a>
         <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="/club/">Home</a></li>

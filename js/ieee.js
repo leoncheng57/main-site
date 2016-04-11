@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".button-collapse").sideNav();
+    $('.button-collapse').sideNav();
 
     
     // $('#calendar').fullCalendar({
@@ -10,5 +10,10 @@ $(document).ready(function() {
     //     },
     //     eventBackgroundColor: "#993333"
     // });
+
+    //Get rid of styling from CuteNews
+    $('.blog-post div b').contents().unwrap();
+    $('.blog-post div font').contents().unwrap();
+    $('.blog-post div[style]').removeAttr('style');
 
 });

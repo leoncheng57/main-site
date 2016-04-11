@@ -33,13 +33,13 @@
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/club/">Home</a></li>
-        <li><a href="blog.php" class="blog-header-link">Blog</a></li>
-        <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+        <li><a href="blog.php">Blog</a></li>
+        <li><a href="programs.html">Programs</a></li>
       </ul>
       <ul class="side-nav" id="mobile-nav">
         <li><a href="/club/">Home</a></li>
-        <li><a href="blog.php" class="blog-header-link">Blog</a></li>
-        <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+        <li><a href="blog.php">Blog</a></li>
+        <li><a href="programs.html">Programs</a></li>
       </ul>
     </div>
   </nav>
@@ -55,7 +55,7 @@
         </p>
 
 
-        <p class="join"><a data-toggle="modal" data-target="#joinUs" data-backdrop="true">Join our mailing list</a></p>
+        <a class="btn waves-effect waves-light">Join our mailing list</a>
       </div>
     </div>
 
@@ -186,7 +186,7 @@
             <img src="images/exec/makengin.jpg">
           </div>
           <div class="card-content">
-            <p>Efe Akenging</p>
+            <p>Efe Akengin</p>
             <p>Social Chair</p>
           </div>
         </div>

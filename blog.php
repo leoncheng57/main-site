@@ -30,13 +30,13 @@
         <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="/club/">Home</a></li>
-          <li><a href="blog.php" class="blog-header-link">Blog</a></li>
-          <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="programs.html">Programs</a></li>
         </ul>
         <ul class="side-nav" id="mobile-nav">
           <li><a href="/club/">Home</a></li>
-          <li><a href="blog.php" class="blog-header-link">Blog</a></li>
-          <li><a href="programs.html" class="active-header-link">SubCommittees</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="programs.html">Programs</a></li>
         </ul>
       </div>
     </nav>

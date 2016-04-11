@@ -188,9 +188,12 @@ body {
 #blog-post .blog-link {
 	text-align: center;
 	color: #c1272d;
-	background-color: #fff;
 	margin-top: -20px;
 	margin-bottom: 0px;
+}
+
+#blog-post .blog-link a {
+	background: #fff;
 }
 
 #exec {

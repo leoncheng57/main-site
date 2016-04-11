@@ -55,7 +55,7 @@
         </p>
 
 
-        <a class="btn waves-effect waves-light">Join our mailing list</a>
+        <a class="btn waves-effect waves-light join">Join our mailing list</a>
       </div>
     </div>
 

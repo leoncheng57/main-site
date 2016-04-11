@@ -30,12 +30,10 @@ body {
 	font-size: 3.75em;
 }
 
-.join a {
+.join {
 	font-size: 1.75em;
-}
-
-.join a:hover {
-	cursor: pointer;
+	color: #fff;
+	background: #c1272d;
 }
 
 .mobile-welcome {

@@ -21,7 +21,6 @@ $(document).ready(function() {
     $('#blog-post a[style]').removeAttr('style');
 
     $('#blog-post div img').addClass('center-block z-depth-1');
-    $('#blog-post div img[style]').removeAttr('style');
     $('#blog-post div img').parent().addClass('blog-image-padding');
 
     //Hide CuteNews accreditation (may be sliiiiiightly illegal)

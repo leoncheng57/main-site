@@ -84,7 +84,7 @@
 
     <div class="row section">
       <div class="col s12" id="blog-post">
-        <h5>Latest Blog Post</h5>
+        <h6 class="blog-label">Latest Blog Post <span class="right btn-flat">See Full Blog</span></h6>
         <?php 
         $template = "Prototype";
         $number = "1";

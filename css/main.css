@@ -83,6 +83,10 @@ span.source {
 	margin-left: 50px;
 }
 
+.sp {
+	font-weight: 400;
+}
+
 .font-test {
 	max-width: 70%;
 	margin: 0 auto;

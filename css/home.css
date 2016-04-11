@@ -67,8 +67,13 @@ a.join:hover {
 	background: #fff;
 }
 
-.programs {
-	background: #fff;
+.programs h6 {
+	opacity: .54;
+}
+
+.programs-list li a {
+	color: #000;
+	font-weight: 500;
 }
 
 .post {

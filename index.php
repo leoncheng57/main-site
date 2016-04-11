@@ -66,7 +66,7 @@
     <div class="row">
       <div class="col offset-l8 l4 offset-m6 m6 s12 programs z-depth-1">
         <h6>PROGRAMS</h6>
-        <ul>
+        <ul class="programs-list">
           <li><a href="programs.html#codeforgood">Code for Good</a></li>
           <li><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></li>
           <li><a href="programs.html#faculty">Faculty Dinners</a></li>
@@ -79,6 +79,8 @@
         </ul>
       </div>
     </div>
+
+    <div class="divider"></div>
 
     <div class="row">
       <div class="col s12" id="blog-post">

@@ -10,24 +10,8 @@ body {
 	text-decoration: underline;
 }
 
-.welcome {
-	text-align: center;
-	padding-top: 70px;
-	min-height: 400px;
-	font-size: 1.25em;
-	position: relative;
-	z-index: 0;
-	width: 100%;
-}
-
-.welcome-header {
-	text-align: center;
-	letter-spacing:0.2em;
-	margin-bottom: 20px;
-	padding-top:10px;
-	font-weight:600;
-	z-index: 0;
-	font-size: 3.75em;
+.container h1 {
+	font-family: 'Clear Sans Bold';
 }
 
 .join {
@@ -37,20 +21,6 @@ body {
 
 .join:hover {
 	text-decoration: none;
-}
-
-.mobile-welcome {
-	background: #c1272d;
-}
-
-.welcome.mobile-welcome .welcome-header {
-	font-size: 3em;
-}
-
-.welcome-text {
-	background-color: transparent;
-	padding: 0px 50px 50px 50px;
-	z-index: 0;
 }
 
 .calendar-section {

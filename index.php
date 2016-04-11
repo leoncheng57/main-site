@@ -46,14 +46,12 @@
 
   <div class="container">
 
-    <div class="welcome">
-      <h1 class="welcome-header">MIT IEEE/ACM</h1>
-      <div class="welcome-text">
-
+    <div class="row">
+      <h1>MIT IEEE/ACM</h1>
+      <div>
         <p>The MIT IEEE/ACM Club represents the card branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM). 
           Our mission is to create and support a tight-knit community among the cards, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
         </p>
-
 
         <a class="btn waves-effect waves-light join">Join our mailing list</a>
       </div>

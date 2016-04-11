@@ -65,45 +65,31 @@
       <div id="calendar"></div>
     </div> -->
 
-    <div id="programs">
-      <h1>Programs</h1>
-      <div>
+    <div class="row">
+      <div class="col offset-l8 l4 offset-m6 m6 s12" id="programs">
+        <h1>Programs</h1>
         <h2><a href="programs.html#codeforgood">Code for Good</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#faculty">Faculty Dinners</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#mitos">MIT Open Source Club</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#counseling">Peer Counseling</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#sixsharp">6#</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#social">Social Hours</a></h2>
-      </div>
-      <div>
         <h2><a href="programs.html#urge">URGE</a></h2>
-      </div>
-      <div>
-        <h2> <a href="programs.html#voltage">Voltage</a></h2>
+        <h2><a href="programs.html#voltage">Voltage</a></h2>
       </div>
     </div>
 
-    <div id="blog-post">
-      <h1 class="blog-header">Last Blog Post</h1>
-      <?php 
-      $template = "Prototype";
-      $number = "1";
-      include("blog/show_news.php");
-      ?>
-      <h3 class="blog-link"><a href="blog.php">Check out the full blog!</a></h3>
+    <div class="row">
+      <div class="col s12" id="blog-post">
+        <h1 class="blog-header">Last Blog Post</h1>
+        <?php 
+        $template = "Prototype";
+        $number = "1";
+        include("blog/show_news.php");
+        ?>
+        <h3 class="blog-link"><a href="blog.php">Check out the full blog!</a></h3>
+      </div>
     </div>
 
     <div id="exec" class="row">

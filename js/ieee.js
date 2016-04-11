@@ -19,6 +19,7 @@ $(document).ready(function() {
     $('#blog-post span font').contents().unwrap();
     $('#blog-post span[style]').removeAttr('style');
     $('#blog-post a[style]').removeAttr('style');
+    $('#blog-post div').addClass('flow-text');
 
     $('#blog-post div img').addClass('center-block z-depth-1');
     $('#blog-post div img').parent().addClass('blog-image-padding');

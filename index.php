@@ -87,7 +87,6 @@
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h6 class="blog-link"><a href="blog.php">Check out the full blog!</a></h6>
       </div>
     </div>
 

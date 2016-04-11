@@ -12,8 +12,11 @@ $(document).ready(function() {
     // });
 
     //Get rid of styling from CuteNews
-    $('.blog-post div b').contents().unwrap();
-    $('.blog-post div font').contents().unwrap();
-    $('.blog-post div[style]').removeAttr('style');
+    $('#blog-post div b').contents().unwrap();
+    $('#blog-post div font').contents().unwrap();
+    $('#blog-post div[style]').removeAttr('style');
+    $('#blog-post span b').contents().unwrap();
+    $('#blog-post span font').contents().unwrap();
+    $('#blog-post span[style]').removeAttr('style');
 
 });

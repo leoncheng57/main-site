@@ -1,5 +1,5 @@
 body {
-	font-family: 'Clear Sans', sans-serif;
+	font-family: 'Clear Sans', 'Source Sans Pro', sans-serif;
 }
 
 .container a {
@@ -7,7 +7,7 @@ body {
 }
 
 .container a:hover {
-	text-decoration: underline !important;
+	text-decoration: underline;
 }
 
 .welcome {
@@ -33,6 +33,10 @@ body {
 .join {
 	color: #fff !important;
 	background: #c1272d !important;
+}
+
+.join:hover {
+	text-decoration: none;
 }
 
 .mobile-welcome {
@@ -91,13 +95,6 @@ body {
 #calendar {
 	text-align: center;
 	background: #fff;
-}
-
-#blog-post .blog-header {
-	text-align: center;
-	padding: 10px 0px;
-	margin-top: 0px;
-	position: relative;
 }
 
 .post {

@@ -84,7 +84,6 @@
 
     <div class="row">
       <div class="col s12" id="blog-post">
-        <h1 class="blog-header">Latest Blog Post</h1>
         <?php 
         $template = "Prototype";
         $number = "1";

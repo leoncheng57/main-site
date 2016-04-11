@@ -1,12 +1,25 @@
 @fontface {
 	font-family: 'Clear Sans';
 	src: url(fonts/clearsans/ClearSans-Regular.ttf);
+	font-weight: 400;
 }
 
 @fontface {
 	font-family: 'Clear Sans';
 	src: url(fonts/clearsans/ClearSans-Bold.ttf);
-	font-weight: bold;
+	font-weight: 700;
+}
+
+@fontface {
+	font-family: 'Clear Sans Light';
+	src: url(fonts/clearsans/ClearSans-Light.ttf);
+	font-weight: 300;
+}
+
+@fontface {
+	font-family: 'Clear Sans Medium';
+	src: url(fonts/clearsans/ClearSans-Medium.ttf);
+	font-weight: 500;
 }
 
 @fontface {
@@ -18,55 +31,7 @@
 @fontface {
 	font-family: 'Clear Sans';
 	src: url(fonts/clearsans/ClearSans-BoldItalic.ttf);
-	font-weight: bold;
-	font-style: italic;
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Regular.eot);
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Bold.eot);
-	font-weight: bold;
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Italic.eot);
-	font-style: italic;
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-BoldItalic.eot);
-	font-weight: bold;
-	font-style: italic;
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Regular.woff);
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Bold.woff);
-	font-weight: bold;
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Italic.woff);
-	font-style: italic;
-}
-
-@fontface {
-	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-BoldItalic.woff);
-	font-weight: bold;
+	font-weight: 700;
 	font-style: italic;
 }
 
@@ -76,6 +41,7 @@ body {
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 2s;
+	font-family: 'Clear Sans', sans-serif;
 }
 
 @-webkit-keyframes fontfix{
@@ -94,4 +60,30 @@ body {
 
 .blog-image-padding {
 	padding: 0.75rem 0;
+}
+
+.test-head {
+	font-weight: 700;
+}
+
+.clear-lite {
+	font-family: 'Clear Sans Light';
+}
+
+.source-lite {
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+}
+
+.source {
+	font-family: 'Source Sans Pro';
+}
+
+span.source {
+	margin-left: 50px;
+}
+
+.font-test {
+	max-width: 70%;
+	margin: 0 auto;
 }

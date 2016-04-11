@@ -1,36 +1,41 @@
 @fontface {
 	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Regular.ttf);
+	src: url('fonts/clearsans/ClearSans-Regular.ttf');
+	src: url('fonts/clearsans/ClearSans-Regular.eot');
+  	src: url('fonts/clearsans/ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/clearsans/ClearSans-Regular.woff') format('woff'),
+         url('fonts/clearsans/ClearSans-Regular.ttf')  format('truetype'),
+         url('fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular') format('svg');
 	font-weight: 400;
 }
 
 @fontface {
 	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Bold.ttf);
+	src: url('fonts/clearsans/ClearSans-Bold.ttf');
 	font-weight: 700;
 }
 
 @fontface {
 	font-family: 'Clear Sans Light';
-	src: url(fonts/clearsans/ClearSans-Light.ttf);
+	src: url('fonts/clearsans/ClearSans-Light.ttf');
 	font-weight: 300;
 }
 
 @fontface {
 	font-family: 'Clear Sans Medium';
-	src: url(fonts/clearsans/ClearSans-Medium.ttf);
+	src: url('fonts/clearsans/ClearSans-Medium.ttf');
 	font-weight: 500;
 }
 
 @fontface {
 	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-Italic.ttf);
+	src: url('fonts/clearsans/ClearSans-Italic.ttf');
 	font-style: italic;
 }
 
 @fontface {
 	font-family: 'Clear Sans';
-	src: url(fonts/clearsans/ClearSans-BoldItalic.ttf);
+	src: url('fonts/clearsans/ClearSans-BoldItalic.ttf');
 	font-weight: 700;
 	font-style: italic;
 }
@@ -85,9 +90,4 @@ span.source {
 
 .sp {
 	font-weight: 400 !important;
-}
-
-.font-test {
-	max-width: 70%;
-	margin: 0 auto;
 }

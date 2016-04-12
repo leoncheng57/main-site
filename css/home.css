@@ -133,3 +133,17 @@ a.join:hover {
 #blog-post .pagination {
 	display: none;
 }
+
+a.blog-btn {
+	opacity: .54;
+}
+
+a.blog-btn:hover {
+	opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+	a.blog-btn {
+		padding: 0 0.5rem !important;
+	}
+}

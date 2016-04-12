@@ -64,19 +64,22 @@
     </div> -->
 
     <div class="row section">
-      <div class="col offset-l8 l4 offset-m6 m6 s12 programs z-depth-1">
-        <h6>PROGRAMS</h6>
-        <ul class="programs-list">
-          <li><a href="programs.html#codeforgood">Code for Good</a></li>
-          <li><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></li>
-          <li><a href="programs.html#faculty">Faculty Dinners</a></li>
-          <li><a href="programs.html#mitos">MIT Open Source Club</a></li>
-          <li><a href="programs.html#counseling">Peer Counseling</a></li>
-          <li><a href="programs.html#sixsharp">6#</a></li>
-          <li><a href="programs.html#social">Social Hours</a></li>
-          <li><a href="programs.html#urge">URGE</a></li>
-          <li><a href="programs.html#voltage">Voltage</a></li>
-        </ul>
+      <div class="col offset-l8 l4 offset-m6 m6 s12 z-depth-1">
+        <div class="programs">
+          <h6 class="programs-label">PROGRAMS</h6>
+          <div class="divider"></div>
+          <ul class="programs-list">
+            <li><a href="programs.html#codeforgood">Code for Good</a></li>
+            <li><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></li>
+            <li><a href="programs.html#faculty">Faculty Dinners</a></li>
+            <li><a href="programs.html#mitos">MIT Open Source Club</a></li>
+            <li><a href="programs.html#counseling">Peer Counseling</a></li>
+            <li><a href="programs.html#sixsharp">6#</a></li>
+            <li><a href="programs.html#social">Social Hours</a></li>
+            <li><a href="programs.html#urge">URGE</a></li>
+            <li><a href="programs.html#voltage">Voltage</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 

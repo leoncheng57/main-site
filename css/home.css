@@ -67,8 +67,16 @@ a.join:hover {
 	background: #fff;
 }
 
-.programs h6 {
+.programs {
+	padding: 0.75rem;
+}
+
+.programs-label {
 	opacity: .54;
+}
+
+.programs-list {
+	margin-top: 0px;
 }
 
 .programs-list li a {

@@ -89,6 +89,10 @@ a.join:hover {
 	text-decoration: underline;
 }
 
+.blog-label {
+	opacity: .54;
+}
+
 .post-title {
 	font-family: 'Clear Sans Medium';
 }

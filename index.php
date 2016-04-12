@@ -87,12 +87,14 @@
 
     <div class="row section">
       <div class="col s12" id="blog-post">
-        <h5 class="blog-label valign-wrapper">Latest Blog Post<a class="btn-flat right valign">See Full Blog</a></h5>
+        <h5 class="blog-label valign-wrapper">Latest Blog Post</h5>
         <?php 
         $template = "Prototype";
         $number = "1";
         include("blog/show_news.php");
         ?>
+        <div class="divider"></div>
+        <h5><a class="btn-flat right valign">See Full Blog</a></h5>
       </div>
     </div>
 

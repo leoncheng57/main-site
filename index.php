@@ -64,7 +64,7 @@
     </div> -->
 
     <div class="row section">
-      <div class="col offset-l8 l4 offset-m6 m6 s12 z-depth-1">
+      <div class="col offset-l7 l5 offset-m6 m6 s12 z-depth-1">
         <div class="programs">
           <h6 class="programs-label">PROGRAMS</h6>
           <div class="divider"></div>
@@ -87,13 +87,12 @@
 
     <div class="row section">
       <div class="col s12" id="blog-post">
-        <h5 class="blog-label">Latest Blog Post</h5>
+        <h5 class="blog-label valign-wrapper">Latest Blog Post<a class="btn-flat right valign">See Full Blog</a></h5>
         <?php 
         $template = "Prototype";
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h5 class="right-aligned"><a class="btn-flat">See Full Blog</a></h5>
       </div>
     </div>
 

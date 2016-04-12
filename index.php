@@ -29,7 +29,7 @@
 	<!-- Header -->
   <nav class="z-depth-0">
     <div class="nav-wrapper">
-      <a href="/club/" class="brand-logo"><img class="logo" src="images/logo-white.png"></a>
+      <a href="/club/" class="brand-logo"><img class="logo hide-on-med-and-down" src="images/logo-white.png"></a>
       <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/club/">HOME</a></li>
@@ -93,7 +93,7 @@
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h5 class="right-align"><a class="btn-flat blog-btn">See The Full Blog</a></h5>
+        <h5 class="right-align"><a class="btn-flat blog-btn waves-effect waves-ieee-light">See The Full Blog</a></h5>
         <div class="divider"></div>
       </div>
     </div>

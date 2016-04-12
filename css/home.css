@@ -86,7 +86,7 @@ a.join:hover {
 }
 
 .programs-list li a:hover {
-	text-decoration: underline;
+	color: #c1272d;
 }
 
 .blog-label {
@@ -100,6 +100,14 @@ a.join:hover {
 .post {
 	color: #000 !important;
 	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif !important;
+}
+
+.post a {
+	color: #c1272d;
+}
+
+.post a:hover {
+	text-decoration: underline;
 }
 
 .post div[style] {
@@ -132,14 +140,6 @@ a.join:hover {
 
 #blog-post .pagination {
 	display: none;
-}
-
-a.blog-btn {
-	opacity: .54;
-}
-
-a.blog-btn:hover {
-	opacity: 1;
 }
 
 @media only screen and (max-width: 600px) {

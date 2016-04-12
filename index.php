@@ -84,12 +84,13 @@
 
     <div class="row section">
       <div class="col s12" id="blog-post">
-        <h6 class="blog-label">Latest Blog Post <span class="right btn-flat">See Full Blog</span></h6>
+        <h5 class="blog-label">Latest Blog Post</h5>
         <?php 
         $template = "Prototype";
         $number = "1";
         include("blog/show_news.php");
         ?>
+        <h5 class="right-aligned"><a class="btn-flat">See Full Blog</a></h5>
       </div>
     </div>
 

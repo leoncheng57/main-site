@@ -41,7 +41,7 @@
       </div>
     </nav>
 
-    <div class="main">
+    <div class="container">
       <div id="programs">
           <div class="program-section" id="codeforgood">
             <h1><a href="http://codeforgood.mit.edu" target="_blank">Code for Good</a></h1>
@@ -216,34 +216,6 @@
           </div>
       </div>
     </div>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-
-      function adjustToWidth() {
-          if ($(window).width() < 700) {
-            $('.blog-header-link').hide();
-          } else {
-            $('.blog-header-link').show();
-          }
-        };
-
-        adjustToWidth();
-
-        $(window).resize(function() {
-          adjustToWidth();
-        });
-    })
-
-      $(function() {
-        $(".student").hover(function(){
-          $(this).find(".info").fadeIn('fast');
-        },
-        function(){
-            $(this).find(".info").fadeOut('fast');
-        });
-      });
-    </script>
 
   </body>
 </html>

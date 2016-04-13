@@ -16,12 +16,25 @@ body {
 	to{	opacity: 1; }
 }
 
+nav {
+	padding-top: 10px;
+    line-height: 40px !important;
+    background-color: #c1272d !important;
+    padding-bottom: 60px;
+    padding-right: 25px;
+}
+
+nav ul {
+	margin-top: 5px !important;
+}
+
 .nav-wrapper {
 	background: #c1272d;
 }
 
 .logo {
-	height: 64px;
+	height: 50px;
+	margin-left: 20px;
 }
 
 .blog-image-padding {
@@ -30,6 +43,10 @@ body {
 
 .waves-effect.waves-ieee-light .waves-ripple {
 	background-color: rgba(220, 86, 90, 0.65);
+}
+
+.exec-name {
+	font-family: 'Clear Sans Medium';
 }
 
 .test-head {

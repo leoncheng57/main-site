@@ -142,6 +142,10 @@ a.join:hover {
 	display: none;
 }
 
+a.blog-btn {
+	font-family: 'Clear Sans Light';
+}
+
 @media only screen and (max-width: 600px) {
 	a.blog-btn {
 		padding: 0 0.5rem !important;

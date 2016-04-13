@@ -64,6 +64,7 @@
     </div> -->
 
     <div class="row section">
+      <!-- <div class="col l7 m6 s12 z-depth-1"></div> -->
       <div class="col offset-l7 l5 offset-m6 m6 s12 z-depth-1">
         <div class="programs">
           <h6 class="programs-label">PROGRAMS</h6>
@@ -106,8 +107,8 @@
             <img src='images/exec/hlee.jpg' width="195px">
           </div>
           <div class="card-content">
-            <p>Harlin Lee</p>
-            <p>President</p>
+            <h6 class="exec-name">Harlin Lee</h6>
+            <p class="exec-title">President</p>
           </div>
         </div>
       </div>
@@ -118,8 +119,8 @@
             <img src='images/exec/kng.jpg' width="195px">
           </div>
           <div class="card-content">
-            <p>Kevin Ng</p>
-            <p>Vice President</p>
+            <h6 class="exec-name">Kevin Ng</h6>
+            <p class="exec-title">Vice President</p>
           </div>
         </div>
       </div>
@@ -130,8 +131,8 @@
             <img src="images/exec/igarza.jpg" width="195px">
           </div>
           <div class="card-content">
-            <p>Isaac Garza</p>
-            <p>Co-Treasurer</p>
+            <h6 class="exec-name">Isaac Garza</h6>
+            <p class="exec-title">Co-Treasurer</p>
           </div>
         </div>
       </div>
@@ -142,8 +143,8 @@
             <img src="images/exec/pzhao.jpg">
           </div>
           <div class="card-content">
-            <p>Parker Zhao</p>
-            <p>External Relations</p>
+            <h6 class="exec-name">Parker Zhao</h6>
+            <p class="exec-title">External Relations</p>
           </div>
         </div>
       </div>
@@ -154,8 +155,8 @@
             <img src="images/exec/clao.jpg">
           </div>
           <div class="card-content">
-            <p>Czarina Lao</p>
-            <p>Secretary</p>
+            <h6 class="exec-name">Czarina Lao</h6>
+            <p class="exec-title">Secretary</p>
           </div>
         </div>
       </div>
@@ -166,8 +167,8 @@
             <img src="images/exec/schen.jpg">
           </div>
           <div class="card-content">
-            <p>Shirley Chen</p>
-            <p>Social Chair</p>
+            <h6 class="exec-name">Shirley Chen</h6>
+            <p class="exec-title">Social Chair</p>
           </div>
         </div>
       </div>
@@ -178,8 +179,8 @@
             <img src="images/exec/makengin.jpg">
           </div>
           <div class="card-content">
-            <p>Efe Akengin</p>
-            <p>Social Chair</p>
+            <h6 class="exec-name">Efe Akengin</h6>
+            <p class="exec-title">Social Chair</p>
           </div>
         </div>
       </div>
@@ -190,8 +191,8 @@
             <img src="images/exec/mlao.jpg">
           </div>
           <div class="card-content">
-            <p>Natalie Lao</p>
-            <p>Chairwoman</p>
+            <h6 class="exec-name">Natalie Lao</h6>
+            <p class="exec-title">Chairwoman</p>
           </div>
         </div>
       </div>
@@ -202,8 +203,8 @@
             <img src="images/exec/hmoncivais.png">
           </div>
           <div class="card-content">
-            <p>Hiram Moncivais</p>
-            <p>Historian</p>
+            <h6 class="exec-name">Hiram Moncivais</h6>
+            <p class="exec-title">Historian</p>
           </div>
         </div>
       </div>
@@ -214,8 +215,8 @@
             <img src="images/exec/kikhofua.jpg">
           </div>
           <div class="card-content">
-            <p>Kamoya Ikhofua</p>
-            <p>Publicity Chair</p>
+            <h6 class="exec-name">Kamoya Ikhofua</h6>
+            <p class="exec-title">Publicity Chair</p>
           </div>
         </div>
       </div>
@@ -226,8 +227,8 @@
             <img src="images/exec/lchen.jpg">
           </div>
           <div class="card-content">
-            <p>Lucy Chen</p>
-            <p>Publicity Chair</p>
+            <h6 class="exec-name">Lucy Chen</h6>
+            <p class="exec-title">Publicity Chair</p>
           </div>
         </div>
       </div>
@@ -238,8 +239,8 @@
             <img src="images/exec/cwomack.jpg">
           </div>
           <div class="card-content">
-            <p>Chris Womack</p>
-            <p>Webmaster</p>
+            <h6 class="exec-name">Chris Womack</h6>
+            <p class="exec-title">Webmaster</p>
           </div>
         </div>
       </div>

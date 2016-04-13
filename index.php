@@ -94,7 +94,7 @@
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h5 class="right-align"><a href="blog.php" class="btn-flat blog-btn waves-effect waves-ieee-light">See The Full Blog</a></h5>
+        <h5 class="right-align"><a href="blog.php" class="btn-flat blog-btn">See The Full Blog</a></h5>
         <div class="divider"></div>
       </div>
     </div>
@@ -132,7 +132,7 @@
           </div>
           <div class="card-content">
             <h6 class="exec-name">Isaac Garza</h6>
-            <p class="exec-title">Co-Treasurer</p>
+            <p class="exec-title">Treasurer</p>
           </div>
         </div>
       </div>

@@ -42,35 +42,34 @@
     </nav>
 
             
-    <div class="main">
+    <div class="main container">
+      <div class="row">
+        <?php
+          
+          /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          Cute news Init
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+          
+          //Custom Template
+          $template = "Prototype"; 
+          $number = "10"; // Number of articles per page
+                   
+          if($_POST['do'] == "search" or $_GET['dosearch'] == "yes") {
+              $subaction = "search";
+              $dosearch = "yes";
+              include("blog/search.php");
+            }
+          elseif($_GET['do'] == "archives") {
+              include("blog/show_archives.php");
+            }
+          elseif($_GET['do'] == "stats") {
+              echo "You can download the stats addon and include it here to show how many news, comments … you have";
+              /* include("$path/stats.php"); */ 
+            }
+          else{ include("blog/show_news.php"); }
 
-      <?php
-        
-        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        Cute news Init
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-        
-        //Custom Template
-        $template = "Prototype"; 
-        $number = "10"; // Number of articles per page
-                 
-        if($_POST['do'] == "search" or $_GET['dosearch'] == "yes") {
-            $subaction = "search";
-            $dosearch = "yes";
-            include("blog/search.php");
-          }
-        elseif($_GET['do'] == "archives") {
-            include("blog/show_archives.php");
-          }
-        elseif($_GET['do'] == "stats") {
-            echo "You can download the stats addon and include it here to show how many news, comments … you have";
-            /* include("$path/stats.php"); */ 
-          }
-        else{ include("blog/show_news.php"); }
-
-?>
-
-  
+        ?>
+      </div>
     </div> 
 
 </body>

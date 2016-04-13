@@ -20,6 +20,7 @@ $(document).ready(function() {
     $('span[style]', '.post').removeAttr('style');
     $('a[style]', '.post').removeAttr('style');
     $('div', '.post').addClass('flow-text');
+    $('p', '.post').addClass('flow-text');
 
     $('div img', '.post').addClass('center-block z-depth-1');
     $('div img', '.post').parent().addClass('blog-image-padding');

@@ -3,28 +3,3 @@
   padding-top: 20px;
   padding-bottom: 40px;
 }
-
-.pagination {
-  color: #fff;
-}
-
-.pagination a {
-  display: inline-block;
-  padding: 8px 12px;
-  margin-bottom: 0;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.428571429;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  color: #c1272d;
-}
-
-.pagination a:hover,
-.pagination a:focus {
-  color: #333333;
-  text-decoration: none;
-  font-weight: bold;
-}

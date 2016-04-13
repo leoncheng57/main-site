@@ -52,7 +52,7 @@
           
           //Custom Template
           $template = "Full"; 
-          $number = "10"; // Number of articles per page
+          $number = "5"; // Number of articles per page
                    
           if($_POST['do'] == "search" or $_GET['dosearch'] == "yes") {
               $subaction = "search";

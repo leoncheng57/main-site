@@ -4,29 +4,10 @@ body {
 	color: #000;
 }
 
-h1 {
-	text-align: center;
-	padding: 10px 0px;
-	position: relative;
+.container a {
+    color: #c1272d !important;
 }
 
-
-h1 a {
-	text-decoration: none;
-	color: #000;
-}
-
-h1 a:hover, h1 a:focus {
-	text-decoration: none;
-	font-weight: bold;
-}
-
-.program-section {
-	min-height: 70vh;
-	max-width: 80vw;
-	padding-top: 75px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-size: 1.25em;
+.container a:hover {
+    text-decoration: underline;
 }

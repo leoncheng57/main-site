@@ -90,7 +90,7 @@
       <div class="col s12" id="blog-post">
         <h5 class="blog-label">LATEST BLOG POST</h5>
         <?php 
-        $template = "Prototype";
+        $template = "Home";
         $number = "1";
         include("blog/show_news.php");
         ?>

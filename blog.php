@@ -51,7 +51,7 @@
           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
           
           //Custom Template
-          $template = "Prototype"; 
+          $template = "Full"; 
           $number = "10"; // Number of articles per page
                    
           if($_POST['do'] == "search" or $_GET['dosearch'] == "yes") {

@@ -12,17 +12,17 @@ $(document).ready(function() {
     // });
 
     //Get rid of styling from CuteNews
-    $('#blog-post div b').contents().unwrap();
-    $('#blog-post div font').contents().unwrap();
-    $('#blog-post div[style]').removeAttr('style');
-    $('#blog-post span b').contents().unwrap();
-    $('#blog-post span font').contents().unwrap();
-    $('#blog-post span[style]').removeAttr('style');
-    $('#blog-post a[style]').removeAttr('style');
-    $('#blog-post div').addClass('flow-text');
+    $('div b', '.post').contents().unwrap();
+    $('div font', '.post').contents().unwrap();
+    $('div[style]', '.post').removeAttr('style');
+    $('span b', '.post').contents().unwrap();
+    $('span font', '.post').contents().unwrap();
+    $('span[style]', '.post').removeAttr('style');
+    $('a[style]', '.post').removeAttr('style');
+    $('div', '.post').addClass('flow-text');
 
-    $('#blog-post div img').addClass('center-block z-depth-1');
-    $('#blog-post div img').parent().addClass('blog-image-padding');
+    $('div img', '.post').addClass('center-block z-depth-1');
+    $('div img', '.post').parent().addClass('blog-image-padding');
 
     //Hide CuteNews accreditation (may be sliiiiiightly illegal)
     $('a[href="http://cutephp.com/"]').parent().hide();

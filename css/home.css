@@ -93,51 +93,6 @@ a.join:hover {
 	opacity: .54;
 }
 
-.post-title {
-	font-family: 'Clear Sans Medium';
-}
-
-.post {
-	color: #000 !important;
-	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif !important;
-}
-
-.post a {
-	color: #c1272d;
-}
-
-.post a:hover {
-	text-decoration: underline;
-}
-
-.post div[style] {
-	color: #000 !important;
-	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif !important;
-}
-
-.post span[style] {
-	color: #000 !important;
-	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif !important;
-}
-
-.post-details {
-	opacity: .54;
-}
-
-#blog-post {
-	background: #fff;
-}
-
-#blog-post div img {
-	max-width: 100%;
-	height: auto !important;
-}
-
-#blog-post div img[style] {
-	max-width: 100%;
-	height: auto !important;
-}
-
 #blog-post .pagination {
 	display: none;
 }

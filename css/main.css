@@ -7,7 +7,7 @@ body {
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 2s;
-	font-family: 'Clear Sans', sans-serif;
+	font-family: 'Clear Sans', 'Source Sans Pro', sans-serif;
 }
 
 @-webkit-keyframes fontfix{
@@ -58,7 +58,7 @@ nav .button-collapse i {
 }
 
 .post-title {
-    font-family: 'Clear Sans Medium';
+    font-family: 'Clear Sans Medium', 'Source Sans Pro', sans-serif;
 }
 
 .post {
@@ -86,6 +86,7 @@ nav .button-collapse i {
 
 .post-details {
     opacity: .54;
+    margin-top: -15px;
 }
 
 .post div img {
@@ -98,10 +99,13 @@ nav .button-collapse i {
     height: auto !important;
 }
 
+
+/* For font test page */
+
 .test-head {
-	font-family: 'Clear Sans Medium'
+	font-family: 'Clear Sans Medium', 'Source Sans Pro', sans-serif;
 }
 
 .clear-lite {
-	font-family: 'Clear Sans Light';
+	font-family: 'Clear Sans Light', 'Source Sans Pro', sans-serif;
 }

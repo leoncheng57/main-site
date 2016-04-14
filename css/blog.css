@@ -1,5 +1,17 @@
 .main {
-  margin-top: 60px;
   padding-top: 20px;
   padding-bottom: 40px;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.divider {
+    margin-bottom: 30px;
+}
+
+ul.pagination li.active {
+    background-color: #c1272d;
+    color: #fff;
 }

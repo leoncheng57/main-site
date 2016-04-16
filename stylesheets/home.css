@@ -48,7 +48,8 @@ a.join {
 
 .join-disclaimer {
   font-size: 85%;
-  opacity: .54; }
+  opacity: .54;
+  margin-top: -10px; }
 
 #join-modal .modal-content {
   padding-bottom: 0; }
@@ -83,4 +84,4 @@ a.blog-btn {
   a.blog-btn {
     padding: 0 0.5rem !important; } }
 
-/*# sourceMappingURL=home.stylesheets.map */
+/*# sourceMappingURL=home.css.map */

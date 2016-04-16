@@ -267,11 +267,11 @@
       
         <form name="application" method="post" action="register.php" class="col s12">
           <div class="row">
-            <div class="input-field col s6">
-              <input type="text" name="first-name" id="first-name" class="validate" required>
+            <div class="input-field col s12 m12 l6">
+              <input type="text" name="first-name" id="first-name" required>
               <label for="first-name">First Name</label>
             </div>
-            <div class="input-field col s6">
+            <div class="input-field col s12 m12 l6">
               <input type="text" name="last-name" id="last-name">
               <label for="last-name">Last Name</label>
             </div>
@@ -279,7 +279,7 @@
 
           <div class="row">
             <div class="input-field col s12">
-              <input type="email" id="email" name="email" class="validate" required>
+              <input type="email" id="email" name="email" required>
               <label for="email">MIT Email</label>
             </div>
           </div> 
@@ -287,7 +287,7 @@
       </div>
     </div><!-- /.modal-content -->
     <div class="modal-footer">
-      <input type="submit" value="Submit" class="btn-flat" >
+      <input type="submit" value="Submit" align="middle" class="btn-flat" >
       <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
     </div>
   </div><!-- /.modal -->

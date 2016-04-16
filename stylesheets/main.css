@@ -1728,7 +1728,7 @@
    ========================================================================== */
 /* 24. Progress Bar
    ========================================================================== */
-/*! normalize.stylesheets v3.0.3 | MIT License | github.com/necolas/normalize.stylesheets */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
@@ -4168,8 +4168,8 @@ textarea.materialize-textarea {
   input[type=number]:focus:not([readonly]),
   input[type=search]:focus:not([readonly]),
   textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #26a69a;
-    box-shadow: 0 1px 0 0 #26a69a; }
+    border-bottom: 1px solid #c1272d;
+    box-shadow: 0 1px 0 0 #c1272d; }
   input:not([type]):focus:not([readonly]) + label,
   input[type=text]:focus:not([readonly]) + label,
   input[type=password]:focus:not([readonly]) + label,
@@ -4183,7 +4183,7 @@ textarea.materialize-textarea {
   input[type=number]:focus:not([readonly]) + label,
   input[type=search]:focus:not([readonly]) + label,
   textarea.materialize-textarea:focus:not([readonly]) + label {
-    color: #26a69a; }
+    color: #c1272d; }
   input:not([type]).valid, input:not([type]):focus.valid,
   input[type=text].valid,
   input[type=text]:focus.valid,
@@ -4349,7 +4349,7 @@ textarea.materialize-textarea {
     font-size: 2rem;
     transition: color .2s; }
     .input-field .prefix.active {
-      color: #26a69a; }
+      color: #c1272d; }
   .input-field .prefix ~ input,
   .input-field .prefix ~ textarea {
     margin-left: 3rem;
@@ -6257,4 +6257,4 @@ nav .button-collapse i {
 .clear-lite {
   font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
 
-/*# sourceMappingURL=main.stylesheets.map */
+/*# sourceMappingURL=main.css.map */

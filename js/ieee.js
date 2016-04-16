@@ -19,12 +19,12 @@ $(document).ready(function() {
             .always(function() {
                 $inputs.prop('disabled', false);
             })
-            .done(function(response) {
-                if (response.error) {
-                    console.log(response.error);
-                } else {
+            .done(function(responseJson) {
+                if (responseJson.status == "success") {
                     $("#join-modal").closeModal();
-                    Materialize.toast(response, 4000);
+                    Materialize.toast(responseJson.message, 4000);
+                } else {
+                    console.log(responseJson);
                 }
             })
             .fail(function(responseObject) {

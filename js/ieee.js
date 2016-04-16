@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $('.button-collapse').sideNav();
     $('.modal-trigger').leanModal({
-        dismissable: true
+        dismissible: true
     });
 
     

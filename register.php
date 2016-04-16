@@ -6,8 +6,8 @@ $rmessage = "";
 
 $ieeeemail = "ieee-acm-webmaster@mit.edu";
 
-$applicant_name = $_POST['required-name'];
-$applicant_email = $_POST['required-email'];
+$applicant_name = $_POST['first-name'] . " " . $_POST['last-name'];
+$applicant_email = $_POST['email'];
     
 $apply_date = date("F j, Y, g:i a");
 

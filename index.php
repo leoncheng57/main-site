@@ -257,18 +257,20 @@
   <div class="modal" id="join-modal">
     <div class="modal-content">
       <div class="row">
-        <h4 class="modal-title">Join the IEEE Mailing List</h4>
+        <h4 class="col s12">Join the IEEE Mailing List</h4>
 
-        <p>Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
+        <div class="row">
+          <p class="col s12">Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
 
-        <small>Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</small>
+          <p class="col s12 join-disclaimer">Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</p>
+        </div>
 
 
       
         <form name="application" method="post" action="register.php" class="col s12">
           <div class="row">
             <div class="input-field col s6">
-              <input type="text" name="first-name" id="first-name">
+              <input type="text" name="first-name" id="first-name" class="validate" required>
               <label for="first-name">First Name</label>
             </div>
             <div class="input-field col s6">
@@ -279,16 +281,16 @@
 
           <div class="row">
             <div class="input-field col s12">
-              <input type="text" id="email" placeholder="kerberos@mit.edu" name="-email">
-              <label for="email">MIT E-mail</label>
+              <input type="email" id="email" name="email" class="validate" required>
+              <label for="email">MIT Email</label>
             </div>
           </div> 
         </form>
       </div>
     </div><!-- /.modal-content -->
     <div class="modal-footer">
+      <input type="submit" value="Submit" class="btn-flat" >
       <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
-      <input type="submit" value="Submit" align="middle" class="btn-flat" >
     </div>
   </div><!-- /.modal -->
 

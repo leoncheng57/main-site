@@ -23,6 +23,21 @@ a.join:hover {
 	text-decoration: none;
 }
 
+.join-disclaimer {
+	font-size: 85%;
+	opacity: .54;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #c1272d;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #c1272d;
+	box-shadow: 0 1px 0 0 #000;
+}
+
 .calendar-section {
 	padding-top: 30px;
 	text-align: center;

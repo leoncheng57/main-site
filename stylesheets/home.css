@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Clear Sans';
+  src: url("../fonts/clearsans/ClearSans-Regular.eot");
+  src: url("../fonts/clearsans/ClearSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Regular.woff") format("woff"), url("../fonts/clearsans/ClearSans-Regular.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular") format("svg");
+  font-weight: 400; }
+@font-face {
+  font-family: 'Clear Sans Bold';
+  src: url("../fonts/clearsans/ClearSans-Bold.eot");
+  src: url("../fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("../fonts/clearsans/ClearSans-Bold.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Bold.svg#ClearSans-Bold") format("svg");
+  font-weight: 700; }
+@font-face {
+  font-family: 'Clear Sans Light';
+  src: url("../fonts/clearsans/ClearSans-Light.eot");
+  src: url("../fonts/clearsans/ClearSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Light.woff") format("woff"), url("../fonts/clearsans/ClearSans-Light.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Light.svg#ClearSans-Light") format("svg");
+  font-weight: 300; }
+@font-face {
+  font-family: 'Clear Sans Medium';
+  src: url("../fonts/clearsans/ClearSans-Medium.eot");
+  src: url("../fonts/clearsans/ClearSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Medium.svg#ClearSans-Medium") format("svg");
+  font-weight: 500; }
+@font-face {
+  font-family: 'Clear Sans';
+  src: url("../fonts/clearsans/ClearSans-Italic.eot");
+  src: url("../fonts/clearsans/ClearSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Italic.woff") format("woff"), url("../fonts/clearsans/ClearSans-Italic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Italic.svg#ClearSans-Italic") format("svg");
+  font-style: italic; }
+@font-face {
+  font-family: 'Clear Sans';
+  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot");
+  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-BoldItalic.woff") format("woff"), url("../fonts/clearsans/ClearSans-BoldItalic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-BoldItalic.svg#ClearSans-BoldItalic") format("svg");
+  font-weight: 700;
+  font-style: italic; }
+body {
+  font-family: "Clear Sans", "Source Sans Pro", sans-serif; }
+
+.welcome a {
+  color: #c1272d; }
+  .welcome a:hover {
+    text-decoration: underline; }
+
+.container h1 {
+  font-family: "Clear Sans Bold", "Source Sans Pro", sans-serif; }
+
+a.join {
+  color: #fff !important;
+  background: #c1272d !important; }
+  a.join:hover {
+    text-decoration: none; }
+
+.join-disclaimer {
+  font-size: 85%;
+  opacity: .54; }
+
+#join-modal .modal-content {
+  padding-bottom: 0; }
+
+.programs {
+  padding: 0.75rem; }
+
+.programs-label {
+  opacity: .54; }
+
+.programs-list {
+  margin: 0; }
+  .programs-list li a {
+    color: #000;
+    font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif;
+    font-size: 1.64rem; }
+    .programs-list li a:hover {
+      color: #c1272d; }
+
+.blog-label {
+  opacity: .54; }
+
+#blog-post .pagination {
+  display: none; }
+
+a.blog-btn {
+  margin-top: 3rem;
+  color: #c1272d;
+  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
+
+@media only screen and (max-width: 600px) {
+  a.blog-btn {
+    padding: 0 0.5rem !important; } }
+
+/*# sourceMappingURL=home.stylesheets.map */

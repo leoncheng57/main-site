@@ -11,12 +11,10 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   
-  <link href="css/home.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="stylesheets/home.css" rel="stylesheet">
+  <link href="stylesheets/main.css" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
   <script src="js/jquery.js"></script>
   <script type='text/javascript' src='js/materialize.min.js'></script>

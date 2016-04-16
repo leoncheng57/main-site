@@ -950,7 +950,7 @@ if ($) {
           ancestor = ancestor.parentNode;
         }
 
-        // Set css on origin
+        // Set stylesheets on origin
         origin.css({position: 'absolute', 'z-index': 1000})
         .data('width', originalWidth)
         .data('height', originalHeight);
@@ -1099,7 +1099,7 @@ if ($) {
             }
           );
 
-          // Remove Caption + reset css settings on image
+          // Remove Caption + reset stylesheets settings on image
           $('.materialbox-caption').velocity({opacity: 0}, {
             duration: outDuration, // Delay prevents animation overlapping
             queue: false, easing: 'easeOutQuad',
@@ -1462,7 +1462,7 @@ $(document).ready(function(){
               });
             }
 
-            // Set tooptip css placement
+            // Set tooptip stylesheets placement
             newTooltip.css({
               top: newCoordinates.y,
               left: newCoordinates.x
@@ -2064,7 +2064,7 @@ $(document).ready(function(){
               else {
                 // menu_id.removeAttr('style');
                 menu_id.css('transform', 'translateX(0%)');
-                // menu_id.css('width', options.menuWidth);
+                // menu_id.stylesheets('width', options.menuWidth);
               }
             }
             else if (menuOut === false){
@@ -2238,7 +2238,7 @@ $(document).ready(function(){
                   menu_id.velocity({'translateX': [0, leftPos]}, {duration: 300, queue: false, easing: 'easeOutQuad'});
                 }
 
-                // menu_id.css({'translateX': 0});
+                // menu_id.stylesheets({'translateX': 0});
                 $('#sidenav-overlay').velocity({opacity: 1 }, {duration: 50, queue: false, easing: 'easeOutQuad'});
                 dragTarget.css({width: '50%', right: 0, left: ''});
               }

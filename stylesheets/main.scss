@@ -1,0 +1,106 @@
+@import "clearsans";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic');
+@import "materialize";
+@import "colors";
+
+body {
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  font-family: $clearsans;
+}
+
+@-webkit-keyframes fontfix{
+  from{ 	opacity: 1; }
+  50%{	opacity: 0.8; }
+  to{	opacity: 1; }
+}
+
+nav {
+  padding-top: 10px;
+  line-height: 40px !important;
+  background-color: $ieee-base !important;
+  padding-bottom: 60px;
+  padding-right: 25px;
+
+  ul.right {
+    margin-top: 5px !important;
+  }
+}
+
+.nav-wrapper {
+  background: $ieee-base;
+}
+
+nav .button-collapse i {
+  margin-left: 15px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.blog-image-padding {
+  padding: 0.75rem 0;
+}
+
+.waves-effect.waves-ieee-light .waves-ripple {
+  background-color: rgba(220, 86, 90, 0.65);
+}
+
+.exec-name {
+  font-family: $clearsans-med;
+}
+
+.exec-title {
+  opacity: .54;
+}
+
+.post-title {
+  font-family: $clearsans-med;
+}
+
+.post {
+  color: #000 !important;
+  font-family: $clearsans-lite !important;
+
+  a {
+    color: $ieee-base;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  div[style], span[style] {
+    color: #000 !important;
+    font-family: $clearsans-lite !important;
+  }
+}
+
+.post-details {
+  opacity: .54;
+  margin-top: -15px;
+}
+
+.post div img {
+  max-width: 100%;
+  height: auto !important;
+  &[style] {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
+
+
+/* For font test page */
+
+.test-head {
+  font-family: $clearsans-med;
+}
+
+.clear-lite {
+  font-family: $clearsans-lite;
+}

@@ -256,32 +256,37 @@
   <!-- Modal -->
   <div class="modal" id="join-modal">
     <div class="modal-content">
-      <form name="application" method="post" action="register.php">
         <h4 class="modal-title">Join the IEEE Mailing List</h4>
 
-        <p>MIT ACM/IEEE membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT ACM/IEEE chapter is a great way to stay informed on upcoming club activities, and we're always looking for more help with our many programs.</p>
+        <p>Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
 
-        <p>Please note that membership in our club is not the same as membership in the international <A href=http://www.acm.org>ACM</A> or <A href=http://www.ieee.org>IEEE</A> organizations. However, we do have access to resources that wouldn't be available without membership to the IEEE branch such as access to certain publications, contacts in IEEE and industry, and ability to coordinate events with the National organization.</p>
+        <small>Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</small>
 
 
+      <div class="row">
+        <form name="application" method="post" action="register.php" class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input type="text" name="first-name" id="first-name">
+              <label for="first-name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input type="text" name="last-name" id="last-name">
+              <label for="Last-name">Last Name</label>
+            </div>
+          </div>
 
-        <div class="input-group">
-          <span class="input-group-addon">Name</span>
-          <input type="text" class="form-control" placeholder="Name" name="required-name">
-        </div>
-        <br />
-
-        <div class="input-group">
-          <span class="input-group-addon">MIT E-mail</span>
-          <input type="text" class="form-control" placeholder="kerberos@mit.edu" name="required-email">
-        </div>
-        <br /> 
-
-      </form>
+          <div class="row">
+            <div class="input-field col s12">
+              <input type="text" id="email" placeholder="kerberos@mit.edu" name="-email">
+              <label for="email">MIT E-mail</label>
+            </div>
+          </div> 
+        </form>
     </div><!-- /.modal-content -->
     <div class="modal-footer">
-      <a class="btn" data-dismiss="modal">Close</a>
-      <input type="submit" value="Submit" align="middle" class="btn" >
+      <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
+      <input type="submit" value="Submit" align="middle" class="btn-flat" >
     </div>
   </div><!-- /.modal -->
 

@@ -23,9 +23,13 @@ $(document).ready(function() {
                 if (response.error) {
                     console.log(response.error);
                 } else {
+                    $("#join-modal").closeModal();
                     Materialize.toast(response, 4000);
                 }
-        });
+            })
+            .fail(function(responseObject) {
+                console.log(responseObject);
+            });
     });
 
     //Get rid of styling from CuteNews

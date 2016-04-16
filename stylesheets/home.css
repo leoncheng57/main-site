@@ -49,7 +49,13 @@ a.join {
 .modal-content-row {
   margin-bottom: 10px; }
 
-.app-text, .email-row, input#email {
+.app-text {
+  margin-bottom: 0; }
+
+input#email {
+  margin-bottom: 0; }
+
+.email-row {
   margin-bottom: 0; }
 
 .join-disclaimer {

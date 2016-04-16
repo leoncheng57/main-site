@@ -54,7 +54,7 @@
             Our mission is to create and support a tight-knit community among the cards, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
           </p>
 
-          <a class="btn waves-effect waves-light join">Join our mailing list</a>
+          <a class="btn waves-effect waves-light modal-trigger join" href="#join-modal">Join our mailing list</a>
       </div>
     </div>
 
@@ -253,43 +253,37 @@
 
 
 
-      <!-- Modal -->
-      <div class="modal fade" id="joinUs">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <form name="application" method="post" action="register.php" >
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Join the IEEE Mailing List</h4>
-              </div>
-              <div class="modal-body">
+  <!-- Modal -->
+  <div class="modal" id="join-modal">
+    <div class="modal-content">
+      <form name="application" method="post" action="register.php">
+        <h4 class="modal-title">Join the IEEE Mailing List</h4>
 
-                <p>MIT ACM/IEEE membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT ACM/IEEE chapter is a great way to stay informed on upcoming club activities, and we're always looking for more help with our many programs.</p>
+        <p>MIT ACM/IEEE membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT ACM/IEEE chapter is a great way to stay informed on upcoming club activities, and we're always looking for more help with our many programs.</p>
 
-                <p>Please note that membership in our club is not the same as membership in the international <A href=http://www.acm.org>ACM</A> or <A href=http://www.ieee.org>IEEE</A> organizations. However, we do have access to resources that wouldn't be available without membership to the IEEE branch such as access to certain publications, contacts in IEEE and industry, and ability to coordinate events with the National organization.</p>
+        <p>Please note that membership in our club is not the same as membership in the international <A href=http://www.acm.org>ACM</A> or <A href=http://www.ieee.org>IEEE</A> organizations. However, we do have access to resources that wouldn't be available without membership to the IEEE branch such as access to certain publications, contacts in IEEE and industry, and ability to coordinate events with the National organization.</p>
 
 
 
-                <div class="input-group">
-                  <span class="input-group-addon">Name</span>
-                  <input type="text" class="form-control" placeholder="Name" name="required-name">
-                </div>
-                <br />
+        <div class="input-group">
+          <span class="input-group-addon">Name</span>
+          <input type="text" class="form-control" placeholder="Name" name="required-name">
+        </div>
+        <br />
 
-                <div class="input-group">
-                  <span class="input-group-addon">MIT E-mail</span>
-                  <input type="text" class="form-control" placeholder="kerberos@mit.edu" name="required-email">
-                </div>
-                <br />            
-              </div>
-              <div class="modal-footer">
-                <a class="btn" data-dismiss="modal">Close</a>
-                <input type="submit" value="Submit" align="middle" class="btn" >
-              </div>
-            </form>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
+        <div class="input-group">
+          <span class="input-group-addon">MIT E-mail</span>
+          <input type="text" class="form-control" placeholder="kerberos@mit.edu" name="required-email">
+        </div>
+        <br /> 
 
-    </body>
-    </html>
+      </form>
+    </div><!-- /.modal-content -->
+    <div class="modal-footer">
+      <a class="btn" data-dismiss="modal">Close</a>
+      <input type="submit" value="Submit" align="middle" class="btn" >
+    </div>
+  </div><!-- /.modal -->
+
+</body>
+</html>

@@ -6,7 +6,7 @@ body {
 }
 
 .welcome a {
-  color: #c1272d;
+  color: $ieee-base;
   &:hover {
     text-decoration: underline;
   }
@@ -18,11 +18,19 @@ body {
 
 a.join {
   color: #fff !important;
-  background: #c1272d !important;
+  background: $ieee-base !important;
 
   &:hover {
     text-decoration: none;
   }
+}
+
+.modal-content-row {
+  margin-bottom: 10px;
+}
+
+.app-text, .email-row, input#email {
+  margin-bottom: 0;
 }
 
 .join-disclaimer {
@@ -36,7 +44,7 @@ a.join {
 }
 
 .submit-app {
-  color: $ieee-base;
+  color: $ieee-light;
 }
 
 .programs {
@@ -69,7 +77,7 @@ a.join {
 
 a.blog-btn {
   margin-top: 3rem;
-  color: #c1272d;
+  color: $ieee-base;
   font-family: $clearsans-lite;
 }
 

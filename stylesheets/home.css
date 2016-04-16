@@ -46,6 +46,12 @@ a.join {
   a.join:hover {
     text-decoration: none; }
 
+.modal-content-row {
+  margin-bottom: 10px; }
+
+.app-text, .email-row, input#email {
+  margin-bottom: 0; }
+
 .join-disclaimer {
   font-size: 85%;
   opacity: .54;
@@ -55,7 +61,7 @@ a.join {
   padding-bottom: 0; }
 
 .submit-app {
-  color: #c1272d; }
+  color: #d4686c; }
 
 .programs {
   padding: 0.75rem; }

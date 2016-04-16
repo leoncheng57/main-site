@@ -252,9 +252,9 @@
 
 
   <!-- Modal -->
-  <div class="modal" id="join-modal">
+  <div class="modal modal-fixed-footer" id="join-modal">
     <div class="modal-content">
-      <div class="row">
+      <div class="row modal-content-row">
         <h4 class="col s12">Join the IEEE Mailing List</h4>
 
         <div class="row app-text">
@@ -277,7 +277,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row email-row">
             <div class="input-field col s12">
               <input type="email" id="email" name="email" required>
               <label for="email">MIT Email</label>
@@ -288,7 +288,7 @@
     </div><!-- /.modal-content -->
     <div class="modal-footer">
       <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
-      <input form="application" type="submit" value="Submit" class="btn-flat submit-app">
+      <input form="application" type="submit" value="Submit" class="btn-flat submit-app waves-effect">
     </div>
   </div><!-- /.modal -->
 

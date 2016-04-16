@@ -5,14 +5,26 @@ $(document).ready(function() {
         dismissible: true
     });
 
-    
-    // $('#calendar').fullCalendar({
-    //     googleCalendarApiKey: 'AIzaSyAfIu2iaqycS3gfXYl1aMjBNQ4CyHvSlqo',
-    //     events: {
-    //         googleCalendarId: 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com'
-    //     },
-    //     eventBackgroundColor: "#993333"
-    // });
+
+    // Application submission handling
+    $('#application').submit(function(event) {
+        var data = $(this).serialize();
+        var $inputs = $(this).find('input');
+
+        $inputs.prop('disabled', true);
+
+        $.post('register.php', data)
+            .always(function(response) {
+                $inputs.prop('disabled', false);
+            })
+            .done(function(response) {
+                if (response.error) {
+                    console.log(response.error);
+                } else {
+                    Materialize.toast(response, 4000);
+                }
+        });
+    });
 
     //Get rid of styling from CuteNews
     $('div b', '.post').contents().unwrap();

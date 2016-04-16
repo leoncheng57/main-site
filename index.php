@@ -265,7 +265,7 @@
 
 
       
-        <form name="application" id="application" method="post" action="register.php" class="col s12">
+        <form name="application" id="application" class="col s12">
           <div class="row">
             <div class="input-field col s12 m12 l6">
               <input type="text" name="first-name" id="first-name" required>
@@ -287,8 +287,8 @@
       </div>
     </div><!-- /.modal-content -->
     <div class="modal-footer">
-      <input form="application" type="submit" value="Submit" align="middle" class="btn-flat" >
       <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
+      <input form="application" type="submit" value="Submit" class="btn-flat submit-app">
     </div>
   </div><!-- /.modal -->
 

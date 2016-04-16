@@ -20,6 +20,7 @@
 
   <script src="js/jquery.js"></script>
   <script type='text/javascript' src='js/materialize.min.js'></script>
+  <script type='text/javascript' src='js/google-calendar-events.min.js'></script>
   <script src="js/ieee.js" type="text/javascript"></script>
 
 </head>

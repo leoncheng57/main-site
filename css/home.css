@@ -99,10 +99,8 @@ a.join:hover {
 
 a.blog-btn {
     margin-top: 3rem;
-}
-
-a.blog-btn:hover {
     color: #c1272d;
+    font-family: "Clear Sans Light";
 }
 
 @media only screen and (max-width: 600px) {

@@ -82,6 +82,9 @@ a.blog-btn {
 
 @media only screen and (max-width: 600px) {
   a.blog-btn {
-    padding: 0 0.5rem !important; } }
+    padding: 0 0.5rem !important; }
+
+  .app-text {
+    display: none; } }
 
 /*# sourceMappingURL=home.css.map */

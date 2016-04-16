@@ -8,7 +8,7 @@ body {
 .welcome a {
   color: #c1272d;
   &:hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 }
 
@@ -71,6 +71,10 @@ a.blog-btn {
 
 @media only screen and (max-width: 600px) {
   a.blog-btn {
-      padding: 0 0.5rem !important;
+    padding: 0 0.5rem !important;
+  }
+
+  .app-text {
+    display: none;
   }
 }

@@ -257,7 +257,7 @@
       <div class="row">
         <h4 class="col s12">Join the IEEE Mailing List</h4>
 
-        <div class="row">
+        <div class="row app-text">
           <p class="col s12">Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
 
           <p class="col s12 join-disclaimer">Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</p>
@@ -265,7 +265,7 @@
 
 
       
-        <form name="application" method="post" action="register.php" class="col s12">
+        <form name="application" id="application" method="post" action="register.php" class="col s12">
           <div class="row">
             <div class="input-field col s12 m12 l6">
               <input type="text" name="first-name" id="first-name" required>
@@ -287,7 +287,7 @@
       </div>
     </div><!-- /.modal-content -->
     <div class="modal-footer">
-      <input type="submit" value="Submit" align="middle" class="btn-flat" >
+      <input form="application" type="submit" value="Submit" align="middle" class="btn-flat" >
       <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
     </div>
   </div><!-- /.modal -->

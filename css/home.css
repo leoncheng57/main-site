@@ -28,10 +28,15 @@ a.join:hover {
 	opacity: .54;
 }
 
+#join-modal .modal-content {
+    padding-bottom: 0px;
+}
+
 /* label focus color */
 .input-field input[type=text]:focus + label {
     color: #c1272d;
 }
+
 /* label underline focus color */
 .input-field input[type=text]:focus {
 	border-bottom: 1px solid #c1272d;

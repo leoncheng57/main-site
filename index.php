@@ -10,9 +10,8 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-  
-  <link href="stylesheets/home.css" rel="stylesheet">
   <link href="stylesheets/main.css" rel="stylesheet">
+  <link href="stylesheets/home.css" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 

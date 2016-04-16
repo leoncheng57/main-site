@@ -47,16 +47,10 @@ a.join {
     text-decoration: none; }
 
 .modal-content-row {
-  margin-bottom: 10px; }
+  margin-bottom: 10px !important; }
 
-.app-text {
-  margin-bottom: 0; }
-
-#email {
-  margin-bottom: 0; }
-
-.email-row {
-  margin-bottom: 0; }
+.app-text, input#email, .email-row {
+  margin-bottom: 0 !important; }
 
 .join-disclaimer {
   font-size: 85%;
@@ -67,7 +61,9 @@ a.join {
   padding-bottom: 0; }
 
 .submit-app {
-  color: #d4686c; }
+  color: #d4686c !important; }
+  .submit-app:focus {
+    outline: none; }
 
 .programs {
   padding: 0.75rem; }

@@ -8,13 +8,15 @@ $(document).ready(function() {
 
     // Application submission handling
     $('#application').submit(function(event) {
+        event.preventDefault();
+
         var data = $(this).serialize();
         var $inputs = $(this).find('input');
 
         $inputs.prop('disabled', true);
 
         $.post('register.php', data)
-            .always(function(response) {
+            .always(function() {
                 $inputs.prop('disabled', false);
             })
             .done(function(response) {

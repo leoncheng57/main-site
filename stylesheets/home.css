@@ -68,14 +68,14 @@ a.join {
 .error {
   margin: 0; }
 
-.error-message {
+#error-message {
   background: #fcf8e3;
   border-radius: 3px;
   padding: 5px 8px;
   color: #8a6d3b;
   display: none;
   margin-left: -500px; }
-  .error-message i.material-icons {
+  #error-message i.material-icons {
     margin-right: 5px;
     vertical-align: middle;
     transform: translateY(-1px); }

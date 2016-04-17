@@ -19,6 +19,7 @@
   <script type='text/javascript' src='js/materialize.min.js'></script>
   <script type='text/javascript' src='js/google-calendar-events.min.js'></script>
   <script src="js/ieee.js" type="text/javascript"></script>
+  <script src="js/home.js" type="text/javascript"></script>
 
 </head>
 
@@ -263,13 +264,13 @@
         </div>
 
         <p class="col s12 error">
-            <span class="error-message"><i class="material-icons">error</i> <span id="error-type">Must be an MIT email.</span></span>
+            <span id="error-message"><i class="material-icons">error</i> <span id="error-type">Must be an MIT email.</span></span>
         </p>
       
         <form name="application" id="application" class="col s12">
           <div class="row">
             <div class="input-field col s12 m12 l6">
-              <input type="text" name="first-name" id="first-name" required>
+              <input type="text" name="first-name" id="first-name">
               <label for="first-name">First Name</label>
             </div>
             <div class="input-field col s12 m12 l6">
@@ -280,7 +281,7 @@
 
           <div class="row email-row">
             <div class="input-field col s12">
-              <input type="email" id="email" name="email" required>
+              <input type="email" id="email" name="email">
               <label for="email">MIT Email</label>
             </div>
           </div> 
@@ -288,8 +289,8 @@
       </div>
     </div><!-- /.modal-content -->
     <div class="modal-footer">
-      <a class="modal-action modal-close btn-flat" data-dismiss="modal">Close</a>
       <input form="application" type="submit" value="Submit" class="btn-flat submit-app waves-effect">
+      <a class="modal-action modal-close btn-flat" data-dismiss="modal">Cancel</a>
     </div>
   </div><!-- /.modal -->
 

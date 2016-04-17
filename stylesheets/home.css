@@ -80,10 +80,10 @@ a.join {
     vertical-align: middle;
     transform: translateY(-1px); }
 
-.programs {
+.programs, .events {
   padding: 0.75rem; }
 
-.programs-label {
+.programs-label, .events-label {
   opacity: .54; }
 
 .programs-list {

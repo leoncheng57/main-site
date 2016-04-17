@@ -63,11 +63,13 @@
     </div> -->
 
     <div class="row section">
-      <div class="col l7 m6 s12" style="height: 424px;">
-        <h6 class="events-label">UPCOMING EVENTS</h6>
-        <div class="divider"></div>
+      <div class="col l7 m6 s12 z-depth-1" style="height: 424px;">
+        <div class="events">
+          <h6 class="events-label">UPCOMING EVENTS</h6>
+          <div class="divider"></div>
+        </div>
       </div>
-      <div class="col l5 m6 s12 z-depth-1">
+      <div class="col l5 m6 s12">
         <div class="programs">
           <h6 class="programs-label">PROGRAMS</h6>
           <div class="divider"></div>

@@ -262,7 +262,9 @@
           <p class="col s12 join-disclaimer">Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</p>
         </div>
 
-
+        <p class="col s12 error">
+            <span class="error-message"><i class="material-icons">error</i> <span id="error-type">Must be an MIT email.</span></span>
+        </p>
       
         <form name="application" id="application" class="col s12">
           <div class="row">

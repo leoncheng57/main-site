@@ -16,7 +16,7 @@ if ($applicant_name != "" && $applicant_email != "") {
 
     $applicant_email = strtolower($applicant_email);
     if (!strstr($applicant_email, "mit.edu")) {
-        $response_message = "Email Address Problem - The email address you specify must be an MIT email address. Please double-check your form."; 
+        $response_message = "Must be an MIT email address"; 
     		echo $response_message;
       	return;
       }
@@ -33,7 +33,7 @@ if ($applicant_name != "" && $applicant_email != "") {
     			return;
   			
   			} else {
-          	$response_message = "Message Delivery Failed - Please try again later. At this time, there may be an excess amount of requests."; 
+          	$response_message = "Message delivery failed - please try again later."; 
             echo $response_message;
         		return;
   

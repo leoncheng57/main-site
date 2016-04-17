@@ -5,6 +5,10 @@ $(document).ready(function() {
         dismissible: true
     });
 
+    var showError = function() {
+        $('.error').show().animate({width: auto}, 200);
+    };
+
 
     // Application submission handling
     $('#application').submit(function(event) {
@@ -20,11 +24,13 @@ $(document).ready(function() {
                 $inputs.prop('disabled', false);
             })
             .done(function(response) {
-                if (response.contains("success")) {
+                if (response.includes("success")) {
                     $("#join-modal").closeModal();
                     Materialize.toast(response, 4000);
                 } else {
-                    console.log(response);
+                    $('#error-type').text(response);
+                    $('.error-message').fadeIn({queue: false}).animate({'margin-left': 0}, 400);
+
                 }
             })
             .fail(function(responseObject) {

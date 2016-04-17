@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $('.button-collapse').sideNav();
+
     //Get rid of styling from CuteNews
     $('div b', '.post').contents().unwrap();
     $('div font', '.post').contents().unwrap();

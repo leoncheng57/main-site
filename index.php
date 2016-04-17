@@ -63,8 +63,11 @@
     </div> -->
 
     <div class="row section">
-      <!-- <div class="col l7 m6 s12 z-depth-1"></div> -->
-      <div class="col offset-l7 l5 offset-m6 m6 s12 z-depth-1">
+      <div class="col l7 m6 s12" style="height: 424px;">
+        <h6 class="events-label">UPCOMING EVENTS</h6>
+        <div class="divider"></div>
+      </div>
+      <div class="col l5 m6 s12 z-depth-1">
         <div class="programs">
           <h6 class="programs-label">PROGRAMS</h6>
           <div class="divider"></div>
@@ -73,7 +76,6 @@
             <li><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></li>
             <li><a href="programs.html#faculty">Faculty Dinners</a></li>
             <li><a href="programs.html#mitos">MIT Open Source Club</a></li>
-            <li><a href="programs.html#counseling">Peer Counseling</a></li>
             <li><a href="programs.html#sixsharp">6#</a></li>
             <li><a href="programs.html#social">Social Hours</a></li>
             <li><a href="programs.html#urge">URGE</a></li>
@@ -93,7 +95,7 @@
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h5 class="right-align"><a href="blog.php" class="btn-flat blog-btn">See The Full Blog</a></h5>
+        <h5 class="right-align"><a href="blog.php" class="btn-flat blog-btn waves-effect">See The Full Blog</a></h5>
         <div class="divider"></div>
       </div>
     </div>

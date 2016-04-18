@@ -104,7 +104,7 @@ $(document).ready(function() {
             });
     });
 
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 3; i++) {
         var $group = $('<div class="carousel-group"></div>');
         var $event = $('<div class="col s12 event-wrapper">' +
             '<div class="event-item z-depth-1">' +

@@ -13,6 +13,7 @@
   <link href="stylesheets/main.css" rel="stylesheet">
   <link href="stylesheets/home.css" rel="stylesheet">
   <link href="stylesheets/slick.css" rel="stylesheet">
+  <link href="stylesheets/slick-theme.css" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 

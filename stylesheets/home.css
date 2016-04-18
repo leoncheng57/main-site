@@ -85,6 +85,8 @@ a.join {
   margin-right: 0; }
   .event-list .event-wrapper {
     margin-top: 8px; }
+  .event-list .carousel-group:last-child {
+    margin-bottom: 15px; }
   .event-list .event-item {
     min-height: 60px;
     overflow: auto;

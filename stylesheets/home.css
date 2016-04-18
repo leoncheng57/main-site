@@ -93,7 +93,22 @@ a.join {
       background: #c1272d;
       display: inline-block;
       color: white;
-      height: inherit; }
+      height: inherit;
+      float: left; }
+      .event-list .event-item .event-date h4, .event-list .event-item .event-date h6 {
+        margin: 0; }
+      .event-list .event-item .event-date h6 {
+        padding-top: 5px; }
+    .event-list .event-item .event-info {
+      margin-left: 78px; }
+      .event-list .event-item .event-info h6 {
+        font-size: 1.32rem;
+        margin-bottom: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+      .event-list .event-item .event-info p {
+        margin: 0; }
 
 .programs, .events {
   padding: 0.75rem; }

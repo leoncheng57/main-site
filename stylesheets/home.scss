@@ -86,6 +86,22 @@ a.join {
       display: inline-block;
       color: white;
       height: inherit;
+      float: left;
+
+      h4, h6 {margin: 0;}
+      h6 {padding-top: 5px;}
+    }
+
+    .event-info {
+      margin-left: 78px;
+      h6 {
+        font-size: 1.32rem;
+        margin-bottom: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      p {margin: 0;}
     }
   }
 }

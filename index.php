@@ -71,55 +71,52 @@
 
             <div class="col s12 event-item">
               <div class="event-date">
-                <h6 style=" margin: 0; padding-top: 5px;" class="center-align">Apr</h6>
-                <h4 style="margin: 0;" class="center-align">25</h4>
+                <h6 class="center-align">Apr</h6>
+                <h4 class="center-align">25</h4>
               </div>
               <div class="event-info">
-                <h6 style="margin-left: 10px; font-size: 1.32rem; float: left;">
-                  How to Get Published with IEEE
-                </h6>
+                <h6>How to Get Published with IEEE</h6>
+                <p>14-132 | 12-1pm</p>
               </div>
             </div>
             <div class="col s12 event-item">
               <div class="event-date">
-                <h6 style=" margin: 0; padding-top: 5px;" class="center-align">Apr</h6>
-                <h4 style="margin: 0;" class="center-align">25</h4>
+                <h6 class="center-align">Apr</h6>
+                <h4 class="center-align">25</h4>
               </div>
               <div class="event-info">
-                <h6 style="margin-left: 10px; font-size: 1.32rem; float: left;">
-                  How to Get Published with IEEE
-                </h6>
+                <h6>How to Get Published with IEEE</h6>
+                <p>14-132 | 12-1pm</p>
               </div>
             </div>
             <div class="col s12 event-item">
               <div class="event-date">
-                <h6 style=" margin: 0; padding-top: 5px;" class="center-align">Apr</h6>
-                <h4 style="margin: 0;" class="center-align">25</h4>
+                <h6 class="center-align">Apr</h6>
+                <h4 class="center-align">25</h4>
               </div>
               <div class="event-info">
-                <h6 style="margin-left: 10px; font-size: 1.32rem; float: left;">
-                  How to Get Published with IEEE
-                </h6>
+                <h6>How to Get Published with IEEE</h6>
+                <p>14-132 | 12-1pm</p>
               </div>
-            </div><div class="col s12 event-item">
+            </div>
+            <div class="col s12 event-item">
               <div class="event-date">
-                <h6 style=" margin: 0; padding-top: 5px;" class="center-align">Apr</h6>
-                <h4 style="margin: 0;" class="center-align">25</h4>
+                <h6 class="center-align">Apr</h6>
+                <h4 class="center-align">25</h4>
               </div>
               <div class="event-info">
-                <h6 style="margin-left: 10px; font-size: 1.32rem; float: left;">
-                  How to Get Published with IEEE
-                </h6>
+                <h6>How to Get Published with IEEE</h6>
+                <p>14-132 | 12-1pm</p>
               </div>
-            </div><div class="col s12 event-item">
+            </div>
+            <div class="col s12 event-item">
               <div class="event-date">
-                <h6 style=" margin: 0; padding-top: 5px;" class="center-align">Apr</h6>
-                <h4 style="margin: 0;" class="center-align">25</h4>
+                <h6 class="center-align">Apr</h6>
+                <h4 class="center-align">25</h4>
               </div>
               <div class="event-info">
-                <h6 style="margin-left: 10px; font-size: 1.32rem; float: left;">
-                  How to Get Published with IEEE
-                </h6>
+                <h6>How to Get Published with IEEE</h6>
+                <p>14-132 | 12-1pm</p>
               </div>
             </div>
 

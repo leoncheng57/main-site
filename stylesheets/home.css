@@ -110,6 +110,8 @@ a.join {
       padding: 5px; }
       .event-list .event-item .event-date h3, .event-list .event-item .event-date h6 {
         margin: 0; }
+      .event-list .event-item .event-date h3 {
+        margin-top: -5px; }
     .event-list .event-item .event-info {
       margin-left: 78px;
       padding-top: 0.5rem; }
@@ -147,7 +149,8 @@ a.join {
 a.blog-btn {
   margin-top: 3rem;
   color: #c1272d;
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
+  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif;
+  display: block; }
   a.blog-btn:hover {
     text-decoration: underline; }
 

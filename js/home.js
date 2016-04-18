@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    mykey = 'AIzaSyAfIu2iaqycS3gfXYl1aMjBNQ4CyHvSlqo';
+    calendarid = 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com';
+
     var officers = [
         {id: 'hlee', name: 'Harlin Lee', position: 'President', image: 'hlee.jpg'},
         {id: 'kng', name: 'Kevin Ng', position: 'Vice President', image: 'kng.jpg'},

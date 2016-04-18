@@ -107,6 +107,7 @@ a.join {
       padding: 5px;
 
       h3, h6 {margin: 0;}
+      h3 {margin-top: -5px;}
     }
 
     .event-info {
@@ -157,6 +158,7 @@ a.blog-btn {
   margin-top: 3rem;
   color: $ieee-base;
   font-family: $clearsans-lite;
+  display: block;
 
   &:hover {
     text-decoration: underline;

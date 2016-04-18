@@ -75,12 +75,12 @@ a.join {
   margin-right: 0;
 
   .event-wrapper {
-    padding-top: 5px;
+    margin-top: 8px;
   }
 
   .event-item {
     min-height: 60px;
-    margin-top: 8px;
+    overflow: auto;
     transition: .2s ease-out;
     transition-property: initial;
     transition-duration: 0.2s;
@@ -106,9 +106,10 @@ a.join {
 
     .event-info {
       margin-left: 78px;
+      padding-top: 0.5rem;
       h6 {
         font-size: 1.32rem;
-        margin-bottom: 0;
+        margin: 0;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;

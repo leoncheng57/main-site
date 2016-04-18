@@ -104,10 +104,6 @@ $(document).ready(function() {
             });
     });
 
-    $('.event-list').slick({
-        dots: true
-    });
-
     for (var i = 0; i < 5; i++) {
         var $group = $('<div class="carousel-group"></div>');
         var $event = $('<div class="col s12 event-wrapper">' +
@@ -127,4 +123,8 @@ $(document).ready(function() {
         }
         $('.event-list').append($group);
     }
+
+    $('.event-list').slick({
+        dots: true
+    });
 });

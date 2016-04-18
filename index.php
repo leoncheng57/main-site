@@ -10,9 +10,9 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-  <link href="stylesheets/slick.css" rel="stylesheet">
   <link href="stylesheets/main.css" rel="stylesheet">
   <link href="stylesheets/home.css" rel="stylesheet">
+  <link href="stylesheets/slick.css" rel="stylesheet">
   <!--Import Google Icon Font-->
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -71,67 +71,17 @@
           <div class="divider"></div>
           <div class="row section event-list">
 
-            <div class="carousel-group">
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-group">
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
+            <!-- <div class="carousel-group">
+              <div class="col s12 event-wrapper">
+                <div class="event-item z-depth-1">
+                  <div class="event-date">
+                    <h6 class="center-align">Apr</h6>
+                    <h4 class="center-align">25</h4>
+                  </div>
+                  <div class="event-info">
+                    <h6>How to Get Published with IEEE</h6>
+                    <p>14-132 | 12-1pm</p>
+                  </div>
                 </div>
               </div>
               <div class="col s12 event-item z-depth-1">
@@ -227,6 +177,58 @@
                 </div>
               </div>
             </div>
+            <div class="carousel-group">
+              <div class="col s12 event-item z-depth-1">
+                <div class="event-date">
+                  <h6 class="center-align">Apr</h6>
+                  <h4 class="center-align">25</h4>
+                </div>
+                <div class="event-info">
+                  <h6>How to Get Published with IEEE</h6>
+                  <p>14-132 | 12-1pm</p>
+                </div>
+              </div>
+              <div class="col s12 event-item z-depth-1">
+                <div class="event-date">
+                  <h6 class="center-align">Apr</h6>
+                  <h4 class="center-align">25</h4>
+                </div>
+                <div class="event-info">
+                  <h6>How to Get Published with IEEE</h6>
+                  <p>14-132 | 12-1pm</p>
+                </div>
+              </div>
+              <div class="col s12 event-item z-depth-1">
+                <div class="event-date">
+                  <h6 class="center-align">Apr</h6>
+                  <h4 class="center-align">25</h4>
+                </div>
+                <div class="event-info">
+                  <h6>How to Get Published with IEEE</h6>
+                  <p>14-132 | 12-1pm</p>
+                </div>
+              </div>
+              <div class="col s12 event-item z-depth-1">
+                <div class="event-date">
+                  <h6 class="center-align">Apr</h6>
+                  <h4 class="center-align">25</h4>
+                </div>
+                <div class="event-info">
+                  <h6>How to Get Published with IEEE</h6>
+                  <p>14-132 | 12-1pm</p>
+                </div>
+              </div>
+              <div class="col s12 event-item z-depth-1">
+                <div class="event-date">
+                  <h6 class="center-align">Apr</h6>
+                  <h4 class="center-align">25</h4>
+                </div>
+                <div class="event-info">
+                  <h6>How to Get Published with IEEE</h6>
+                  <p>14-132 | 12-1pm</p>
+                </div>
+              </div>
+            </div> -->
 
           </div>
         </div>

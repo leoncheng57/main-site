@@ -107,4 +107,24 @@ $(document).ready(function() {
     $('.event-list').slick({
         dots: true
     });
+
+    for (var i = 0; i < 5; i++) {
+        var $group = $('<div class="carousel-group"></div>');
+        var $event = $('<div class="col s12 event-wrapper">' +
+            '<div class="event-item z-depth-1">' +
+            '<div class="event-date">' +
+            '<h6 class="center-align">Apr</h6>' +
+            '<h4 class="center-align">25</h4>' +
+            '</div>' +
+            '<div class="event-info">' +
+            '<h6>How to Get Published with IEEE</h6>' +
+            '<p>14N-132 | 12-1pm</p>' +
+            '</div>' +
+            '</div>' +
+            '</div>');
+        for (var j = 0; j < 5; j++) {
+            $group.append($event.clone());
+        }
+        $('.event-list').append($group);
+    }
 });

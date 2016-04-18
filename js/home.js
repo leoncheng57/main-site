@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+    var officers = [
+        {id: 'hlee', name: 'Harlin Lee', position: 'President', image: 'hlee.jpg'},
+        {id: 'kng', name: 'Kevin Ng', position: 'Vice President', image: 'kng.jpg'},
+        {id: 'igarza', name: 'Isaac Garza', position: 'Treasurer', image: 'igarza.jpg'},
+        {id: 'pzhao', name: 'Parker Zhao', position: 'External Relations', image: 'pzhao.jpg'},
+        {id: 'clao', name: 'Czarina Lao', position: 'Secretary', image: 'clao.jpg'},
+        {id: 'schen', name: 'Shirley Chen', position: 'Social Chair', image: 'schen.jpg'},
+        {id: 'makengin', name: 'Efe Akengin', position: 'Social Chair', image: 'makengin.jpg'},
+        {id: 'mlao', name: 'Natalie Lao', position: 'Chairwoman', image: 'mlao.jpg'},
+        {id: 'hmoncivais', name: 'Hiram Moncivais', position: 'Historian', image: 'hmoncivais.png'},
+        {id: 'kikhofua', name: 'Kamoya Ikhofua', position: 'Publicity Chair', image: 'kikhofua.jpg'},
+        {id: 'lchen', name: 'Lucy Chen', position: 'Publicity Chair', image: 'lchen.jpg'},
+        {id: 'cwomack', name: 'Chris Womack', position: 'Webmaster', image: 'cwomack.jpg'}
+    ];
+
+
     $('.modal-trigger').leanModal({
         dismissible: true
     });
@@ -110,7 +126,7 @@ $(document).ready(function() {
             '<div class="event-item z-depth-1">' +
             '<div class="event-date">' +
             '<h6 class="center-align">Apr</h6>' +
-            '<h4 class="center-align">25</h4>' +
+            '<h3 class="center-align">25</h3>' +
             '</div>' +
             '<div class="event-info">' +
             '<h6>How to Get Published with IEEE</h6>' +
@@ -121,11 +137,16 @@ $(document).ready(function() {
         for (var j = 0; j < 5; j++) {
             $group.append($event.clone());
         }
-        $('.event-list').append($group);
+        $('.event-list', '.events').append($group);
     }
 
-    $('.event-list').slick({
+    $('.event-list', '.events').slick({
         dots: true,
         arrows: false
     });
+
+    var execTemplate = $('#exec-template').html();
+    var execHandlebars = Handlebars.compile(execTemplate);
+    var execCards = execHandlebars(officers);
+    $('#exec.row').html(execCards);
 });

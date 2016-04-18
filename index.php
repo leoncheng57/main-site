@@ -21,6 +21,7 @@
   <script type='text/javascript' src='js/materialize.min.js'></script>
   <script type='text/javascript' src='js/google-calendar-events.min.js'></script>
   <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="js/handlebars-v4.0.5.js"></script>
   <script src="js/ieee.js" type="text/javascript"></script>
   <script src="js/home.js" type="text/javascript"></script>
 
@@ -267,9 +268,25 @@
       </div>
     </div>
 
+    <script id="exec-template" type="text/x-handlebars-template">
+      {{#each officers}}
+        <div class="col l3 m6 s6">
+          <div class="card" id="{{this.id}}">
+            <div class="card-image">
+              <img src='images/exec/{{this.image}}'>
+            </div>
+            <div class="card-content">
+              <p class="exec-name flow-text">{{this.name}}</h6>
+              <p class="exec-title">{{this.position}}</p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </script>
+
     <div id="exec" class="row">
 
-      <div class="col l3 m6 s6">
+      <!-- <div class="col l3 m6 s6">
         <div class="card" id="hlee">
           <div class="card-image">
             <img src='images/exec/hlee.jpg' width="195px">
@@ -411,7 +428,7 @@
             <p class="exec-title">Webmaster</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
 

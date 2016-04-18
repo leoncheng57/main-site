@@ -73,6 +73,8 @@ a.join {
 .event-list {
   margin-left: 0;
   margin-right: 0;
+  padding-bottom: 0;
+  margin-bottom: 10px;
 
   .event-wrapper {
     margin-top: 8px;
@@ -104,8 +106,7 @@ a.join {
       float: left;
       padding: 5px;
 
-      h4, h6 {margin: 0;}
-      h6 {padding-top: 5px;}
+      h3, h6 {margin: 0;}
     }
 
     .event-info {

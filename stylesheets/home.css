@@ -82,7 +82,9 @@ a.join {
 
 .event-list {
   margin-left: 0;
-  margin-right: 0; }
+  margin-right: 0;
+  padding-bottom: 0;
+  margin-bottom: 10px; }
   .event-list .event-wrapper {
     margin-top: 8px; }
   .event-list .carousel-group:last-child {
@@ -106,10 +108,8 @@ a.join {
       min-height: inherit;
       float: left;
       padding: 5px; }
-      .event-list .event-item .event-date h4, .event-list .event-item .event-date h6 {
+      .event-list .event-item .event-date h3, .event-list .event-item .event-date h6 {
         margin: 0; }
-      .event-list .event-item .event-date h6 {
-        padding-top: 5px; }
     .event-list .event-item .event-info {
       margin-left: 78px;
       padding-top: 0.5rem; }

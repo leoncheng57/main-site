@@ -103,4 +103,8 @@ $(document).ready(function() {
                 console.log(responseObject);
             });
     });
+
+    $('.event-list').slick({
+        dots: true
+    });
 });

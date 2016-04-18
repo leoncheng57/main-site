@@ -151,7 +151,7 @@
         $number = "1";
         include("blog/show_news.php");
         ?>
-        <h5 class="right-align"><a href="blog.php" class="btn-flat blog-btn waves-effect">See The Full Blog</a></h5>
+        <h5 class="right-align"><a href="blog.php" class="blog-btn">See the full blog</a></h5>
         <div class="divider"></div>
       </div>
     </div>

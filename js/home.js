@@ -125,6 +125,7 @@ $(document).ready(function() {
     }
 
     $('.event-list').slick({
-        dots: true
+        dots: true,
+        arrows: false
     });
 });

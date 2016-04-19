@@ -36,7 +36,7 @@ $(document).ready(function() {
         day = start[2].substring(0, 2);
 
         startTime = start[5] + " " + start[6];
-        timeSuffix = new RegExp(" " + end[6], g);
+        timeSuffix = new RegExp(" " + end[6], 'g');
         startTime = startTime.replace(timeSuffix, ""); // if they have the same suffix, remove the first occurrence
         endTime = end[5] + " " + end[6];
         time = startTime + "-" + endTime;

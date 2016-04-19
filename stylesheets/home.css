@@ -92,6 +92,7 @@ a.join {
   .event-list .event-item {
     min-height: 60px;
     overflow: auto;
+    padding-right: 10px;
     transition: .2s ease-out;
     transition-property: initial;
     transition-duration: 0.2s;
@@ -123,9 +124,6 @@ a.join {
         text-overflow: ellipsis; }
       .event-list .event-item .event-info p {
         margin: 0; }
-
-.programs, .events {
-  padding: 0.75rem; }
 
 .programs-label, .events-label {
   opacity: .54; }

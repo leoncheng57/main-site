@@ -18,7 +18,62 @@ $(document).ready(function() {
         {id: 'cwomack', name: 'Chris Womack', position: 'Webmaster', image: 'cwomack.jpg'}
     ];
 
+    // SET UP EVENTS SECTION
+    var events = $.grabCalendar({
+        type: 'detailedEvents',
+        maxEvents: 15,
+        clean_date: true,
+        upcoming: true
+    });
 
+    // Format event data for use later
+    events.map(function(event) {
+        var start = event.start.dateTime.split(' '),
+            end = event.end.dateTime.split(' '),
+            month, day, startTime, timeSuffix, endTime, time, timeAndLocation;
+
+        month = start[1].substring(0, 3);
+        day = start[2].substring(0, 2);
+
+        startTime = start[5] + " " + start[6];
+        timeSuffix = new RegExp(" " + end[6], g);
+        startTime = startTime.replace(timeSuffix, ""); // if they have the same suffix, remove the first occurrence
+        endTime = end[5] + " " + end[6];
+        time = startTime + "-" + endTime;
+
+        timeAndLocation = time.replace(":00", "") + " | " + event.location;
+
+        event['month'] = month;
+        event['day'] = day;
+        event['timeAndLocation'] = timeAndLocation;
+
+        return event;
+    });
+
+    // Split into sections of 5 events
+    var k, q, pages = [], chunk = 5;
+    for (k=0,q=events.length; k<q; k+=chunk) {
+        pages.push(events.slice(k,k+chunk));
+    }
+
+    // Handlebars
+    var carouselTemplate = $('#carousel-template').html();
+    var carouselHandlebars = Handlebars.compile(carouselTemplate);
+    pages.forEach(function(events) {
+        var context;
+        if (events.length) {
+            context = {events: events};
+            $('.event-list', '.events').append(carouselHandlebars(context));
+        }
+    });
+
+    // Initialize carousel
+    $('.event-list', '.events').slick({
+        dots: true,
+        arrows: false
+    });
+
+    // APPLICATION MODAL
     $('.modal-trigger').leanModal({
         dismissible: true
     });
@@ -121,31 +176,6 @@ $(document).ready(function() {
             .fail(function (responseObject) {
                 console.log(responseObject);
             });
-    });
-
-    for (var i = 0; i < 3; i++) {
-        var $group = $('<div class="carousel-group"></div>');
-        var $event = $('<div class="col s12 event-wrapper">' +
-            '<div class="event-item z-depth-1">' +
-            '<div class="event-date">' +
-            '<h6 class="center-align">Apr</h6>' +
-            '<h3 class="center-align">25</h3>' +
-            '</div>' +
-            '<div class="event-info">' +
-            '<h6>How to Get Published with IEEE</h6>' +
-            '<p>14N-132 | 12-1pm</p>' +
-            '</div>' +
-            '</div>' +
-            '</div>');
-        for (var j = 0; j < 5; j++) {
-            $group.append($event.clone());
-        }
-        $('.event-list', '.events').append($group);
-    }
-
-    $('.event-list', '.events').slick({
-        dots: true,
-        arrows: false
     });
 
     var execTemplate = $('#exec-template').html();

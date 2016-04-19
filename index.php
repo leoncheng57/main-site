@@ -60,179 +60,31 @@
       </div>
     </div>
 
-    <!-- <div class="calendar-section">
-      <h1>What We're Up To</h1>
-      <p class="subscribe-link"><a href="https://www.google.com/calendar/embed?src=ncvkteq0hm7cgr5bhi00bgbaik%40group.calendar.google.com" target="_blank">subscribe</a></p>
-      <div id="calendar"></div>
-    </div> -->
+    <script id="carousel-template" type="text/x-handlebars-template">
+      <div class="carousel-group">
+          {{#each events}}
+              <div class="col s12 event-wrapper">
+                  <div class="event-item z-depth-1">
+                      <div class="event-date">
+                          <h6 class="center-align">{{this.month}}</h6>
+                          <h3 class="center-align">{{this.day}}</h3>
+                      </div>
+                      <div class="event-info">
+                          <h6>{{this.summary}}</h6>
+                          <p>{{this.timeAndLocation}}</p>
+                      </div>
+                  </div>
+              </div>
+          {{/each}}
+      </div>
+  </script>
 
     <div class="row section">
       <div class="col m6 s12">
         <div class="events">
           <h6 class="events-label">UPCOMING EVENTS</h6>
           <div class="divider"></div>
-          <div class="row section event-list">
-
-            <!-- <div class="carousel-group">
-              <div class="col s12 event-wrapper">
-                <div class="event-item z-depth-1">
-                  <div class="event-date">
-                    <h6 class="center-align">Apr</h6>
-                    <h4 class="center-align">25</h4>
-                  </div>
-                  <div class="event-info">
-                    <h6>How to Get Published with IEEE</h6>
-                    <p>14-132 | 12-1pm</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-group">
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-group">
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-              <div class="col s12 event-item z-depth-1">
-                <div class="event-date">
-                  <h6 class="center-align">Apr</h6>
-                  <h4 class="center-align">25</h4>
-                </div>
-                <div class="event-info">
-                  <h6>How to Get Published with IEEE</h6>
-                  <p>14-132 | 12-1pm</p>
-                </div>
-              </div>
-            </div> -->
-
-          </div>
+          <div class="row section event-list"></div>
         </div>
       </div>
       <div class="col m6 s12">
@@ -284,153 +136,7 @@
       {{/each}}
     </script>
 
-    <div id="exec" class="row">
-
-      <!-- <div class="col l3 m6 s6">
-        <div class="card" id="hlee">
-          <div class="card-image">
-            <img src='images/exec/hlee.jpg' width="195px">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Harlin Lee</h6>
-            <p class="exec-title">President</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="kng">
-          <div class="card-image">
-            <img src='images/exec/kng.jpg' width="195px">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Kevin Ng</h6>
-            <p class="exec-title">Vice President</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="igarza">
-          <div class="card-image">
-            <img src="images/exec/igarza.jpg" width="195px">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Isaac Garza</h6>
-            <p class="exec-title">Treasurer</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="pzhao">
-          <div class="card-image">
-            <img src="images/exec/pzhao.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Parker Zhao</h6>
-            <p class="exec-title">External Relations</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="clao">
-          <div class="card-image">
-            <img src="images/exec/clao.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Czarina Lao</h6>
-            <p class="exec-title">Secretary</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="schen">
-          <div class="card-image">
-            <img src="images/exec/schen.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Shirley Chen</h6>
-            <p class="exec-title">Social Chair</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="makengin">
-          <div class="card-image">
-            <img src="images/exec/makengin.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Efe Akengin</h6>
-            <p class="exec-title">Social Chair</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="mlao">
-          <div class="card-image">
-            <img src="images/exec/mlao.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Natalie Lao</h6>
-            <p class="exec-title">Chairwoman</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col l3 m6 s6">
-        <div class="card" id="hmoncivais">
-          <div class="card-image">
-            <img src="images/exec/hmoncivais.png">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Hiram Moncivais</h6>
-            <p class="exec-title">Historian</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col l3 m6 s6">
-        <div class="card" id="kikhofua">
-          <div class="card-image">
-            <img src="images/exec/kikhofua.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Kamoya Ikhofua</h6>
-            <p class="exec-title">Publicity Chair</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="lchen">
-          <div class="card-image">
-            <img src="images/exec/lchen.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Lucy Chen</h6>
-            <p class="exec-title">Publicity Chair</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s6">
-        <div class="card" id="cwomack">
-          <div class="card-image">
-            <img src="images/exec/cwomack.jpg">
-          </div>
-          <div class="card-content">
-            <p class="exec-name flow-text">Chris Womack</h6>
-            <p class="exec-title">Webmaster</p>
-          </div>
-        </div>
-      </div> -->
-
-    </div>
+    <div id="exec" class="row"></div>
 
   </div>
 

@@ -176,6 +176,14 @@ a.join {
   }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @media only screen and (min-width: 933px) {
+    .carousel-nav .slick-dots {
+      top: -5px;
+    }
+  }
+}
+
 .programs-label, .events-label {
   opacity: .54;
 }

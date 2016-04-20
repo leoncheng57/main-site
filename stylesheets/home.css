@@ -129,7 +129,7 @@ a.join {
 
 .carousel-nav-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
   right: 0;
   z-index: 3;
@@ -147,21 +147,23 @@ a.join {
       .carousel-nav-container .carousel-nav .slick-dots li {
         position: relative;
         top: -10px; }
-        .carousel-nav-container .carousel-nav .slick-dots li button {
-          background-color: #ffffff; }
-        .carousel-nav-container .carousel-nav .slick-dots li.slick-active button {
-          background-color: #fcb813; }
-    .carousel-nav-container .carousel-nav .slick-prev, .carousel-nav-container .carousel-nav .slick-next {
+    .carousel-nav-container .carousel-nav .carousel-prev, .carousel-nav-container .carousel-nav .carousel-next {
       position: relative;
       left: auto;
       right: auto;
       display: inline-block;
-      color: #ffffff; }
-      .carousel-nav-container .carousel-nav .slick-prev:hover:before, .carousel-nav-container .carousel-nav .slick-next:hover:before {
-        color: #fcb813; }
-    .carousel-nav-container .carousel-nav .slick-prev {
+      top: auto;
+      transform: none !important;
+      cursor: pointer;
+      line-height: 1;
+      font-size: 20px;
+      color: black;
+      opacity: .65; }
+      .carousel-nav-container .carousel-nav .carousel-prev:hover, .carousel-nav-container .carousel-nav .carousel-next:hover {
+        opacity: 1; }
+    .carousel-nav-container .carousel-nav .carousel-prev {
       float: left; }
-    .carousel-nav-container .carousel-nav .slick-next {
+    .carousel-nav-container .carousel-nav .carousel-next {
       float: right; }
 
 .programs-label, .events-label {

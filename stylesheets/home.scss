@@ -135,7 +135,7 @@ a.join {
 
 .carousel-nav-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
   right: 0;
   z-index: 3;
@@ -153,22 +153,27 @@ a.join {
       li {
         position: relative;
         top: -10px;
-        button { background-color: #ffffff; }
-        &.slick-active {
-          button { background-color: #fcb813; }
-        }
       }
     }
-    .slick-prev, .slick-next {
+    .carousel-prev, .carousel-next {
       position: relative;
       left: auto;
       right: auto;
       display: inline-block;
-      color: #ffffff;
-      &:hover:before { color: #fcb813; }
+      top: auto;
+      transform: none !important;
+      cursor: pointer;
+      line-height: 1;
+      font-size: 20px;
+      color: black;
+      opacity: .65;
+      &:hover {
+        opacity: 1;
+      }
     }
-    .slick-prev { float: left; }
-    .slick-next { float: right; }
+
+    .carousel-prev { float: left; }
+    .carousel-next { float: right; }
   }
 }
 

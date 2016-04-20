@@ -72,8 +72,8 @@ $(document).ready(function() {
     $('.event-list', '.events').slick({
         slide: '.carousel-group',
         arrows: true, dots: true,
-        prevArrow: '<span class="slick-prev"></span>',
-        nextArrow: '<span class="slick-next"></span>',
+        prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
+        nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_left</i></span>',
         appendArrows: '.event-list .carousel-nav',
         appendDots: '.event-list .carousel-nav'
     });

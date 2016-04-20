@@ -167,9 +167,10 @@ a.join {
     .carousel-nav-container .carousel-nav .carousel-next {
       float: right; }
 
-@-moz-document url-prefix(http://ieee.scripts.mit.edu/club) {
-  .carousel-nav .slick-dots {
-    top: 6px !important; } }
+@media only screen and (max-width: 600px) {
+  @-moz-document url-prefix(http://ieee.scripts.mit.edu/club/) {
+    .carousel-nav .slick-dots {
+      top: 6px !important; } } }
 .programs-label, .events-label {
   opacity: .54; }
 

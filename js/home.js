@@ -72,8 +72,8 @@ $(document).ready(function() {
     $('.event-list', '.events').slick({
         slide: '.carousel-group',
         arrows: true, dots: true,
-        prevArrow: '<span class="carousel-prev hide-on-small-and-down"><i class="material-icons">chevron_left</i></span>',
-        nextArrow: '<span class="carousel-next hide-on-small-and-down"><i class="material-icons">chevron_right</i></span>',
+        prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
+        nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_right</i></span>',
         appendArrows: '.event-list .carousel-nav',
         appendDots: '.event-list .carousel-nav'
     });

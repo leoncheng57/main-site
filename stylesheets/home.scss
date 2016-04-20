@@ -149,11 +149,9 @@ a.join {
       position: relative;
       bottom: auto;
       width: auto;
-      height: 10px;
       display: inline-block;
       li {
         position: relative;
-        top: -5px;
       }
     }
     .carousel-prev, .carousel-next {
@@ -175,14 +173,6 @@ a.join {
 
     .carousel-prev { float: left; }
     .carousel-next { float: right; }
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  @-moz-document url-prefix(http://ieee.scripts.mit.edu/club/) {
-    .carousel-nav .slick-dots {
-      top: 6px !important;
-    }
   }
 }
 

@@ -143,11 +143,9 @@ a.join {
       position: relative;
       bottom: auto;
       width: auto;
-      height: 10px;
       display: inline-block; }
       .carousel-nav-container .carousel-nav .slick-dots li {
-        position: relative;
-        top: -5px; }
+        position: relative; }
     .carousel-nav-container .carousel-nav .carousel-prev, .carousel-nav-container .carousel-nav .carousel-next {
       position: relative;
       left: auto;
@@ -167,10 +165,6 @@ a.join {
     .carousel-nav-container .carousel-nav .carousel-next {
       float: right; }
 
-@media only screen and (max-width: 600px) {
-  @-moz-document url-prefix(http://ieee.scripts.mit.edu/club/) {
-    .carousel-nav .slick-dots {
-      top: 6px !important; } } }
 .programs-label, .events-label {
   opacity: .54; }
 

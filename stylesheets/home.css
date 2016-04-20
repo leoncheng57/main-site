@@ -65,8 +65,12 @@ a.join {
   .submit-app input:focus {
     outline: none; }
 
+#application input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fafafa inset !important; }
+
 .error {
-  margin: 0; }
+  margin: 0;
+  white-space: nowrap; }
 
 #error-message {
   background: #fcf8e3;
@@ -92,8 +96,7 @@ a.join {
   .event-list .carousel-group:focus {
     outline: 0; }
   .event-list .event-item {
-    min-height: 60px;
-    overflow: auto;
+    overflow: hidden;
     padding-right: 10px;
     transition: .2s ease-out;
     transition-property: initial;
@@ -104,13 +107,10 @@ a.join {
       box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
       cursor: pointer; }
     .event-list .event-item .event-date {
-      width: 68px;
       background: #c1272d;
-      display: inline-block;
       color: white;
-      min-height: inherit;
       float: left;
-      padding: 5px; }
+      padding: 5px 10px; }
       .event-list .event-item .event-date h3, .event-list .event-item .event-date h6 {
         margin: 0; }
       .event-list .event-item .event-date h3 {
@@ -126,6 +126,43 @@ a.join {
         line-height: normal; }
       .event-list .event-item .event-info h6 {
         font-size: 1.32rem; }
+
+.carousel-nav-container {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  text-align: center; }
+  .carousel-nav-container .carousel-nav {
+    display: inline-block; }
+    .carousel-nav-container .carousel-nav .slick-dots {
+      margin: 0 10px;
+      position: relative;
+      top: 4px;
+      bottom: auto;
+      width: auto;
+      height: 10px;
+      display: inline-block; }
+      .carousel-nav-container .carousel-nav .slick-dots li {
+        position: relative;
+        top: -10px; }
+        .carousel-nav-container .carousel-nav .slick-dots li button {
+          background-color: #ffffff; }
+        .carousel-nav-container .carousel-nav .slick-dots li.slick-active button {
+          background-color: #fcb813; }
+    .carousel-nav-container .carousel-nav .slick-prev, .carousel-nav-container .carousel-nav .slick-next {
+      position: relative;
+      left: auto;
+      right: auto;
+      display: inline-block;
+      color: #ffffff; }
+      .carousel-nav-container .carousel-nav .slick-prev:hover:before, .carousel-nav-container .carousel-nav .slick-next:hover:before {
+        color: #fcb813; }
+    .carousel-nav-container .carousel-nav .slick-prev {
+      float: left; }
+    .carousel-nav-container .carousel-nav .slick-next {
+      float: right; }
 
 .programs-label, .events-label {
   opacity: .54; }

@@ -64,14 +64,18 @@ $(document).ready(function() {
         var context;
         if (events.length) {
             context = {events: events};
-            $('.event-list', '.events').append(carouselHandlebars(context));
+            $('.carousel-nav', '.events-list').before(carouselHandlebars(context));
         }
     });
 
     // Initialize carousel
     $('.event-list', '.events').slick({
-        dots: true,
-        arrows: false
+        slide: '.carousel-group',
+        arrows: true, dots: true,
+        prevArrow: '<span class="slick-prev"></span>',
+        nextArrow: '<span class="slick-next"></span>',
+        appendArrows: '.event-list .carousel-nav',
+        appendDots: '.event-list .carousel-nav'
     });
 
     // APPLICATION MODAL

@@ -84,7 +84,11 @@
         <div class="events">
           <h6><span class="events-label">UPCOMING EVENTS</span> <a class="right subscribe-link" href="https://www.google.com/calendar/embed?src=ncvkteq0hm7cgr5bhi00bgbaik%40group.calendar.google.com" target="_blank">subscribe</a></h6>
           <div class="divider"></div>
-          <div class="row section event-list"></div>
+          <div class="row section event-list">
+            <div class="carousel-nav-container">
+              <div class="carousel-nav"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col m6 s12">

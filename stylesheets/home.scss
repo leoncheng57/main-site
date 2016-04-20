@@ -81,7 +81,7 @@ a.join {
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 0;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 
   .event-wrapper {
     margin-top: 8px;
@@ -134,7 +134,8 @@ a.join {
 }
 
 .carousel-nav-container {
-  position: absolute;
+  position: relative;
+  margin-top: 10px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -145,7 +146,7 @@ a.join {
     .slick-dots {
       margin: 0 10px;
       position: relative;
-      top: 4px;
+      top: 6px;
       bottom: auto;
       width: auto;
       height: 10px;

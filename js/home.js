@@ -73,7 +73,7 @@ $(document).ready(function() {
         slide: '.carousel-group',
         arrows: true, dots: true,
         prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
-        nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_left</i></span>',
+        nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_right</i></span>',
         appendArrows: '.event-list .carousel-nav',
         appendDots: '.event-list .carousel-nav'
     });

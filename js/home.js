@@ -64,7 +64,7 @@ $(document).ready(function() {
         var context;
         if (events.length) {
             context = {events: events};
-            $('.carousel-nav', '.events-list').before(carouselHandlebars(context));
+            $('.carousel-nav-container', '.event-list').before(carouselHandlebars(context));
         }
     });
 

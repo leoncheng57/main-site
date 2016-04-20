@@ -179,8 +179,12 @@ a.join {
   }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .carousel-nav .slick-dots { top: auto !important; }
+@media only screen and (min-width: 993px) {
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .carousel-nav .slick-dots {
+      top: auto !important;
+    }
+  }
 }
 
 

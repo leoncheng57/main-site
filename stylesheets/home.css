@@ -168,7 +168,7 @@ a.join {
     .carousel-nav-container .carousel-nav .carousel-next {
       float: right; }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+@media only screen and (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
   .carousel-nav .slick-dots {
     top: auto !important; } }
 .programs-label, .events-label {

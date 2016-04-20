@@ -114,14 +114,14 @@ a.join {
     .event-info {
       margin-left: 78px;
       padding-top: 0.5rem;
-      h6 {
-        font-size: 1.32rem;
+      h6, p {
         margin: 0;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        line-height: normal;
       }
-      p {margin: 0;}
+      h6 {font-size: 1.32rem;}
     }
   }
 }

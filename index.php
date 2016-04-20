@@ -64,7 +64,7 @@
       <div class="carousel-group">
           {{#each events}}
               <div class="col s12 event-wrapper">
-                  <div class="event-item z-depth-1">
+                  <div class="event-item z-depth-1" onclick="window.open('{{this.htmlLink}}', '_blank'); return false;">
                       <div class="event-date">
                           <h6 class="center-align">{{this.month}}</h6>
                           <h3 class="center-align">{{this.day}}</h3>

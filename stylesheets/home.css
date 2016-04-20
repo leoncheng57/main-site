@@ -116,14 +116,14 @@ a.join {
     .event-list .event-item .event-info {
       margin-left: 78px;
       padding-top: 0.5rem; }
-      .event-list .event-item .event-info h6 {
-        font-size: 1.32rem;
+      .event-list .event-item .event-info h6, .event-list .event-item .event-info p {
         margin: 0;
         overflow: hidden;
         white-space: nowrap;
-        text-overflow: ellipsis; }
-      .event-list .event-item .event-info p {
-        margin: 0; }
+        text-overflow: ellipsis;
+        line-height: normal; }
+      .event-list .event-item .event-info h6 {
+        font-size: 1.32rem; }
 
 .programs-label, .events-label {
   opacity: .54; }

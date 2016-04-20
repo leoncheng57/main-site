@@ -30,7 +30,7 @@ $(document).ready(function() {
     events.map(function(event) {
         var start = event.start.dateTime.split(' '),
             end = event.end.dateTime.split(' '),
-            month, day, startTime, timeSuffix, endTime, time, timeAndLocation;
+            month, day, startTime, timeSuffix, endTime, time, location, timeAndLocation;
 
         month = start[1].substring(0, 3);
         day = start[2].substring(0, 2);
@@ -40,8 +40,9 @@ $(document).ready(function() {
         startTime = startTime.replace(timeSuffix, ""); // if they have the same suffix, remove the first occurrence
         endTime = end[5] + " " + end[6];
         time = startTime + "-" + endTime;
+        location = event.location || 'Location TBA';
 
-        timeAndLocation = time.replace(":00", "") + " | " + event.location;
+        timeAndLocation = time.replace(/:00/g, "") + " | " + location;
 
         event['month'] = month;
         event['day'] = day;

@@ -32,9 +32,9 @@
 body {
   font-family: "Clear Sans", "Source Sans Pro", sans-serif; }
 
-.welcome a {
+.welcome a, a.subscribe-link {
   color: #c1272d; }
-  .welcome a:hover {
+  .welcome a:hover, a.subscribe-link:hover {
     text-decoration: underline; }
 
 .container h1 {
@@ -89,6 +89,8 @@ a.join {
     margin-top: 8px; }
   .event-list .carousel-group:last-child {
     margin-bottom: 15px; }
+    .event-list .carousel-group:last-child:focus {
+      outline: 0; }
   .event-list .event-item {
     min-height: 60px;
     overflow: auto;

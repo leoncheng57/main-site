@@ -82,7 +82,7 @@
     <div class="row section">
       <div class="col m6 s12">
         <div class="events">
-          <h6 class="events-label">UPCOMING EVENTS</h6>
+          <h6><span class="events-label">UPCOMING EVENTS</span> <a class="right subscribe-link" href="https://www.google.com/calendar/embed?src=ncvkteq0hm7cgr5bhi00bgbaik%40group.calendar.google.com" target="_blank">subscribe</a></h6>
           <div class="divider"></div>
           <div class="row section event-list"></div>
         </div>

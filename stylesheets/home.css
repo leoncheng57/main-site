@@ -110,7 +110,8 @@ a.join {
       background: #c1272d;
       color: white;
       float: left;
-      padding: 5px 10px; }
+      padding: 5px;
+      width: 68px; }
       .event-list .event-item .event-date h3, .event-list .event-item .event-date h6 {
         margin: 0; }
       .event-list .event-item .event-date h3 {
@@ -147,7 +148,7 @@ a.join {
       display: inline-block; }
       .carousel-nav-container .carousel-nav .slick-dots li {
         position: relative;
-        top: -10px; }
+        top: -5px; }
     .carousel-nav-container .carousel-nav .carousel-prev, .carousel-nav-container .carousel-nav .carousel-next {
       position: relative;
       left: auto;

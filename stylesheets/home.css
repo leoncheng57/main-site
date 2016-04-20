@@ -168,6 +168,9 @@ a.join {
     .carousel-nav-container .carousel-nav .carousel-next {
       float: right; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .carousel-nav .slick-dots {
+    top: auto; } }
 .programs-label, .events-label {
   opacity: .54; }
 

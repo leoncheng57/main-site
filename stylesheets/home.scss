@@ -82,10 +82,10 @@ a.join {
 
   .carousel-group:last-child {
     margin-bottom: 15px;
+  }
 
-    &:focus {
-      outline: 0;
-    }
+  .carousel-group:focus {
+    outline: 0;
   }
 
   .event-item {

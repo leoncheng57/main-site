@@ -6195,24 +6195,23 @@ body {
   to {
     opacity: 1; } }
 nav {
-  padding-top: 10px;
-  line-height: 40px !important;
-  background-color: #c1272d !important;
-  padding-bottom: 60px;
-  padding-right: 25px; }
+  background-color: #c1272d !important; }
+  nav .nav-wrapper {
+    background: #c1272d; }
   nav ul.right {
     margin-top: 5px !important; }
+  nav .button-collapse i {
+    margin-left: 15px; }
+  nav .logo {
+    height: 50px;
+    margin-left: 20px; }
 
-.nav-wrapper {
-  background: #c1272d; }
-
-nav .button-collapse i {
-  margin-left: 15px; }
-
-.logo {
-  height: 50px;
-  margin-left: 20px; }
-
+@media only screen and (min-width: 993px) {
+  nav {
+    padding-top: 10px;
+    line-height: 40px !important;
+    padding-bottom: 60px;
+    padding-right: 25px; } }
 .blog-image-padding {
   padding: 0.75rem 0; }
 
@@ -6250,6 +6249,9 @@ nav .button-collapse i {
     max-width: 100%;
     height: auto !important; }
 
+@media only screen and (max-width: 600px) {
+  #application input {
+    font-size: 1.3rem; } }
 /* For font test page */
 .test-head {
   font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif; }

@@ -122,7 +122,7 @@
 
     <script id="exec-template" type="text/x-handlebars-template">
       {{#each officers}}
-        <div class="col l3 m6 s6">
+        <div class="col l3 m4 s6">
           <div class="card" id="{{this.id}}">
             <div class="card-image">
               <img src='images/exec/{{this.image}}'>

@@ -147,7 +147,6 @@ a.join {
     .slick-dots {
       margin: 0 10px;
       position: relative;
-      top: 6px;
       bottom: auto;
       width: auto;
       height: 10px;
@@ -179,11 +178,9 @@ a.join {
   }
 }
 
-@media only screen and (min-width: 993px) {
-  @media screen and (-webkit-min-device-pixel-ratio: 0) {
-    .carousel-nav .slick-dots {
-      top: auto !important;
-    }
+@-moz-document url-prefix(http://ieee.scripts.mit.edu/club/) {
+  .carousel-nav .slick-dots {
+    top: 6px !important;
   }
 }
 

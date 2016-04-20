@@ -141,7 +141,6 @@ a.join {
     .carousel-nav-container .carousel-nav .slick-dots {
       margin: 0 10px;
       position: relative;
-      top: 6px;
       bottom: auto;
       width: auto;
       height: 10px;
@@ -168,9 +167,9 @@ a.join {
     .carousel-nav-container .carousel-nav .carousel-next {
       float: right; }
 
-@media only screen and (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
+@-moz-document url-prefix(http://ieee.scripts.mit.edu/club) {
   .carousel-nav .slick-dots {
-    top: auto !important; } }
+    top: 6px !important; } }
 .programs-label, .events-label {
   opacity: .54; }
 

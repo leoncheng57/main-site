@@ -216,7 +216,7 @@ a.blog-btn {
   margin-top: 3rem;
   color: $ieee-base;
   font-family: $clearsans-lite;
-  display: block;
+  display: inline-block;
 
   &:hover {
     text-decoration: underline;

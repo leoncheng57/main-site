@@ -45,7 +45,7 @@ $(document).ready(function() {
         event['day'] = day;
         event['time'] = time.replace(/:00/g, "");
 
-        if(event.location == 'undefined') {
+        if(!event.location) {
             event.location = 'TBA';
         }
 

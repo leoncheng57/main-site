@@ -193,7 +193,7 @@ a.blog-btn {
   margin-top: 3rem;
   color: #c1272d;
   font-family: "Clear Sans Light", "Source Sans Pro", sans-serif;
-  display: block; }
+  display: inline-block; }
   a.blog-btn:hover {
     text-decoration: underline; }
 

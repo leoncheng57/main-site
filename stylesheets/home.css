@@ -127,6 +127,11 @@ a.join {
         line-height: normal; }
       .event-list .event-item .event-info h6 {
         font-size: 1.32rem; }
+      .event-list .event-item .event-info p i.material-icons {
+        position: relative;
+        top: 2.5px;
+        font-size: 15px;
+        opacity: .54; }
 
 .carousel-nav-container {
   position: relative;
@@ -168,7 +173,7 @@ a.join {
 @media only screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 933px) {
   .carousel-nav .slick-dots {
     top: -5px; } }
-.programs-label, .events-label {
+.programs-label, .events-label, .blog-label {
   opacity: .54; }
 
 .programs-list {
@@ -180,9 +185,6 @@ a.join {
     font-size: 1.64rem; }
     .programs-list li a:hover {
       color: #c1272d; }
-
-.blog-label {
-  opacity: .54; }
 
 #blog-post .pagination {
   display: none; }
@@ -200,6 +202,9 @@ a.blog-btn {
     padding: 0 0.5rem !important; }
 
   .app-text {
-    display: none; } }
+    display: none; }
+
+  .blog-label {
+    font-size: 1rem; } }
 
 /*# sourceMappingURL=home.css.map */

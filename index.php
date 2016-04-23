@@ -71,7 +71,7 @@
                       </div>
                       <div class="event-info">
                           <h6>{{this.summary}}</h6>
-                          <p>{{this.timeAndLocation}}</p>
+                          <p><i class="material-icons">access_time</i> {{this.time}} <i class="material-icons">location_on</i> {{this.location}}</p>
                       </div>
                   </div>
               </div>
@@ -109,11 +109,12 @@
       </div>
     </div>
 
-    <div class="divider"></div>
+    <div class="divider hide-on-small-only"></div>
 
     <div class="row section">
       <div class="col s12" id="blog-post">
         <h5 class="blog-label">LATEST BLOG POST</h5>
+        <div class="divider hide-on-med-and-up"></div>
         <?php 
         $template = "Home";
         $number = "1";

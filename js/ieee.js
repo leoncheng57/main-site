@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     $('.post-title a', '.post').addClass('post-link');
 
-    $('div span', '.post').replaceWith('<p>');
+    $('div:has(span)', '.post').wrapInner('<p />').contents().unwrap();
 
     //Hide CuteNews accreditation (may be sliiiiiightly illegal)
     $('a[href="http://cutephp.com/"]').parent().hide();

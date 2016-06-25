@@ -11,7 +11,7 @@
     <link href="stylesheets/programs.css" rel="stylesheet">
     <link href="stylesheets/main.css" rel="stylesheet">
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="js/jquery.js"></script>
     <script type='text/javascript' src='js/materialize.min.js'></script>
@@ -24,16 +24,16 @@
 <!-- Header -->
 <nav class="z-depth-0">
     <div class="nav-wrapper">
-        <a href="/club/" class="brand-logo"><img class="logo hide-on-med-and-down" src="images/logo-white.png"></a>
+        <a href="/" class="brand-logo"><img class="logo hide-on-med-and-down" src="images/logo-white.png"></a>
         <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="/club/">HOME</a></li>
-            <li><a href="blog.php">BLOG</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/blog">BLOG</a></li>
             <li><a href="programs.html">PROGRAMS</a></li>
         </ul>
         <ul class="side-nav" id="mobile-nav">
-            <li><a href="/club/">HOME</a></li>
-            <li><a href="blog.php">BLOG</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/blog">BLOG</a></li>
             <li><a href="programs.html">PROGRAMS</a></li>
         </ul>
     </div>
@@ -41,215 +41,224 @@
 
 <div class="container">
     <div class="row">
-        <div class="program-section col s12" id="codeforgood">
-            <h2><a href="http://codeforgood.mit.edu" target="_blank">Code for Good</a></h2>
-            <p class="flow-text">Code for Good, 6.S187, is a 6 unit IAP class that brings students together with local nonprofit organizations to work on impactful computer science projects.</p>
-            <!-- <h2>Program Exec</h2> -->
-            <div class="col l3 m6 s6">
-                <div class="card" id="vdean">
-                    <div class="card-image">
-                        <img src="images/exec/vdean.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Victoria Dean</p>
-                        <p class="exec-title">Code for Good Chair</p>
+
+        <div class="program-section col s12" id="sixsharp">
+            <h3 class="program-title"><a href="https://sixsharp.mit.edu" target="_blank">6#</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">Six Sharp aims to provide the best hands-on technical interview preparation for students through mock interviews.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l6 m6 s6">
+                    <div class="card" id="mkane">
+                        <div class="card-image">
+                            <img src="images/exec/mkane.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Mohamed Kane</p>
+                            <p class="exec-title">6# Chair</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="aathalye">
-                    <div class="card-image">
-                        <img src="images/exec/aathalye.png">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Anish Athalye</p>
-                        <p class="exec-title">Code for Good Chair</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="program-section col s12" id="ucc">
-            <h2><a href="http://ieee.scripts.mit.edu/conference/" target="_blank">IEEE MIT Undergraduate Research Technology Conference</a></h2>
-            <p class="flow-text">This is an official IEEE conference held in the fall that provides student participants an opportunity to publish papers about their independent innovations, projects, research, or case studies.</p>
-            <!-- <h2>Program Exec</h2> -->
-            <div class="col l3 m6 s6">
-                <div class="card" id="mchoi">
-                    <div class="card-image">
-                        <img src="images/exec/mchoi.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Miri Choi</p>
-                        <p class="exec-title">URTC Chair</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="whuang">
-                    <div class="card-image">
-                        <img src="images/exec/whuang.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">William Junda Huang</p>
-                        <p class="exec-title">URTC Registration Chair</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="bmoses">
-                    <div class="card-image">
-                        <img src="images/exec/bmoses.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Billy Moses</p>
-                        <p class="exec-title">URTC Publicity Chair</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="program-section col s12" id="faculty">
-            <h2><a href="mailto:ieee-acm-faculty@mit.edu">Faculty Dinners</a></h2>
-            <p class="flow-text">The Faculty Chair organizes monthly small group dinners featuring a Course 6 professor and 10-20 undergraduates to strengthen the student-faculty bond.</p>
-            <div class="col l3 m6 s6">
-                <div class="card" id="asaxena">
-                    <div class="card-image">
-                        <img src="images/exec/asaxena.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Alisha Saxena</p>
-                        <p class="exec-title">Faculty Chair</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="program-section col s12" id="mitos">
-            <h2><a href="http://mitos.mit.edu/" target="_blank">MIT Open Source Club</a></h2>
-            <p class="flow-text">The goal of MIT Open Source Club (MITOS) is to connect students with other students, industry professionals, and professors who are currently working on open source projects.</p>
-            <div class="col l3 m6 s6">
-                <div class="card" id="swang">
-                    <div class="card-image">
-                        <img src="images/exec/swang.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Stephanie Wang</p>
-                        <p class="exec-title">MITOS Chair</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="npatki">
-                    <div class="card-image">
-                        <img src="images/exec/npatki.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Neha Patki</p>
-                        <p class="exec-title">MITOS Chair</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="jblum">
-                    <div class="card-image">
-                        <img src="images/exec/jblum.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Josh Blum</p>
-                        <p class="exec-title">MITOS Chair</p>
+                <div class="col l6 m6 s6">
+                    <div class="card" id="bzeng">
+                        <div class="card-image">
+                            <img src="images/exec/bzeng.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Brandon Zeng</p>
+                            <p class="exec-title">6# Chair</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="program-section col s12" id="sixsharp">
-            <h2><a href="https://sixsharp.mit.edu" target="_blank">6#</a></h2>
-            <p class="flow-text">Six Sharp aims to provide the best hands-on technical interview preparation for students through mock interviews.</p>
-            <div class="col l3 m6 s6">
-                <div class="card" id="mkane">
-                    <div class="card-image">
-                        <img src="images/exec/mkane.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Mohamed Kane</p>
-                        <p class="exec-title">6# Chair</p>
+        <div class="program-section col s12" id="faculty">
+            <h3 class="program-title"><a href="mailto:ieee-acm-faculty@mit.edu">Faculty Dinners</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">The Faculty Chair organizes monthly small group dinners featuring a Course 6 professor and 10-20 undergraduates to strengthen the student-faculty bond.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l8 m6 s6">
+                    <div class="card" id="asaxena">
+                        <div class="card-image">
+                            <img src="images/exec/asaxena.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Alisha Saxena</p>
+                            <p class="exec-title">Faculty Chair</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="bzeng">
-                    <div class="card-image">
-                        <img src="images/exec/bzeng.jpg">
+        </div>
+
+        <div class="program-section col s12" id="ucc">
+            <h3 class="program-title"><a href="http://ieee.scripts.mit.edu/conference/" target="_blank">IEEE MIT Undergraduate Research Technology Conference</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">This is an official IEEE conference held in the fall that provides student participants an opportunity to publish papers about their independent innovations, projects, research, or case studies.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l4 m6 s6">
+                    <div class="card" id="mchoi">
+                        <div class="card-image">
+                            <img src="images/exec/mchoi.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">Miri Choi</p>
+                            <p class="exec-title">URTC Chair</p>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Brandon Zeng</p>
-                        <p class="exec-title">6# Chair</p>
+                </div>
+                <div class="col l4 m6 s6">
+                    <div class="card" id="whuang">
+                        <div class="card-image">
+                            <img src="images/exec/whuang.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">William Junda Huang</p>
+                            <p class="exec-title">URTC Registration Chair</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m6 s6">
+                    <div class="card" id="bmoses">
+                        <div class="card-image">
+                            <img src="images/exec/bmoses.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">Billy Moses</p>
+                            <p class="exec-title">URTC Publicity Chair</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="program-section col s12" id="mitos">
+            <h3 class="program-title"><a href="http://mitos.mit.edu/" target="_blank">MIT Open Source Club</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">The goal of MIT Open Source Club (MITOS) is to connect students with other students, industry professionals, and professors who are currently working on open source projects.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l4 m6 s6">
+                    <div class="card" id="swang">
+                        <div class="card-image">
+                            <img src="images/exec/swang.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">Stephanie Wang</p>
+                            <p class="exec-title">MITOS Chair</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m6 s6">
+                    <div class="card" id="npatki">
+                        <div class="card-image">
+                            <img src="images/exec/npatki.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">Neha Patki</p>
+                            <p class="exec-title">MITOS Chair</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 m6 s6">
+                    <div class="card" id="jblum">
+                        <div class="card-image">
+                            <img src="images/exec/jblum.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">Josh Blum</p>
+                            <p class="exec-title">MITOS Chair</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="program-section col s12" id="social">
-            <h2><a href="mailto:ieee-acm-social@mit.edu">Social Hours</a></h2>
-            <p class="flow-text">The Social Chairs organize frequent study breaks for undergraduates in the EECS lounge.</p>
-            <div class="col l3 m6 s6">
-                <div class="card" id="schen">
-                    <div class="card-image">
-                        <img src="images/exec/schen.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Shirley Chen</p>
-                        <p class="exec-title">Social Chair</p>
+            <h3 class="program-title"><a href="mailto:ieee-acm-social@mit.edu">Social Hours</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">The Social Chairs organize frequent study breaks for undergraduates in the EECS lounge.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l8 m6 s6">
+                    <div class="card" id="schen">
+                        <div class="card-image">
+                            <img src="images/exec/schen.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Shirley Chen</p>
+                            <p class="exec-title">Social Chair</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col l3 m6 s6">
-                <div class="card" id="makengin">
-                    <div class="card-image">
-                        <img src="images/exec/makengin.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Efe Akengin</p>
-                        <p class="exec-title">Social Chair</p>
+                <div class="col l4 m6 s6">
+                    <div class="card" id="makengin">
+                        <div class="card-image">
+                            <img src="images/exec/makengin.jpg">
+                        </div>
+                        <div class="card-content small-exec-card">
+                            <p class="exec-name">Efe Akengin</p>
+                            <p class="exec-title">Social Chair</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="program-section col s12" id="urge">
-            <h2><a href="mailto:ieee-acm-urge@mit.edu">URGE</a></h2>
-            <p class="flow-text">URGE is comprised of autonomous reading groups of 9-15 people on specialized topics within computer science.</p>
-            <div class="col l3 m6 s6">
-                <div class="card" id="abubna">
-                    <div class="card-image">
-                        <img src="images/exec/abubna.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Akshat Bubna</p>
-                        <p class="exec-title">URGE Chair</p>
+            <h3 class="program-title"><a href="mailto:ieee-acm-urge@mit.edu">URGE</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">URGE is comprised of autonomous reading groups of 9-15 people on specialized topics within computer science.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l8 m6 s6">
+                    <div class="card" id="abubna">
+                        <div class="card-image">
+                            <img src="images/exec/abubna.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Akshat Bubna</p>
+                            <p class="exec-title">URGE Chair</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="program-section col s12" id="voltage">
-            <h2> <a href="http://voltage.scripts.mit.edu/voltage-expo/Voltage.html" target="_blank">Voltage</a></h2>
-            <p class="flow-text">The goal of Voltage is to build a stronger, cohesive 6-1 undergraduate student community by facilitating student, faculty, alumni interaction.</p>
-            <div class="col l3 m6 s6">
-                <div class="card" id="naggarwal">
-                    <div class="card-image">
-                        <img src="images/exec/naggarwal.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Neerja Aggarwal</p>
-                        <p class="exec-title">Voltage Chair</p>
+            <h3 class="program-title"><a href="http://voltage.scripts.mit.edu/voltage-expo/Voltage.html" target="_blank">Voltage</a></h3>
+            <div class="divider col s12"></div>
+            <div class="col s8">
+                <p class="program-desc flow-text">The goal of Voltage is to build a stronger, cohesive 6-1 undergraduate student community by facilitating student, faculty, alumni interaction.</p>
+            </div>
+            <div class="col s4 program-exec">
+                <div class="col l6 m6 s6">
+                    <div class="card" id="naggarwal">
+                        <div class="card-image">
+                            <img src="images/exec/naggarwal.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Neerja Aggarwal</p>
+                            <p class="exec-title">Voltage Chair</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col l3 m6 s6">
-                <div class="card" id="fpaine">
-                    <div class="card-image">
-                        <img src="images/exec/fpaine.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p class="exec-name flow-text">Fiona Paine</p>
-                        <p class="exec-title">Voltage Chair</p>
+                <div class="col l6 m6 s6">
+                    <div class="card" id="fpaine">
+                        <div class="card-image">
+                            <img src="images/exec/fpaine.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="exec-name">Fiona Paine</p>
+                            <p class="exec-title">Voltage Chair</p>
+                        </div>
                     </div>
                 </div>
             </div>

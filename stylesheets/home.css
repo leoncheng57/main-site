@@ -1,210 +1,76 @@
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Regular.eot");
-  src: url("../fonts/clearsans/ClearSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Regular.woff") format("woff"), url("../fonts/clearsans/ClearSans-Regular.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular") format("svg");
-  font-weight: 400; }
-@font-face {
-  font-family: 'Clear Sans Bold';
-  src: url("../fonts/clearsans/ClearSans-Bold.eot");
-  src: url("../fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("../fonts/clearsans/ClearSans-Bold.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Bold.svg#ClearSans-Bold") format("svg");
-  font-weight: 700; }
-@font-face {
-  font-family: 'Clear Sans Light';
-  src: url("../fonts/clearsans/ClearSans-Light.eot");
-  src: url("../fonts/clearsans/ClearSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Light.woff") format("woff"), url("../fonts/clearsans/ClearSans-Light.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Light.svg#ClearSans-Light") format("svg");
-  font-weight: 300; }
-@font-face {
-  font-family: 'Clear Sans Medium';
-  src: url("../fonts/clearsans/ClearSans-Medium.eot");
-  src: url("../fonts/clearsans/ClearSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Medium.svg#ClearSans-Medium") format("svg");
-  font-weight: 500; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Italic.eot");
-  src: url("../fonts/clearsans/ClearSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Italic.woff") format("woff"), url("../fonts/clearsans/ClearSans-Italic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Italic.svg#ClearSans-Italic") format("svg");
-  font-style: italic; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot");
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-BoldItalic.woff") format("woff"), url("../fonts/clearsans/ClearSans-BoldItalic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-BoldItalic.svg#ClearSans-BoldItalic") format("svg");
-  font-weight: 700;
-  font-style: italic; }
-body {
-  font-family: "Clear Sans", "Source Sans Pro", sans-serif; }
+/*
+Error: Undefined variable: "$ieee-ba".
+        on line 47 of home.scss
 
-.welcome a, a.subscribe-link {
-  color: #c1272d; }
-  .welcome a:hover, a.subscribe-link:hover {
-    text-decoration: underline; }
+42: #join-modal .modal-content {
+43:   padding-bottom: 0;
+44: }
+45: 
+46: .submit-app {
+47:   color: $ieee-ba!important;
+48: 
+49:   input:focus {
+50:     outline: none;
+51:   }
+52: }
 
-.container h1 {
-  font-family: "Clear Sans Bold", "Source Sans Pro", sans-serif; }
-
-a.join {
-  color: #fff !important;
-  background: #c1272d !important; }
-  a.join:hover {
-    text-decoration: none; }
-
-.modal-content-row {
-  margin-bottom: 10px !important; }
-
-.app-text, input#email, .email-row {
-  margin-bottom: 0 !important; }
-
-.join-disclaimer {
-  font-size: 85%;
-  opacity: .54;
-  margin-top: -10px; }
-
-#join-modal .modal-content {
-  padding-bottom: 0; }
-
-.submit-app {
-  color: #d4686c !important; }
-  .submit-app input:focus {
-    outline: none; }
-
-#application input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 1000px #fafafa inset !important; }
-
-.error {
-  margin: 0;
-  white-space: nowrap; }
-
-#error-message {
-  background: #fcf8e3;
-  border-radius: 3px;
-  padding: 5px 8px;
-  color: #8a6d3b;
-  display: none;
-  margin-left: -500px; }
-  #error-message i.material-icons {
-    margin-right: 5px;
-    vertical-align: middle;
-    transform: translateY(-1px); }
-
-.event-list {
-  margin-left: 0;
-  margin-right: 0;
-  padding-bottom: 0;
-  margin-bottom: 10px !important; }
-  .event-list .event-wrapper {
-    margin-top: 8px; }
-  .event-list .carousel-group:last-child {
-    margin-bottom: 15px; }
-  .event-list .carousel-group:focus {
-    outline: 0; }
-  .event-list .event-item {
-    overflow: hidden;
-    padding-right: 10px;
-    transition: .2s ease-out;
-    transition-property: initial;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-out;
-    transition-delay: initial; }
-    .event-list .event-item:hover {
-      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-      cursor: pointer; }
-    .event-list .event-item .event-date {
-      background: #c1272d;
-      color: white;
-      float: left;
-      padding: 5px;
-      width: 68px; }
-      .event-list .event-item .event-date h3, .event-list .event-item .event-date h6 {
-        margin: 0; }
-      .event-list .event-item .event-date h3 {
-        margin-top: -5px; }
-    .event-list .event-item .event-info {
-      margin-left: 78px;
-      padding-top: 0.5rem; }
-      .event-list .event-item .event-info h6, .event-list .event-item .event-info p {
-        margin: 0;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        line-height: normal; }
-      .event-list .event-item .event-info h6 {
-        font-size: 1.32rem; }
-      .event-list .event-item .event-info p i.material-icons {
-        position: relative;
-        top: 2.5px;
-        font-size: 15px;
-        opacity: .54; }
-
-.carousel-nav-container {
-  position: relative;
-  margin-top: 10px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-  text-align: center; }
-  .carousel-nav-container .carousel-nav {
-    display: inline-block; }
-    .carousel-nav-container .carousel-nav .slick-dots {
-      margin: 0 10px;
-      position: relative;
-      bottom: auto;
-      width: auto;
-      display: inline-block; }
-      .carousel-nav-container .carousel-nav .slick-dots li {
-        position: relative; }
-    .carousel-nav-container .carousel-nav .carousel-prev, .carousel-nav-container .carousel-nav .carousel-next {
-      position: relative;
-      left: auto;
-      right: auto;
-      display: inline-block;
-      top: auto;
-      transform: none !important;
-      cursor: pointer;
-      line-height: 1;
-      font-size: 20px;
-      color: black;
-      opacity: .65; }
-      .carousel-nav-container .carousel-nav .carousel-prev:hover, .carousel-nav-container .carousel-nav .carousel-next:hover {
-        opacity: 1; }
-    .carousel-nav-container .carousel-nav .carousel-prev {
-      float: left; }
-    .carousel-nav-container .carousel-nav .carousel-next {
-      float: right; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 933px) {
-  .carousel-nav .slick-dots {
-    top: -5px; } }
-.programs-label, .events-label, .blog-label {
-  opacity: .54; }
-
-.programs-list {
-  margin: 0;
-  padding-top: 1rem; }
-  .programs-list li a {
-    color: #000;
-    font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif;
-    font-size: 1.64rem; }
-    .programs-list li a:hover {
-      color: #c1272d; }
-
-#blog-post .pagination {
-  display: none; }
-
-a.blog-btn {
-  margin-top: 3rem;
-  color: #c1272d;
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif;
-  display: inline-block; }
-  a.blog-btn:hover {
-    text-decoration: underline; }
-
-@media only screen and (max-width: 600px) {
-  a.blog-btn {
-    padding: 0 0.5rem !important; }
-
-  .app-text {
-    display: none; }
-
-  .blog-label {
-    font-size: 1rem; } }
-
-/*# sourceMappingURL=home.css.map */
+Backtrace:
+home.scss:47
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `map'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/bin/scss:13:in `<top (required)>'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/bin/scss:23:in `load'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/bin/scss:23:in `<main>'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$ieee-ba\".\A         on line 47 of home.scss\A \A 42: #join-modal .modal-content {\A 43:   padding-bottom: 0;\A 44: }\A 45: \A 46: .submit-app {\A 47:   color: $ieee-ba!important;\A 48: \A 49:   input:focus {\A 50:     outline: none;\A 51:   }\A 52: }"; }

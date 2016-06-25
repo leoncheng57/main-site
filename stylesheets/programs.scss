@@ -1,0 +1,38 @@
+@import "fonts";
+@import "materialize";
+@import "colors";
+
+body {
+  font-family: $trueno-ultralite;
+  background: #fff;
+  color: #000;
+}
+
+.container a {
+  color: #000;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.program-title {
+  font-family: $trueno-semibold;
+}
+
+.program-desc {
+  font-family: $trueno-ultralite;
+  margin-top: 2rem !important;
+}
+
+.program-exec {
+  margin-top: 2rem;
+}
+
+.program-section {
+  margin-bottom: 2rem;
+}
+
+.small-exec-card {
+  padding: 10px !important;
+}

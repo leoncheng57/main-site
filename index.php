@@ -120,18 +120,24 @@
 
     <div class="divider hide-on-small-only"></div>
 
+      
     <div class="row section">
-      <div class="col s12" id="blog-post">
+      <div class="col s12 m8 l8" id="blog-post">
         <h5 class="blog-label">LATEST BLOG POST</h5>
-        <div class="divider hide-on-med-and-up"></div>
+        <div class="divider col s12 hide-on-med-and-up"></div>
         <?php 
-        $template = "Home";
-        $number = "1";
-        include("blog/show_news.php");
+          $template = "Home";
+          $number = "1";
+          include("blog/show_news.php");
         ?>
-        <h5 class="right-align"><a href="blog.php" class="blog-btn">See the full blog</a></h5>
-        <div class="divider"></div>
       </div>
+      <div class="recent-posts col s12 m4 l4">
+        <h6 class="blog-label">OTHER RECENT POSTS</h6>
+        <!-- {% for post in site.posts offset:1 limit:4 %}
+        <h5><a href="{{ post.url }}" class="post-link">{{ post.title }}</a></h5>
+        {% endfor %} -->
+      </div>
+      <div class="divider col s12 hide-on-small-only"></div>
     </div>
 
     <script id="exec-template" type="text/x-handlebars-template">
@@ -142,7 +148,7 @@
             <img src='images/exec/{{this.image}}'>
           </div>
           <div class="card-content">
-            <p class="exec-name flow-text">{{this.name}}</h6>
+            <p class="exec-name flow-text">{{this.name}}</p>
               <p class="exec-title">{{this.position}}</p>
             </div>
           </div>
@@ -172,7 +178,7 @@
           <p class="col s12 error">
             <span id="error-message"><i class="material-icons">error</i> <span id="error-type">Must be an MIT email.</span></span>
           </p>
-          
+
           <form name="application" id="application" class="col s12">
             <div class="row">
               <div class="input-field col s12 m12 l6">

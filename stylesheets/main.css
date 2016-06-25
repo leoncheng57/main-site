@@ -1,35 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic");
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Regular.eot");
-  src: url("../fonts/clearsans/ClearSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Regular.woff") format("woff"), url("../fonts/clearsans/ClearSans-Regular.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Regular.svg#ClearSans-Regular") format("svg");
-  font-weight: 400; }
-@font-face {
-  font-family: 'Clear Sans Bold';
-  src: url("../fonts/clearsans/ClearSans-Bold.eot");
-  src: url("../fonts/clearsans/ClearSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Bold.woff") format("woff"), url("../fonts/clearsans/ClearSans-Bold.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Bold.svg#ClearSans-Bold") format("svg");
-  font-weight: 700; }
-@font-face {
-  font-family: 'Clear Sans Light';
-  src: url("../fonts/clearsans/ClearSans-Light.eot");
-  src: url("../fonts/clearsans/ClearSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Light.woff") format("woff"), url("../fonts/clearsans/ClearSans-Light.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Light.svg#ClearSans-Light") format("svg");
-  font-weight: 300; }
-@font-face {
-  font-family: 'Clear Sans Medium';
-  src: url("../fonts/clearsans/ClearSans-Medium.eot");
-  src: url("../fonts/clearsans/ClearSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Medium.woff") format("woff"), url("../fonts/clearsans/ClearSans-Medium.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Medium.svg#ClearSans-Medium") format("svg");
-  font-weight: 500; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-Italic.eot");
-  src: url("../fonts/clearsans/ClearSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-Italic.woff") format("woff"), url("../fonts/clearsans/ClearSans-Italic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-Italic.svg#ClearSans-Italic") format("svg");
-  font-style: italic; }
-@font-face {
-  font-family: 'Clear Sans';
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot");
-  src: url("../fonts/clearsans/ClearSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/clearsans/ClearSans-BoldItalic.woff") format("woff"), url("../fonts/clearsans/ClearSans-BoldItalic.ttf") format("truetype"), url("../fonts/clearsans/ClearSans-BoldItalic.svg#ClearSans-BoldItalic") format("svg");
-  font-weight: 700;
-  font-style: italic; }
+@import url("https://fontlibrary.org/face/trueno");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6185,7 +6155,35 @@ body {
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -webkit-animation-delay: 2s;
-  font-family: "Clear Sans", "Source Sans Pro", sans-serif; }
+  font-family: "TruenoUltraLight", sans-serif;
+  letter-spacing: -0.02em;
+  color: #333539; }
+
+h1 {
+  font-family: "TruenoExtraBold", sans-serif;
+  font-size: 67px; }
+
+h2 {
+  font-family: "TruenoBold", sans-serif;
+  font-size: 50px; }
+
+h3, .post-title {
+  font-family: "TruenoRegular", sans-serif;
+  font-size: 37px; }
+
+h4 {
+  font-family: "TruenoLight", sans-serif;
+  font-size: 24px; }
+
+h5, h6 {
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  color: #838385; }
+
+p {
+  font-family: "TruenoUltraLight", sans-serif;
+  font-size: 21px;
+  line-height: 1.58; }
 
 @-webkit-keyframes fontfix {
   from {
@@ -6218,29 +6216,43 @@ nav {
 .waves-effect.waves-ieee-light .waves-ripple {
   background-color: rgba(220, 86, 90, 0.65); }
 
-.exec-name {
-  font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif; }
-
-.exec-title {
-  opacity: .54; }
-
-.post-title {
-  font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif; }
+a.post-link {
+  color: #333539 !important; }
+  a.post-link:hover {
+    text-decoration: underline; }
 
 .post {
-  color: #000 !important;
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif !important; }
+  color: #333539 !important;
+  font-family: "TruenoUltraLight", sans-serif !important; }
   .post a {
     color: #c1272d; }
     .post a:hover {
       text-decoration: underline; }
+  .post .post-title {
+    font-size: 36px; }
+  .post .post-details, .post .read-more {
+    font-size: 18px; }
+  .post p {
+    font-size: 21px; }
   .post div[style], .post span[style] {
-    color: #000 !important;
-    font-family: "Clear Sans Light", "Source Sans Pro", sans-serif !important; }
+    color: #333539 !important;
+    font-family: "TruenoUltraLight", sans-serif !important; }
 
+@media only screen and (max-width: 600px) {
+  .post .post-title {
+    font-size: 28px; }
+  .post .post-details, .post .read-more {
+    font-size: 16px; }
+  .post p {
+    font-size: 18px; } }
 .post-details {
-  opacity: .54;
+  opacity: .8;
+  color: #838385;
   margin-top: -15px; }
+
+.post img {
+  max-width: 100%;
+  height: auto !important; }
 
 .post div img {
   max-width: 100%;
@@ -6249,14 +6261,17 @@ nav {
     max-width: 100%;
     height: auto !important; }
 
+.read-more {
+  margin-top: -0.75rem; }
+  .read-more a {
+    opacity: .5;
+    color: #838385 !important; }
+    .read-more a:hover {
+      opacity: .8;
+      text-decoration: none !important; }
+
 @media only screen and (max-width: 992px) {
   #application input {
     font-size: 1.3rem; } }
-/* For font test page */
-.test-head {
-  font-family: "Clear Sans Medium", "Source Sans Pro", sans-serif; }
-
-.clear-lite {
-  font-family: "Clear Sans Light", "Source Sans Pro", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

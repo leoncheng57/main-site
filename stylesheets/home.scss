@@ -1,8 +1,13 @@
-@import 'clearsans';
+@import 'fonts';
 @import 'colors';
 
 body {
-  font-family: $clearsans;
+  font-family: $trueno-ultralite;
+}
+
+.welcome p {
+  font-family: $trueno-ultralite;
+  font-size: 18px;
 }
 
 .welcome a, a.subscribe-link {
@@ -13,7 +18,7 @@ body {
 }
 
 .container h1 {
-  font-family: $clearsans-bold;
+  font-family: $trueno-extrabold;
 }
 
 a.join {
@@ -66,7 +71,7 @@ a.join {
   background: #fcf8e3;
   border-radius: 3px;
   padding: 5px 8px;
-  color: #8a6d3b;
+  color: $ieee-warning;
   display: none;
   margin-left: -500px;
 
@@ -74,6 +79,38 @@ a.join {
     margin-right: 5px;
     vertical-align: middle;
     transform: translateY(-1px);
+  }
+}
+
+.no-events {
+  width: 100%;
+  position: relative;
+}
+
+.no-events:after {
+  padding-bottom: 50%;
+  display: block;
+  content: "";
+}
+
+.no-events-message {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-family: $trueno-ultralite;
+
+  a {
+    color: $ieee-base;
+    opacity: 1;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin: 0;
   }
 }
 
@@ -192,39 +229,40 @@ a.join {
 }
 
 .programs-label, .events-label, .blog-label {
-  opacity: .54;
+  opacity: .8;
 }
 
 .programs-list {
   margin: 0;
   padding-top: 1rem;
   li a {
-    color: #000;
-    font-family: $clearsans-med;
-    font-size: 1.64rem;
+    color: $ieee-dark-gray;
+    font-family: $trueno;
+    font-size: 24px;
     &:hover {
-      color: $ieee-base;
+      text-decoration: underline !important;
     }
   }
 }
 
-#blog-post .pagination {
-  display: none;
+#blog-post {
+  margin-bottom: 3rem;
+
+  .pagination {
+    display: none;
+  }
 }
 
-a.blog-btn {
-  margin-top: 3rem;
-  color: $ieee-base;
-  font-family: $clearsans-lite;
-  display: inline-block;
+.recent-posts {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
 
-  &:hover {
-    text-decoration: underline;
+  .blog-label {
+    margin-bottom: 1rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  a.blog-btn {  padding: 0 0.5rem !important; }
 
   .app-text { display: none;  }
 

@@ -1,5 +1,4 @@
-@import "clearsans";
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic');
+@import "fonts";
 @import "materialize";
 @import "colors";
 
@@ -9,7 +8,42 @@ body {
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -webkit-animation-delay: 2s;
-  font-family: $clearsans;
+  font-family: $trueno-ultralite;
+  letter-spacing: -0.02em;
+  color: #333539;
+}
+
+h1 {
+  font-family: $trueno-extrabold;
+  font-size: 67px;
+}
+
+h2 {
+  font-family: $trueno-bold;
+  font-size: 50px;
+}
+
+
+h3, .post-title {
+  font-family: $trueno;
+  font-size: 37px;
+}
+
+h4 {
+  font-family: $trueno-lite;
+  font-size: 24px;
+}
+
+h5, h6 {
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  color: #838385;
+}
+
+p {
+  font-family: $trueno-ultralite;
+  font-size: 21px;
+  line-height: 1.58;
 }
 
 @-webkit-keyframes fontfix{
@@ -56,21 +90,16 @@ nav {
   background-color: rgba(220, 86, 90, 0.65);
 }
 
-.exec-name {
-  font-family: $clearsans-med;
-}
-
-.exec-title {
-  opacity: .54;
-}
-
-.post-title {
-  font-family: $clearsans-med;
+a.post-link {
+  color: $ieee-dark-gray !important;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .post {
-  color: #000 !important;
-  font-family: $clearsans-lite !important;
+  color: $ieee-dark-gray !important;
+  font-family: $trueno-ultralite !important;
 
   a {
     color: $ieee-base;
@@ -79,15 +108,49 @@ nav {
     }
   }
 
+  .post-title {
+    font-size: 36px;
+  }
+
+  .post-details, .read-more {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+
   div[style], span[style] {
-    color: #000 !important;
-    font-family: $clearsans-lite !important;
+    color: $ieee-dark-gray !important;
+    font-family: $trueno-ultralite !important;
+  }
+}
+
+@media #{$small-and-down} {
+  .post {
+    .post-title {
+      font-size: 28px;
+    }
+
+    .post-details, .read-more {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 18px;
+    }
   }
 }
 
 .post-details {
-  opacity: .54;
+  opacity: .8;
+  color: $ieee-light-gray;
   margin-top: -15px;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto !important;
 }
 
 .post div img {
@@ -99,21 +162,23 @@ nav {
   }
 }
 
+.read-more {
+  margin-top: -0.75rem;
+
+  a {
+    opacity: .5;
+    color: $ieee-light-gray !important;
+    &:hover {
+      opacity: .8;
+      text-decoration: none !important;
+    }
+  }
+}
+
 @media #{$medium-and-down} {
   #application {
     input {
       font-size: 1.3rem;
     }
   }
-}
-
-
-/* For font test page */
-
-.test-head {
-  font-family: $clearsans-med;
-}
-
-.clear-lite {
-  font-family: $clearsans-lite;
 }

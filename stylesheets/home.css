@@ -187,8 +187,9 @@ a.join {
 
 #blog-post {
   margin-bottom: 3rem; }
-  #blog-post #bl.pagination {
-    display: none; }
+
+#blog-post .pagination {
+  display: none; }
 
 .recent-posts {
   margin-top: 0.5rem;

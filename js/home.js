@@ -4,25 +4,22 @@ $(document).ready(function() {
     calendarid = 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com';
 
     var officers = [
-        {id: 'hlee', name: 'Harlin Lee', position: 'President', image: 'hlee.jpg'},
-        {id: 'kng', name: 'Kevin Ng', position: 'Vice President', image: 'kng.jpg'},
-        {id: 'igarza', name: 'Isaac Garza', position: 'Treasurer', image: 'igarza.jpg'},
-        {id: 'pzhao', name: 'Parker Zhao', position: 'External Relations', image: 'pzhao.jpg'},
-        {id: 'clao', name: 'Czarina Lao', position: 'Secretary', image: 'clao.jpg'},
+        {id: 'kng', name: 'Kevin Ng', position: 'President', image: 'kng.jpg'},
+        {id: 'cwomack', name: 'Chris Womack', position: 'Vice President', image: 'cwomack.jpg'},
+        {id: 'pzhao', name: 'Parker Zhao', position: 'Advisor', image: 'pzhao.jpg'},
+        {id: 'clao', name: 'Czarina Lao', position: 'Treasurer', image: 'clao.jpg'},
+        {id: 'asaxena', name: 'Alisha Saxena', position: 'Secretary', image: 'asaxena.jpg'},
         {id: 'schen', name: 'Shirley Chen', position: 'Social Chair', image: 'schen.jpg'},
-        {id: 'makengin', name: 'Efe Akengin', position: 'Social Chair', image: 'makengin.jpg'},
-        {id: 'mlao', name: 'Natalie Lao', position: 'Chairwoman', image: 'mlao.jpg'},
-        {id: 'hmoncivais', name: 'Hiram Moncivais', position: 'Historian', image: 'hmoncivais.png'},
         {id: 'kikhofua', name: 'Kamoya Ikhofua', position: 'Publicity Chair', image: 'kikhofua.jpg'},
-        {id: 'lchen', name: 'Lucy Chen', position: 'Publicity Chair', image: 'lchen.jpg'},
-        {id: 'cwomack', name: 'Chris Womack', position: 'Webmaster', image: 'cwomack.jpg'}
+        {id: 'lchen', name: 'Lucy Chen', position: 'Publicity Chair', image: 'lchen.jpg'}
     ];
 
     // SET UP EVENTS SECTION
     var events = $.grabCalendar({
         type: 'detailedEvents',
         maxEvents: 15,
-        clean_date: true
+        clean_date: true /*,
+        upcoming: true*/
     });
 
     // Format event data for use later
@@ -57,26 +54,32 @@ $(document).ready(function() {
         pages.push(events.slice(k,k+chunk));
     }
 
-    // Handlebars
-    var carouselTemplate = $('#carousel-template').html();
-    var carouselHandlebars = Handlebars.compile(carouselTemplate);
-    pages.forEach(function(events) {
-        var context;
-        if (events.length) {
-            context = {events: events};
-            $('.carousel-nav-container', '.event-list').before(carouselHandlebars(context));
-        }
-    });
+    // Handlebars (only necessary if we have upcoming events)
+    if (pages.length) {
+        var carouselTemplate = $('#carousel-template').html();
+        var carouselHandlebars = Handlebars.compile(carouselTemplate);
+        pages.forEach(function (events) {
+            var context;
+            if (events.length) {
+                context = {events: events};
+                $('.carousel-nav-container', '.event-list').before(carouselHandlebars(context));
+            }
+        });
 
-    // Initialize carousel
-    $('.event-list', '.events').slick({
-        slide: '.carousel-group',
-        arrows: true, dots: true,
-        prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
-        nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_right</i></span>',
-        appendArrows: '.event-list .carousel-nav',
-        appendDots: '.event-list .carousel-nav'
-    });
+        // Initialize carousel
+        $('.event-list', '.events').slick({
+            slide: '.carousel-group',
+            arrows: true, dots: true,
+            prevArrow: '<span class="carousel-prev"><i class="material-icons">chevron_left</i></span>',
+            nextArrow: '<span class="carousel-next"><i class="material-icons">chevron_right</i></span>',
+            appendArrows: '.event-list .carousel-nav',
+            appendDots: '.event-list .carousel-nav'
+        });
+    } else {
+        var noEventsTemplate = $('#no-events-template').html();
+        var noEventsHandlebars = Handlebars.compile(noEventsTemplate);
+        $('.event-list', '.events').html(noEventsHandlebars());
+    }
 
     // APPLICATION MODAL
     $('.modal-trigger').leanModal({
@@ -186,5 +189,5 @@ $(document).ready(function() {
     var execTemplate = $('#exec-template').html();
     var execHandlebars = Handlebars.compile(execTemplate);
     var execCards = execHandlebars({officers: officers});
-    $('#exec.row').html(execCards);
+    //$('#exec.row').html(execCards);
 });

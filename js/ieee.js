@@ -10,6 +10,8 @@ $(document).ready(function() {
     $('span font', '.post').contents().unwrap();
     $('span[style]', '.post').removeAttr('style');
     $('a[style]', '.post').removeAttr('style');
+    $('img[style]', '.post').removeAttr('style');
+    $('p[style]', '.post').removeAttr('style');
 
     $('p:has(img)', '.post').wrapInner('<div />').contents().unwrap();
     $('div img', '.post').addClass('center-block z-depth-1');

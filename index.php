@@ -143,7 +143,7 @@
           $only_active = TRUE;
           include("blog/show_news.php");
         ?>
-        <h6 class="right all-posts"><a href="blog.php" class="valign-wrapper">All Posts</a> <i class="material-icons valign">arrow_forward</i></h6>
+        <h6 class="right all-posts"><a href="blog.php" class="valign-wrapper">All Posts<i class="material-icons valign">arrow_forward</i></a></h6>
       </div>
       <div class="divider col s12 hide-on-small-only"></div>
     </div>

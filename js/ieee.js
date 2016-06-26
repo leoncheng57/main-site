@@ -15,6 +15,7 @@ $(document).ready(function() {
     $('div img', '.post').parent().addClass('blog-image-padding');
 
     $('.post-title a', '.post').addClass('post-link');
+    $('h5.recent-post a').addClass('post-link');
     $('.post-details a', '.post').contents().unwrap();
 
     $('div:has(span)', '.post').wrapInner('<p />').contents().unwrap();

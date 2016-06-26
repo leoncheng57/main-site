@@ -128,14 +128,20 @@
         <?php 
           $template = "Home";
           $number = "1";
+          $PHP_SELF = "post.php";
+          $only_active = TRUE;
           include("blog/show_news.php");
         ?>
       </div>
       <div class="recent-posts col s12 m4 l4">
         <h6 class="blog-label">OTHER RECENT POSTS</h6>
-        <!-- {% for post in site.posts offset:1 limit:4 %}
-        <h5><a href="{{ post.url }}" class="post-link">{{ post.title }}</a></h5>
-        {% endfor %} -->
+        <?php 
+          $template = "Headlines";
+          $number = "4";
+          $PHP_SELF = "post.php";
+          $only_active = TRUE;
+          include("blog/show_news.php");
+        ?>
       </div>
       <div class="divider col s12 hide-on-small-only"></div>
     </div>

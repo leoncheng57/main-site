@@ -54,6 +54,8 @@
           //Custom Template
           $template = "Full"; 
           $number = "5"; // Number of articles per page
+          $PHP_SELF = "post.php";
+          $only_active = TRUE;
                    
           if($_POST['do'] == "search" or $_GET['dosearch'] == "yes") {
               $subaction = "search";

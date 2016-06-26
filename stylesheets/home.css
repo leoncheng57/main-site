@@ -1,5 +1,5 @@
 @import url("https://fontlibrary.org/face/trueno");
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:4");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400");
 body {
   font-family: "TruenoUltraLight", sans-serif; }
 
@@ -48,12 +48,12 @@ a.join {
   white-space: nowrap; }
 
 #error-message {
-  background: #fcf8e3;
   border-radius: 3px;
   padding: 5px 8px;
   color: #f7931f;
   display: none;
-  margin-left: -500px; }
+  margin-left: -500px;
+  font-size: 18px; }
   #error-message i.material-icons {
     margin-right: 5px;
     vertical-align: middle;
@@ -128,10 +128,12 @@ a.join {
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        line-height: normal;
-        font-family: 'Inconsolata', monospace; }
+        line-height: normal; }
+      .event-list .event-item .event-info .event-title {
+        font-family: "TruenoLight", sans-serif; }
       .event-list .event-item .event-info .event-time-location {
-        font-size: 18px; }
+        font-size: 18px;
+        margin-top: 0.3rem; }
       .event-list .event-item .event-info p i.material-icons {
         position: relative;
         top: 2.5px;

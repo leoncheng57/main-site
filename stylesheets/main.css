@@ -1,5 +1,5 @@
 @import url("https://fontlibrary.org/face/trueno");
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:4");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400");
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6177,26 +6177,24 @@ h4 {
 h5, h6 {
   font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
-  color: #838385; }
+  color: #838385;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased; }
 
 p {
   font-family: "TruenoUltraLight", sans-serif;
   font-size: 21px;
   line-height: 1.58; }
 
-@-webkit-keyframes fontfix {
-  from {
-    opacity: 1; }
-  50% {
-    opacity: 0.8; }
-  to {
-    opacity: 1; } }
 nav {
   background-color: #c1272d !important; }
   nav .nav-wrapper {
     background: #c1272d; }
   nav ul.right {
     margin-top: 5px !important; }
+    nav ul.right a {
+      font-family: "TruenoRegular", sans-serif;
+      letter-spacing: 0; }
   nav .button-collapse i {
     margin-left: 15px; }
   nav .logo {
@@ -6246,11 +6244,11 @@ a.post-link {
   .post p {
     font-size: 18px; } }
 .post-details {
-  opacity: .8;
   color: #838385;
   margin-bottom: -20px;
   font-family: 'Inconsolata', monospace;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased; }
 
 .post img {
   max-width: 100%;

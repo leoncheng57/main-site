@@ -3,11 +3,6 @@
 @import "colors";
 
 body {
-  -webkit-animation-duration: 0.1s;
-  -webkit-animation-name: fontfix;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 2s;
   font-family: $trueno;
   letter-spacing: -0.02em;
   color: #333539;
@@ -37,18 +32,14 @@ h5, h6 {
   font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
   color: #838385;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
   font-family: $trueno-ultralite;
   font-size: 21px;
   line-height: 1.58;
-}
-
-@-webkit-keyframes fontfix{
-  from{ 	opacity: 1; }
-  50%{	opacity: 0.8; }
-  to{	opacity: 1; }
 }
 
 nav {
@@ -60,6 +51,11 @@ nav {
 
   ul.right {
     margin-top: 5px !important;
+
+    a {
+      font-family: $trueno;
+      letter-spacing: 0;
+    }
   }
 
   .button-collapse i {
@@ -143,11 +139,11 @@ a.post-link {
 }
 
 .post-details {
-  opacity: .8;
   color: $ieee-light-gray;
   margin-bottom: -20px;
   font-family: 'Inconsolata', monospace;
   letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 .post img {

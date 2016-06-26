@@ -68,12 +68,12 @@ a.join {
 }
 
 #error-message {
-  background: #fcf8e3;
   border-radius: 3px;
   padding: 5px 8px;
   color: $ieee-warning;
   display: none;
   margin-left: -500px;
+  font-size: 18px;
 
   i.material-icons {
     margin-right: 5px;
@@ -173,9 +173,12 @@ a.join {
         white-space: nowrap;
         text-overflow: ellipsis;
         line-height: normal;
-        font-family: 'Inconsolata', monospace;
       }
-      .event-time-location {font-size: 18px}
+      .event-title{font-family: $trueno-lite}
+      .event-time-location {
+        font-size: 18px;
+        margin-top: 0.3rem;
+      }
 
       p i.material-icons {
         position: relative;

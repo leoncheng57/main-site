@@ -174,10 +174,10 @@
     <div class="modal modal-fixed-footer" id="join-modal">
       <div class="modal-content">
         <div class="row modal-content-row">
-          <h4 class="col s12">Join the IEEE Mailing List</h4>
+          <h4 class="col s12 join-header">Join the IEEE Mailing List</h4>
 
           <div class="row app-text">
-            <p class="col s12">Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
+            <p class="col s12 join-info">Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
 
             <p class="col s12 join-disclaimer">Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</p>
           </div>

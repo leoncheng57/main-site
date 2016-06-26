@@ -18,8 +18,8 @@ $(document).ready(function() {
     var events = $.grabCalendar({
         type: 'detailedEvents',
         maxEvents: 15,
-        clean_date: true /*,
-        upcoming: true*/
+        clean_date: true,
+        upcoming: true
     });
 
     // Format event data for use later

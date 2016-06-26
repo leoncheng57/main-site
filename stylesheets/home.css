@@ -27,6 +27,13 @@ a.join {
 .app-text, input#email, .email-row {
   margin-bottom: 0 !important; }
 
+.join-header {
+  font-family: "TruenoRegular", sans-serif; }
+
+.join-info {
+  margin-top: 0;
+  font-size: 18px; }
+
 .join-disclaimer {
   font-size: 85%;
   opacity: .54;
@@ -35,6 +42,9 @@ a.join {
 #join-modal .modal-content {
   padding-bottom: 0; }
 
+@media (min-width: 768px) {
+  #join-modal {
+    max-width: 700px !important; } }
 .submit-app {
   color: #c1272d !important; }
   .submit-app input:focus {
@@ -202,7 +212,10 @@ a.join {
 
 @media only screen and (max-width: 600px) {
   #blog-post {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  #error-message {
+    font-size: 1rem; } }
 .post-section-divider {
   margin-bottom: 1.25rem; }
 

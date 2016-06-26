@@ -26,7 +26,7 @@ $(document).ready(function() {
     $('div', '.post').each(function() {
         if ( $.trim( $(this).text() ).length == 0 ) {
             if ( $(this).children().length == 0 ) {
-                $(this).text('');
+                //$(this).text('');
             }
         }
     });

@@ -5,17 +5,17 @@ $(document).ready(function() {
     var prevEnabled = $('.cn-previous-news', '.pagination');
     if (!nextEnabled.length) {
         $('.next-page i', '.pagination').wrap("<a class='link-wrapper'></a>");
-        $('.next-page').addClass('disabled');
+        $('.next-page').addClass('disabled').removeClass('waves-effect');
     } else {
         $('.link-wrapper', '.next-page').contents().unwrap();
-        $('.next-page').removeClass('disabled');
+        $('.next-page').removeClass('disabled').addClass('waves-effect');
     }
     if (!prevEnabled.length) {
         $('.prev-page i', '.pagination').wrap("<a class='link-wrapper'></a>");
-        $('.prev-page').addClass('disabled');
+        $('.prev-page').addClass('disabled').removeClass('waves-effect');
     } else {
         $('.link-wrapper', '.prev-page').contents().unwrap();
-        $('.prev-page').removeClass('disabled');
+        $('.prev-page').removeClass('disabled').addClass('waves-effect');
     }
 
     var reformHref = function(index, elem) {

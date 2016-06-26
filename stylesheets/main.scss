@@ -108,6 +108,7 @@ a.post-link {
   }
 
   .post-title {
+    font-family: $trueno;
     font-size: 37px;
   }
 
@@ -168,7 +169,7 @@ a.post-link {
 
   a {
     opacity: .5;
-    color: $ieee-light-gray !important;
+    color: $ieee-dark-gray !important;
     &:hover {
       opacity: .8;
       text-decoration: none !important;

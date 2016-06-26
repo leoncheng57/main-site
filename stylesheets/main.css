@@ -1,5 +1,5 @@
 @import url("https://fontlibrary.org/face/trueno");
-@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:4");
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -6228,6 +6228,7 @@ a.post-link {
     .post a:hover {
       text-decoration: underline; }
   .post .post-title {
+    font-family: "TruenoRegular", sans-serif;
     font-size: 37px; }
   .post .post-details, .post .read-more {
     font-size: 18px; }
@@ -6266,7 +6267,7 @@ a.post-link {
   margin-top: -0.75rem; }
   .read-more a {
     opacity: .5;
-    color: #838385 !important; }
+    color: #333539 !important; }
     .read-more a:hover {
       opacity: .8;
       text-decoration: none !important; }

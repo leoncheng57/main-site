@@ -153,10 +153,14 @@ a.join {
       width: 68px;
 
       h3, p {margin: 0;}
-      h3 {margin-top: -5px;}
+      h3 {
+        margin-top: -5px;
+        font-family: $trueno;
+      }
       .event-month {
         font-family: 'Inconsolata', monospace;
         font-size: 16px;
+        text-transform: uppercase;
       }
     }
 
@@ -171,7 +175,7 @@ a.join {
         line-height: normal;
         font-family: 'Inconsolata', monospace;
       }
-      .event-title {font-size: 21px}
+      .event-time-location {font-size: 18px}
 
       p i.material-icons {
         position: relative;

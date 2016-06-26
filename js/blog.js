@@ -28,4 +28,7 @@ $(document).ready(function() {
     $('.cn-next-news').each(reformHref);
     $('.cn-previous-news').each(reformHref);
 
+    $("img").error(function(){
+        $(this).hide();
+    });
 });

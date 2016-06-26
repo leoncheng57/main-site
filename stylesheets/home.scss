@@ -279,6 +279,10 @@ a.join {
 
   .blog-label {
     font-family: "Inconsolata", monospace;
+    text-transform: uppercase;
+    color: #838385;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
   }
 
   .pagination {

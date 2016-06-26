@@ -49,11 +49,11 @@ nav {
     background: $ieee-base;
   }
 
-  ul {
-    .right {
-      margin-top: 5px !important;
-    }
+  ul.right {
+    margin-top: 5px !important;
+  }
 
+  ul {
     a {
       font-family: $trueno-ultralite;
       letter-spacing: 0;

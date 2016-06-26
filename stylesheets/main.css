@@ -6185,7 +6185,7 @@ nav {
   background-color: #c1272d !important; }
   nav .nav-wrapper {
     background: #c1272d; }
-  nav ul .right {
+  nav ul.right {
     margin-top: 5px !important; }
   nav ul a {
     font-family: "TruenoUltraLight", sans-serif;

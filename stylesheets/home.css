@@ -91,7 +91,8 @@ a.join {
     .no-events-message a:hover {
       text-decoration: underline; }
   .no-events-message p {
-    margin: 0; }
+    margin: 0;
+    font-size: 1rem; }
 
 .event-list {
   margin-left: 0;

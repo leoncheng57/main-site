@@ -124,7 +124,7 @@
     <div class="row section">
       <div class="col s12 m8 l8" id="blog-post">
         <h5 class="blog-label">LATEST BLOG POST</h5>
-        <div class="divider col s12 hide-on-med-and-up"></div>
+        <div class="divider col s12 hide-on-med-and-up post-section-divider"></div>
         <?php 
           $template = "Home";
           $number = "1";

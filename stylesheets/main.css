@@ -6213,6 +6213,9 @@ a.post-link {
   a.post-link:hover {
     text-decoration: underline; }
 
+h5 a.post-link {
+  text-transform: none; }
+
 .post {
   color: #333539 !important;
   font-family: "TruenoUltraLight", sans-serif !important; }
@@ -6225,8 +6228,9 @@ a.post-link {
     font-size: 37px; }
   .post .post-details, .post .read-more {
     font-size: 18px; }
-  .post p {
-    font-size: 21px; }
+  .post p, .post div {
+    font-size: 21px;
+    line-height: 1.58; }
   .post div[style], .post span[style] {
     color: #333539 !important;
     font-family: "TruenoUltraLight", sans-serif !important; }
@@ -6236,8 +6240,14 @@ a.post-link {
     font-size: 28px; }
   .post .post-details, .post .read-more {
     font-size: 16px; }
-  .post p {
-    font-size: 18px; } }
+  .post p, .post div {
+    font-size: 18px; }
+
+  #blog-post {
+    margin-bottom: 0; } }
+.post-section-divider {
+  margin-bottom: 1rem; }
+
 .post-details {
   color: #838385;
   margin-bottom: -20px;

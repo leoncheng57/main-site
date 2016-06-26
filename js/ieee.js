@@ -23,4 +23,12 @@ $(document).ready(function() {
     //Hide CuteNews accreditation (may be sliiiiiightly illegal)
     $('a[href="http://cutephp.com/"]').parent().hide();
 
+    $('div', '.post').each(function() {
+        if ( $.trim( $(this).text() ).length == 0 ) {
+            if ( $(this).children().length == 0 ) {
+                $(this).remove();
+            }
+        }
+    });
+
 });

@@ -6241,13 +6241,7 @@ h5 a.post-link {
   .post .post-details, .post .read-more {
     font-size: 16px; }
   .post p, .post div {
-    font-size: 18px; }
-
-  #blog-post {
-    margin-bottom: 0; } }
-.post-section-divider {
-  margin-bottom: 1rem; }
-
+    font-size: 18px; } }
 .post-details {
   color: #838385;
   margin-bottom: -20px;

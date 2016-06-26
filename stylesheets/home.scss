@@ -266,6 +266,16 @@ a.join {
   display: none;
 }
 
+@media only screen and (max-width : 600px) {
+  #blog-post {
+    margin-bottom: 0;
+  }
+}
+
+.post-section-divider {
+  margin-bottom: 1.25rem;
+}
+
 .recent-posts {
   margin-top: 0.5rem;
   margin-bottom: 3rem;

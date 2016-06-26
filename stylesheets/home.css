@@ -207,9 +207,10 @@ a.join {
 
 #blog-post {
   margin-bottom: 3rem; }
-
-#blog-post .pagination {
-  display: none; }
+  #blog-post .blog-label {
+    font-family: "Inconsolata", monospace; }
+  #blog-post .pagination {
+    display: none; }
 
 @media only screen and (max-width: 600px) {
   #blog-post {

@@ -19,7 +19,8 @@ h2 {
 }
 
 
-h3, .post-title {
+h3 {
+  font-family: $trueno;
   font-size: 37px;
 }
 
@@ -29,16 +30,16 @@ h4 {
 }
 
 h5 {
+  font-family: $trueno-lite;
+  font-size: 24px;
+}
+
+h6 {
   font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
   color: #838385;
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
-  font-size: 24px;
-}
-
-h6 {
-  @extend h5;
   font-size: 18px;
 }
 

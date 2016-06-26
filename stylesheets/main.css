@@ -3192,11 +3192,11 @@ html {
     html {
       font-size: 15px; } }
 
-h1, h2, h3, h4, h5, h6, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h6 a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
 h1 {
@@ -3219,7 +3219,7 @@ h4 {
   line-height: 110%;
   margin: 1.14rem 0 0.912rem 0; }
 
-h5, h6 {
+h5 {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0; }
@@ -6162,22 +6162,24 @@ h2 {
   font-family: "TruenoBold", sans-serif;
   font-size: 50px; }
 
-h3, .post-title {
+h3 {
+  font-family: "TruenoRegular", sans-serif;
   font-size: 37px; }
 
 h4 {
   font-family: "TruenoLight", sans-serif;
   font-size: 28px; }
 
-h5, h6 {
+h5 {
+  font-family: "TruenoLight", sans-serif;
+  font-size: 24px; }
+
+h6 {
   font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
   color: #838385;
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
-  font-size: 24px; }
-
-h6 {
   font-size: 18px; }
 
 p {
@@ -6217,7 +6219,7 @@ a.post-link {
   a.post-link:hover {
     text-decoration: underline; }
 
-h5 a.post-link, h6 a.post-link {
+h5 a.post-link {
   text-transform: none; }
 
 .post {

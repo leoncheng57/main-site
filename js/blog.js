@@ -17,4 +17,15 @@ $(document).ready(function() {
         $('.link-wrapper', '.prev-page').contents().unwrap();
         $('.prev-page').removeClass('disabled');
     }
+
+    var reformHref = function(index, elem) {
+        var href = $(elem).attr('href');
+        href = href.replace('post.php', 'blog.php');
+        $(elem).attr('href', href);
+    };
+
+    $('.cn-page-news').each(reformHref);
+    $('.cn-next-news').each(reformHref);
+    $('.cn-previous-news').each(reformHref);
+
 });

@@ -56,20 +56,7 @@
           $number = "5"; // Number of articles per page
           $PHP_SELF = "post.php";
           $only_active = TRUE;
-                   
-          if($_POST['do'] == "search" or $_GET['dosearch'] == "yes") {
-              $subaction = "search";
-              $dosearch = "yes";
-              include("blog/search.php");
-            }
-          elseif($_GET['do'] == "archives") {
-              include("blog/show_archives.php");
-            }
-          elseif($_GET['do'] == "stats") {
-              echo "You can download the stats addon and include it here to show how many news, comments … you have";
-              /* include("$path/stats.php"); */ 
-            }
-          else{ include("blog/show_news.php"); }
+          include("blog/show_news.php");
 
       ?>
     </div>

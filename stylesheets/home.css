@@ -225,12 +225,20 @@ a.join {
   margin-bottom: 3rem; }
   .recent-posts .blog-label {
     margin-bottom: 1rem; }
+  .recent-posts .all-posts {
+    margin-top: 2rem; }
+    .recent-posts .all-posts a {
+      color: #333539; }
+      .recent-posts .all-posts a:hover {
+        color: #c1272d; }
+    .recent-posts .all-posts i.material-icons {
+      font-size: inherit; }
 
 @media only screen and (max-width: 600px) {
   .app-text {
     display: none; }
 
   .blog-label {
-    font-size: 1rem; } }
+    font-size: 18px; } }
 
 /*# sourceMappingURL=home.css.map */

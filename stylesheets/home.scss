@@ -303,11 +303,26 @@ a.join {
   .blog-label {
     margin-bottom: 1rem;
   }
+
+  .all-posts {
+    margin-top: 2rem;
+
+    a {
+      color: $ieee-dark-gray;
+      &:hover {
+        color: $ieee-base;
+      }
+    }
+
+    i.material-icons {
+      font-size: inherit;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
 
   .app-text { display: none;  }
 
-  .blog-label { font-size: 1rem }
+  .blog-label { font-size: 18px }
 }

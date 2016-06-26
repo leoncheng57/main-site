@@ -25,15 +25,21 @@ h3, .post-title {
 
 h4 {
   font-family: $trueno-lite;
-  font-size: 24px;
+  font-size: 28px;
 }
 
-h5, h6 {
+h5 {
   font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
   color: #838385;
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
+  font-size: 24px;
+}
+
+h6 {
+  @extend h5;
+  font-size: 18px;
 }
 
 p {
@@ -120,7 +126,7 @@ h5 a.post-link {
 
   p, div {
     font-size: 21px;
-    line-height: 1.58;
+    line-height: 1.58 !important;
   }
 
   div[style], span[style] {
@@ -154,15 +160,15 @@ h5 a.post-link {
 }
 
 .post img {
-  max-width: 100%;
+  max-width: 100% !important;
   height: auto !important;
 }
 
 .post div img {
-  max-width: 100%;
+  max-width: 100% !important;
   height: auto !important;
   &[style] {
-    max-width: 100%;
+    max-width: 100% !important;
     height: auto !important;
   }
 }

@@ -1,12 +1,21 @@
 .main {
-  padding-top: 20px;
-  padding-bottom: 40px; }
+  padding-top: 20px; }
 
-.post {
-  margin-bottom: 30px; }
+@media (min-width: 768px) {
+  .post-container {
+    width: 700px !important;
+    padding-bottom: 6rem; }
 
-.divider {
-  margin-bottom: 30px; }
+  .main {
+    padding-bottom: 6rem; } }
+#disqus_thread {
+  margin-top: 3rem; }
+
+.comment-divider {
+  margin-top: 3rem; }
+
+.post-divider {
+  margin-top: 2rem; }
 
 ul.pagination li.active {
   background-color: #c1272d;

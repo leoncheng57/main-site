@@ -138,6 +138,7 @@
         <?php 
           $template = "Headlines";
           $number = "4";
+          $start_from = 1;
           $PHP_SELF = "post.php";
           $only_active = TRUE;
           include("blog/show_news.php");

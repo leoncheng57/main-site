@@ -6155,7 +6155,7 @@ body {
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -webkit-animation-delay: 2s;
-  font-family: "TruenoUltraLight", sans-serif;
+  font-family: "TruenoRegular", sans-serif;
   letter-spacing: -0.02em;
   color: #333539; }
 
@@ -6168,7 +6168,6 @@ h2 {
   font-size: 50px; }
 
 h3, .post-title {
-  font-family: "TruenoRegular", sans-serif;
   font-size: 37px; }
 
 h4 {
@@ -6229,7 +6228,7 @@ a.post-link {
     .post a:hover {
       text-decoration: underline; }
   .post .post-title {
-    font-size: 36px; }
+    font-size: 37px; }
   .post .post-details, .post .read-more {
     font-size: 18px; }
   .post p {
@@ -6248,7 +6247,9 @@ a.post-link {
 .post-details {
   opacity: .8;
   color: #838385;
-  margin-top: -15px; }
+  margin-bottom: -20px;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 0; }
 
 .post img {
   max-width: 100%;

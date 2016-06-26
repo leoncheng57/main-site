@@ -111,26 +111,31 @@ a.join {
       float: left;
       padding: 5px;
       width: 68px; }
-      .event-list .event-item .event-date h3, .event-list .event-item .event-date h6 {
+      .event-list .event-item .event-date h3, .event-list .event-item .event-date p {
         margin: 0; }
       .event-list .event-item .event-date h3 {
         margin-top: -5px; }
+      .event-list .event-item .event-date .event-month {
+        font-family: 'Inconsolata', monospace;
+        font-size: 16px; }
     .event-list .event-item .event-info {
       margin-left: 78px;
       padding-top: 0.5rem; }
-      .event-list .event-item .event-info h6, .event-list .event-item .event-info p {
+      .event-list .event-item .event-info p {
         margin: 0;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        line-height: normal; }
-      .event-list .event-item .event-info h6 {
-        font-size: 1.32rem; }
+        line-height: normal;
+        font-family: 'Inconsolata', monospace; }
+      .event-list .event-item .event-info .event-title {
+        font-size: 21px; }
       .event-list .event-item .event-info p i.material-icons {
         position: relative;
         top: 2.5px;
         font-size: 15px;
-        opacity: .54; }
+        color: #838385;
+        opacity: .8; }
 
 .carousel-nav-container {
   position: relative;

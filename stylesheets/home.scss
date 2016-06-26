@@ -152,27 +152,33 @@ a.join {
       padding: 5px;
       width: 68px;
 
-      h3, h6 {margin: 0;}
+      h3, p {margin: 0;}
       h3 {margin-top: -5px;}
+      .event-month {
+        font-family: 'Inconsolata', monospace;
+        font-size: 16px;
+      }
     }
 
     .event-info {
       margin-left: 78px;
       padding-top: 0.5rem;
-      h6, p {
+      p {
         margin: 0;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         line-height: normal;
+        font-family: 'Inconsolata', monospace;
       }
-      h6 {font-size: 1.32rem;}
+      .event-title {font-size: 21px}
 
       p i.material-icons {
         position: relative;
         top: 2.5px;
         font-size: 15px;
-        opacity: .54;
+        color: $ieee-light-gray;
+        opacity: .8;
       }
     }
   }

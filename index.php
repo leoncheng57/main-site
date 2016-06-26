@@ -66,12 +66,12 @@
         <div class="col s12 event-wrapper">
           <div class="event-item z-depth-1" onclick="window.open('{{this.htmlLink}}', '_blank'); return false;">
             <div class="event-date">
-              <h6 class="center-align">{{this.month}}</h6>
+              <p class="center-align event-month">{{this.month}}</p>
               <h3 class="center-align">{{this.day}}</h3>
             </div>
             <div class="event-info">
-              <h6>{{this.summary}}</h6>
-              <p><i class="material-icons">access_time</i> {{this.time}} <i class="material-icons">location_on</i> {{this.location}}</p>
+              <p class="event-title">{{this.summary}}</p>
+              <p class="event-time-location"><i class="material-icons">access_time</i> {{this.time}} <i class="material-icons">location_on</i> {{this.location}}</p>
             </div>
           </div>
         </div>

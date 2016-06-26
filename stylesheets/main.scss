@@ -8,7 +8,7 @@ body {
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -webkit-animation-delay: 2s;
-  font-family: $trueno-ultralite;
+  font-family: $trueno;
   letter-spacing: -0.02em;
   color: #333539;
 }
@@ -25,7 +25,6 @@ h2 {
 
 
 h3, .post-title {
-  font-family: $trueno;
   font-size: 37px;
 }
 
@@ -109,7 +108,7 @@ a.post-link {
   }
 
   .post-title {
-    font-size: 36px;
+    font-size: 37px;
   }
 
   .post-details, .read-more {
@@ -145,7 +144,9 @@ a.post-link {
 .post-details {
   opacity: .8;
   color: $ieee-light-gray;
-  margin-top: -15px;
+  margin-bottom: -20px;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 0;
 }
 
 .post img {

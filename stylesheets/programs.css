@@ -1,11 +1,11 @@
 /*
-Error: Undefined variable: "$primary-color-light".
-        on line 248 of components/_variables.scss
+Error: Undefined variable: "$secondary-color".
+        on line 49 of components/_variables.scss
         from line 9 of materialize.scss
         from line 2 of programs.scss
 
 Backtrace:
-components/_variables.scss:248
+components/_variables.scss:49
 materialize.scss:9
 programs.scss:2
 /Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
@@ -76,4 +76,4 @@ programs.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color-light\".\A         on line 248 of components/_variables.scss\A         from line 9 of materialize.scss\A         from line 2 of programs.scss"; }
+  content: "Error: Undefined variable: \"$secondary-color\".\A         on line 49 of components/_variables.scss\A         from line 9 of materialize.scss\A         from line 2 of programs.scss"; }

@@ -1,39 +1,22 @@
 /*
-Error: Undefined variable: "$secondary-color".
-        on line 49 of components/_variables.scss
-        from line 2 of main.scss
+Error: File to import not found or unreadable: ma.
+        on line 2 of main.scss
 
-44: 
-45: nav {
-46:   background-color: $ieee-base !important;
-47: 
-48:   .nav-wrapper {
-49:     background: $ieee-base;
-50:   }
-51: 
-52:   ul.right {
-53:     margin-top: 5px !important;
-54: 
+1: @import "fonts";
+2: @import "ma";
+3: @import "colors";
+4: 
+5: body {
+6:   font-family: $trueno;
+7:   letter-spacing: -0.02em;
 
 Backtrace:
-components/_variables.scss:49
 main.scss:2
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:471:in `visit_variable'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
 /Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /Users/christopherwomack/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -73,4 +56,4 @@ main.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary-color\".\A         on line 49 of components/_variables.scss\A         from line 2 of main.scss\A \A 44: \A 45: nav {\A 46:   background-color: $ieee-base !important;\A 47: \A 48:   .nav-wrapper {\A 49:     background: $ieee-base;\A 50:   }\A 51: \A 52:   ul.right {\A 53:     margin-top: 5px !important;\A 54: "; }
+  content: "Error: File to import not found or unreadable: ma.\A         on line 2 of main.scss\A \A 1: @import \"fonts\";\A 2: @import \"ma\";\A 3: @import \"colors\";\A 4: \A 5: body {\A 6:   font-family: $trueno;\A 7:   letter-spacing: -0.02em;"; }

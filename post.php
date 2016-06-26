@@ -43,13 +43,6 @@
     <div class="container post-container">
         <div class="row">
             <?php
-                if(isset($_GET["start_from"]) {
-                    $start_from = $_GET["start_from"];
-                    $number = $_GET["number"];
-                    $only_active = $_GET["only_active"];
-                    $template = "Full"
-                    include("blog/show_news.php");
-                }
                 $number = 1;
                 $template = "Home";
                 $only_active = TRUE;

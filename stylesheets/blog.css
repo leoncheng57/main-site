@@ -15,7 +15,8 @@
   margin-top: 3rem; }
 
 .post-divider {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
 
 ul.pagination li.active {
   background-color: #c1272d;

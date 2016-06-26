@@ -6185,11 +6185,11 @@ nav {
   background-color: #c1272d !important; }
   nav .nav-wrapper {
     background: #c1272d; }
-  nav ul.right {
+  nav ul .right {
     margin-top: 5px !important; }
-    nav ul.right a {
-      font-family: "TruenoRegular", sans-serif;
-      letter-spacing: 0; }
+  nav ul a {
+    font-family: "TruenoUltraLight", sans-serif;
+    letter-spacing: 0; }
   nav .button-collapse i {
     margin-left: 15px; }
   nav .logo {

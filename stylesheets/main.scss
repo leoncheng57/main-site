@@ -97,12 +97,9 @@ nav {
 a.post-link {
   color: $ieee-dark-gray !important;
   &:hover {
+    color: $ieee-base !important;
     text-decoration: underline;
   }
-}
-
-h5 a.post-link {
-  text-transform: none;
 }
 
 .post {

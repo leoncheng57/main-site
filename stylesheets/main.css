@@ -6217,10 +6217,8 @@ nav {
 a.post-link {
   color: #333539 !important; }
   a.post-link:hover {
+    color: #c1272d !important;
     text-decoration: underline; }
-
-h5 a.post-link {
-  text-transform: none; }
 
 .post {
   color: #333539 !important;

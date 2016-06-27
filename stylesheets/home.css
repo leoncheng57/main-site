@@ -200,9 +200,10 @@ a.join {
   padding-top: 1rem; }
   .programs-list li a {
     color: #333539;
-    font-family: "TruenoRegular", sans-serif;
+    font-family: "TruenoLight", sans-serif;
     font-size: 24px; }
     .programs-list li a:hover {
+      color: #c1272d;
       text-decoration: underline !important; }
 
 #blog-post {
@@ -230,6 +231,8 @@ a.join {
   margin-bottom: 3rem; }
   .recent-posts .blog-label {
     margin-bottom: 1rem; }
+  .recent-posts h5 a.post-link {
+    text-transform: none; }
   .recent-posts .all-posts {
     margin-top: 2rem; }
     .recent-posts .all-posts a {
@@ -240,10 +243,10 @@ a.join {
       font-size: inherit; }
 
 @media only screen and (max-width: 600px) {
-  .app-text {
-    display: none; }
-
   .blog-label {
     font-size: 18px; } }
+@media (max-width: 768px) {
+  .app-text {
+    display: none; } }
 
 /*# sourceMappingURL=home.css.map */

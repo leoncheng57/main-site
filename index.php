@@ -37,12 +37,10 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="/club/">HOME</a></li>
         <li><a href="blog.php">BLOG</a></li>
-        <li><a href="programs.html">PROGRAMS</a></li>
       </ul>
       <ul class="side-nav" id="mobile-nav">
         <li><a href="/club/">HOME</a></li>
         <li><a href="blog.php">BLOG</a></li>
-        <li><a href="programs.html">PROGRAMS</a></li>
       </ul>
     </div>
   </nav>
@@ -52,8 +50,8 @@
     <div class="row">
       <div class="col s12 welcome">
         <h1>MIT IEEE/ACM</h1>
-        <p>The MIT IEEE/ACM Club represents the card branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM). 
-          Our mission is to create and support a tight-knit community among the cards, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
+        <p>The MIT IEEE/ACM Club represents the student branch for two professional international organizations, the <a href="http://ieee.org">Institute of Electrical and Electronics Engineers</a> (IEEE) and the <a href="http://acm.org">Association for Computing Machinery</a> (ACM).
+          Our mission is to create and support a tight-knit community among the students, mainly undergraduates, and faculty in the Department of Electrical Engineering and Computer Science (EECS) at MIT.
         </p>
 
         <a class="btn waves-effect waves-light modal-trigger join" href="#join-modal">Join our mailing list</a>
@@ -106,10 +104,10 @@
           <h6 class="programs-label">PROGRAMS</h6>
           <div class="divider"></div>
           <ul class="programs-list">
+            <li>6-7 Students Association (SSSA)</li>
             <li><a href="programs.html#sixsharp">6#</a></li>
             <li><a href="programs.html#faculty">Faculty Dinners</a></li>
             <li><a href="programs.html#ucc">IEEE MIT Undergraduate Research Technology Conference</a></li>
-            <li><a href="programs.html#mitos">MIT Open Source Club</a></li>
             <li><a href="programs.html#social">Social Hours</a></li>
             <li><a href="programs.html#urge">URGE</a></li>
             <li><a href="programs.html#voltage">Voltage</a></li>
@@ -178,7 +176,7 @@
           <h4 class="col s12 join-header">Join the IEEE Mailing List</h4>
 
           <div class="row app-text">
-            <p class="col s12 join-info">Membership is free for all MIT undergraduate and graduate cards.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
+            <p class="col s12 join-info">Membership is free for all MIT undergraduate and graduate students.  Becoming a member of the MIT IEEE/ACM chapter is a great way to stay informed on upcoming club activities!</p>
 
             <p class="col s12 join-disclaimer">Please note that membership in our club is not the same as membership in the international IEEE or ACM organizations.</p>
           </div>

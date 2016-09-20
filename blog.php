@@ -29,12 +29,10 @@
     <ul class="right hide-on-med-and-down">
       <li><a href="/club/">HOME</a></li>
       <li><a href="blog.php">BLOG</a></li>
-      <li><a href="programs.html">PROGRAMS</a></li>
     </ul>
     <ul class="side-nav" id="mobile-nav">
       <li><a href="/club/">HOME</a></li>
       <li><a href="blog.php">BLOG</a></li>
-      <li><a href="programs.html">PROGRAMS</a></li>
     </ul>
   </div>
 </nav>

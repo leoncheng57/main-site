@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  nav.blog-special {
+    padding-bottom: 150px;
+  }
+}
+
 .main {
   padding-top: 20px;
 }
@@ -38,6 +44,16 @@
     color: white;
     margin: 0;
     font-family: 'Inconsolata', monospace;
+  }
+}
+
+.mobile-header {
+  margin: -120px 0 50px 0;
+  text-align: center;
+
+  h3 {
+    color: white;
+    font-family: "Inconsolata", monospace;
   }
 }
 

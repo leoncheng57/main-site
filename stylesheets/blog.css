@@ -1,10 +1,10 @@
 @import url("https://fontlibrary.org/face/trueno");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400");
-nav.blog-special {
-  padding-bottom: 220px; }
-  nav.blog-special .brand-logo {
-    display: none; }
-
+@media (min-width: 601px) {
+  nav.blog-special {
+    padding-bottom: 220px; }
+    nav.blog-special .brand-logo {
+      display: none; } }
 .main {
   padding-top: 20px; }
 
@@ -23,7 +23,7 @@ nav.blog-special {
   .blog-header h2 {
     color: white;
     margin: 0;
-    font-family: 'Inconsolata', Monospace; }
+    font-family: 'Inconsolata', monospace; }
 
 .back-to-blog p {
   font-family: 'Inconsolata', monospace;

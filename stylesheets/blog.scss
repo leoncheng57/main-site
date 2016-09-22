@@ -1,11 +1,13 @@
 @import "colors";
 @import "fonts";
 
-nav.blog-special {
-  padding-bottom: 220px;
+@media (min-width: 601px) {
+  nav.blog-special {
+    padding-bottom: 220px;
 
-  .brand-logo {
-    display: none;
+    .brand-logo {
+      display: none;
+    }
   }
 }
 
@@ -35,7 +37,7 @@ nav.blog-special {
   h2 {
     color: white;
     margin: 0;
-    font-family: 'Inconsolata', Monospace;
+    font-family: 'Inconsolata', monospace;
   }
 }
 

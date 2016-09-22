@@ -45,6 +45,9 @@
         <img src="images/logo-white.png" />
         <h2>IEEE/ACM Club Blog</h2>
       </div>
+      <div class="mobile-header hide-on-med-and-up">
+        <h3>IEEE/ACM Club Blog</h3>
+      </div>
     <?php
           
           /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,6 +1,14 @@
 @import "colors";
 @import "fonts";
 
+nav.blog-special {
+  padding-bottom: 220px;
+
+  .brand-logo {
+    display: none;
+  }
+}
+
 .main {
   padding-top: 20px;
 }
@@ -13,6 +21,21 @@
 
   .main {
     padding-bottom: 6rem;
+  }
+}
+
+.blog-header {
+  margin: -210px 0 65px 0;
+  justify-content: center;
+
+  img {
+    width: 150px;
+  }
+
+  h2 {
+    color: white;
+    margin: 0;
+    font-family: 'Inconsolata', Monospace;
   }
 }
 

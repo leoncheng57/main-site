@@ -22,7 +22,7 @@
 <body>
 
 <!-- Header -->
-<nav class="z-depth-0">
+<nav class="z-depth-0 blog-special">
   <div class="nav-wrapper">
     <a href="/" class="brand-logo"><img class="logo hide-on-med-and-down" src="images/logo-white.png"></a>
     <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -40,10 +40,11 @@
 
 <div class="main container">
   <div class="row">
-    <div class="col l4 hide-on-med-and-down">
-      <img src="images/ieee-logo.png" style="position: fixed" />
-    </div>
-    <div class="col s12 m12 l8">
+    <div class="col s12 m12 l8 offset-l2">
+      <div class="blog-header valign-wrapper hide-on-small-and-down">
+        <img src="images/logo-white" />
+        <h2>IEEE/ACM Club Blog</h2>
+      </div>
     <?php
           
           /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

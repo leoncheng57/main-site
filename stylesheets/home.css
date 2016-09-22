@@ -197,14 +197,14 @@ a.join {
 
 .programs-list {
   margin: 0;
-  padding-top: 1rem; }
-  .programs-list li a {
+  border: none; }
+  .programs-list .collapsible-header {
     color: #333539;
     font-family: "TruenoLight", sans-serif;
     font-size: 24px; }
-    .programs-list li a:hover {
-      color: #c1272d;
-      text-decoration: underline !important; }
+  .programs-list .collapsible-body p {
+    font-size: 18px;
+    padding: 1rem 1.5rem; }
 
 #blog-post {
   margin-bottom: 3rem; }

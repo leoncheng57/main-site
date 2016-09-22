@@ -263,15 +263,17 @@ a.join {
 
 .programs-list {
   margin: 0;
-  padding-top: 1rem;
-  li a {
+  border: none;
+  //padding-top: 1rem;
+  .collapsible-header {
     color: $ieee-dark-gray;
     font-family: $trueno-lite;
     font-size: 24px;
-    &:hover {
-      color: $ieee-base;
-      text-decoration: underline !important;
-    }
+  }
+
+  .collapsible-body p {
+    font-size: 18px;
+    padding: 1rem 1.5rem;
   }
 }
 

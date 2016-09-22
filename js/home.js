@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    $(document).ready(function(){
+        $('.collapsible').collapsible();
+    });
+
     mykey = 'AIzaSyAfIu2iaqycS3gfXYl1aMjBNQ4CyHvSlqo';
     calendarid = 'ncvkteq0hm7cgr5bhi00bgbaik@group.calendar.google.com';
 

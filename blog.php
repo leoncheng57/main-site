@@ -42,7 +42,7 @@
   <div class="row">
     <div class="col s12 m12 l8 offset-l2">
       <div class="blog-header valign-wrapper hide-on-small-and-down">
-        <img src="images/logo-white" />
+        <img src="images/logo-white.png" />
         <h2>IEEE/ACM Club Blog</h2>
       </div>
     <?php

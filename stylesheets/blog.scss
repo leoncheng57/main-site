@@ -22,13 +22,16 @@
     margin: 25px 0 0 0;
 
     a {
-      color: inherit;
-      display: inherit;
-    }
-  }
+      color: $ieee-dark-gray !important;
 
-  i.material-icons {
-    width: 28px;
+      i.material-icons {
+        width: 28px;
+      }
+    }
+
+    a:hover {
+      color: $ieee-base;
+    }
   }
 }
 

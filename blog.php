@@ -41,7 +41,7 @@
 <div class="main container">
   <div class="row">
     <div class="col l4 hide-on-med-and-down">
-      <p>Categories:</p>
+      <p></p>
     </div>
     <div class="col s12 m12 l8">
     <?php

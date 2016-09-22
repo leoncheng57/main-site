@@ -1,6 +1,6 @@
 @import url("https://fontlibrary.org/face/trueno");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400");
-.main {
+.main, .post-container {
   padding-top: 20px; }
 
 @media (min-width: 768px) {

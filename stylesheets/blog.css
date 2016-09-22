@@ -14,11 +14,11 @@
   font-family: 'Inconsolata', monospace;
   margin: 25px 0 0 0; }
   .back-to-blog p a {
-    color: #333539 !important; }
+    color: #333539; }
+    .back-to-blog p a:hover {
+      color: #c1272d; }
     .back-to-blog p a i.material-icons {
       width: 28px; }
-  .back-to-blog p a:hover {
-    color: #c1272d; }
 
 #disqus_thread {
   margin-top: 3rem; }

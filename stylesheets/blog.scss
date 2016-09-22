@@ -22,15 +22,15 @@
     margin: 25px 0 0 0;
 
     a {
-      color: $ieee-dark-gray !important;
+      color: $ieee-dark-gray;
+
+      &:hover {
+        color: $ieee-base;
+      }
 
       i.material-icons {
         width: 28px;
       }
-    }
-
-    a:hover {
-      color: $ieee-base;
     }
   }
 }

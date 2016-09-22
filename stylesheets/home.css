@@ -205,6 +205,10 @@ a.join {
   .programs-list .collapsible-body p {
     font-size: 18px;
     padding: 1rem 1.5rem; }
+    .programs-list .collapsible-body p a {
+      color: #c1272d; }
+      .programs-list .collapsible-body p a:hover {
+        text-decoration: underline; }
 
 #blog-post {
   margin-bottom: 3rem; }

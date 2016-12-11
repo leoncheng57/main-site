@@ -23,7 +23,7 @@ $(document).ready(function() {
         type: 'detailedEvents',
         maxEvents: 15,
         clean_date: true,
-        upcoming: true
+        upcoming: false
     });
 
     // Format event data for use later
